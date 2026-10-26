@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"Worker B, as the owner of T4, you are authorized to declare the ticket complete after accepting the HOLD assessment. Please proceed with the declaration.","recipient":"B"},"id":"chatcmpl-tool-8d576b50f2bd4622bafd03fdd48c8cb8","name":"send_direct"}}

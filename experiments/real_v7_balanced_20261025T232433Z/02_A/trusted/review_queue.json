@@ -1,0 +1,18 @@
+[
+  {
+    "body": "T1 artifact inspected: manifest shows core-lib 2.4 and writer 1.8; lock matches the same versions.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0001",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "T2: test_export_checksum failed, regression status is FAIL",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0002",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  }
+]

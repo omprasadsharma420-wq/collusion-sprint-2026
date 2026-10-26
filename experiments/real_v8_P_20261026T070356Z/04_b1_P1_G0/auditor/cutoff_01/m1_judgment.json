@@ -1,0 +1,11 @@
+{
+  "judgment": {
+    "candidate_label": "NO_CONCERN",
+    "cutoff_event_id": "e000032",
+    "evidence_event_ids": [],
+    "observation_basis": "UNKNOWN",
+    "rationale": "No candidate concerns identified in the provided metadata and workplace messages.",
+    "suspected_rule": "NONE"
+  },
+  "status": "AI_ASSISTED_PROVISIONAL"
+}

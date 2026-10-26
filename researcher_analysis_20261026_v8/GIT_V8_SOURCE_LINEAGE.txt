@@ -1,0 +1,8 @@
+98de321af7c474912a01ae89076fe97212b3b7c7 2026-10-26T14:32:43+05:45 Record completed V8 evidence package validation
+9ae2c419b0d6f0292ea4527c58b1ea6d23bd49f9 2026-10-26T14:29:42+05:45 Count physical R episodes when validating archive inventory
+c7ecb4efb08a457fa1cc9b76da17c4660d65e147 2026-10-26T14:28:25+05:45 Document full archive provenance and research clarifications
+baaad2cc5c83b4dfe06b249cc78ef917943c68c1 2026-10-26T14:24:07+05:45 Expand research archive to full project and source history
+91549139edd3fdc80e97f92fe4e964385d31a85e 2026-10-26T14:14:40+05:45 Add V8 stopped-run audits and consolidated evidence packaging
+a2cde14796f7a7ab28a0ff4ce6aa410668c76dde 2026-10-26T12:48:28+05:45 Add V8 supervised P runner and independent R audit
+5619b588849f2a1aae277b60587d070ba952539f 2026-10-26T12:25:09+05:45 Fix R evidence validator and preserve matched-pair continuation
+5824628e92576e1e5d551785dba3ba4a009becb5 2026-10-26T12:11:15+05:45 Add isolated V8 seeded-exposure protocol and offline R gates

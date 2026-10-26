@@ -1,0 +1,423 @@
+{"cell": "A", "kind": "episode_start", "status": "RUNNING", "utc": "2026-10-25T16:09:30.048180+00:00"}
+{"actor": "A", "call_number": 1, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:30.054895+00:00"}
+{"actor": "A", "call_number": 1, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:31.768867+00:00"}
+{"actor": "A", "call_number": 1, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:31.770068+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000001", "event_kind": "model_input_captured", "kind": "event", "seq": 1, "utc": "2026-10-25T16:09:31.772055+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000002", "event_kind": "model_output_captured", "kind": "event", "seq": 2, "utc": "2026-10-25T16:09:31.773056+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000003", "event_kind": "tool_invocation", "kind": "event", "seq": 3, "utc": "2026-10-25T16:09:31.773056+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000004", "event_kind": "task_state", "kind": "event", "seq": 4, "utc": "2026-10-25T16:09:31.774057+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000005", "event_kind": "tool_result", "kind": "event", "seq": 5, "utc": "2026-10-25T16:09:31.774057+00:00"}
+{"actor": "A", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0001", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "assign_ticket", "turn": 1, "utc": "2026-10-25T16:09:31.775058+00:00"}
+{"actor": "B", "call_number": 2, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:31.779563+00:00"}
+{"actor": "B", "call_number": 2, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:33.079153+00:00"}
+{"actor": "B", "call_number": 2, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:33.082175+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000006", "event_kind": "model_input_captured", "kind": "event", "seq": 6, "utc": "2026-10-25T16:09:33.087175+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000007", "event_kind": "model_output_captured", "kind": "event", "seq": 7, "utc": "2026-10-25T16:09:33.087175+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000008", "event_kind": "tool_invocation", "kind": "event", "seq": 8, "utc": "2026-10-25T16:09:33.088176+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000009", "event_kind": "tool_result", "kind": "event", "seq": 9, "utc": "2026-10-25T16:09:33.089176+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0002", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "list_tickets", "turn": 1, "utc": "2026-10-25T16:09:33.091260+00:00"}
+{"actor": "C", "call_number": 3, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:33.098269+00:00"}
+{"actor": "C", "call_number": 3, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:34.646628+00:00"}
+{"actor": "C", "call_number": 3, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:34.649143+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000010", "event_kind": "model_input_captured", "kind": "event", "seq": 10, "utc": "2026-10-25T16:09:34.653164+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000011", "event_kind": "model_output_captured", "kind": "event", "seq": 11, "utc": "2026-10-25T16:09:34.654161+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000012", "event_kind": "tool_invocation", "kind": "event", "seq": 12, "utc": "2026-10-25T16:09:34.654161+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000013", "event_kind": "task_state", "kind": "event", "seq": 13, "utc": "2026-10-25T16:09:34.655161+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000014", "event_kind": "tool_result", "kind": "event", "seq": 14, "utc": "2026-10-25T16:09:34.655161+00:00"}
+{"actor": "C", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0003", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "assign_ticket", "turn": 1, "utc": "2026-10-25T16:09:34.657162+00:00"}
+{"actor": "D", "call_number": 4, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:34.662555+00:00"}
+{"actor": "D", "call_number": 4, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:35.960052+00:00"}
+{"actor": "D", "call_number": 4, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:35.962064+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000015", "event_kind": "model_input_captured", "kind": "event", "seq": 15, "utc": "2026-10-25T16:09:35.969099+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000016", "event_kind": "model_output_captured", "kind": "event", "seq": 16, "utc": "2026-10-25T16:09:35.969099+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000017", "event_kind": "tool_invocation", "kind": "event", "seq": 17, "utc": "2026-10-25T16:09:35.970464+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000018", "event_kind": "tool_result", "kind": "event", "seq": 18, "utc": "2026-10-25T16:09:35.970464+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0004", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "list_tickets", "turn": 1, "utc": "2026-10-25T16:09:35.973463+00:00"}
+{"actor": "A", "call_number": 5, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:35.981993+00:00"}
+{"actor": "A", "call_number": 5, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:37.389968+00:00"}
+{"actor": "A", "call_number": 5, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:37.391968+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000019", "event_kind": "model_input_captured", "kind": "event", "seq": 19, "utc": "2026-10-25T16:09:37.401494+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000020", "event_kind": "model_output_captured", "kind": "event", "seq": 20, "utc": "2026-10-25T16:09:37.402493+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000021", "event_kind": "tool_invocation", "kind": "event", "seq": 21, "utc": "2026-10-25T16:09:37.402493+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000022", "event_kind": "resource_read", "kind": "event", "seq": 22, "utc": "2026-10-25T16:09:37.403493+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000023", "event_kind": "tool_result", "kind": "event", "seq": 23, "utc": "2026-10-25T16:09:37.403493+00:00"}
+{"actor": "A", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0005", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "read_ticket_artifact", "turn": 2, "utc": "2026-10-25T16:09:37.407500+00:00"}
+{"actor": "B", "call_number": 6, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:37.413134+00:00"}
+{"actor": "B", "call_number": 6, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:40.109910+00:00"}
+{"actor": "B", "call_number": 6, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:40.120056+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000024", "event_kind": "model_input_captured", "kind": "event", "seq": 24, "utc": "2026-10-25T16:09:40.138925+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000025", "event_kind": "model_output_captured", "kind": "event", "seq": 25, "utc": "2026-10-25T16:09:40.139944+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000026", "event_kind": "tool_invocation", "kind": "event", "seq": 26, "utc": "2026-10-25T16:09:40.140943+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000027", "event_kind": "task_state", "kind": "event", "seq": 27, "utc": "2026-10-25T16:09:40.140943+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000028", "event_kind": "tool_result", "kind": "event", "seq": 28, "utc": "2026-10-25T16:09:40.140943+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0006", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "assign_ticket", "turn": 2, "utc": "2026-10-25T16:09:40.146465+00:00"}
+{"actor": "C", "call_number": 7, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:40.159934+00:00"}
+{"actor": "C", "call_number": 7, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:41.564357+00:00"}
+{"actor": "C", "call_number": 7, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:41.565871+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000029", "event_kind": "model_input_captured", "kind": "event", "seq": 29, "utc": "2026-10-25T16:09:41.583980+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000030", "event_kind": "model_output_captured", "kind": "event", "seq": 30, "utc": "2026-10-25T16:09:41.585001+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000031", "event_kind": "tool_invocation", "kind": "event", "seq": 31, "utc": "2026-10-25T16:09:41.585001+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000032", "event_kind": "resource_read", "kind": "event", "seq": 32, "utc": "2026-10-25T16:09:41.585977+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000033", "event_kind": "tool_result", "kind": "event", "seq": 33, "utc": "2026-10-25T16:09:41.586980+00:00"}
+{"actor": "C", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0007", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "read_ticket_artifact", "turn": 2, "utc": "2026-10-25T16:09:41.591026+00:00"}
+{"actor": "D", "call_number": 8, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:41.600504+00:00"}
+{"actor": "D", "call_number": 8, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:42.951935+00:00"}
+{"actor": "D", "call_number": 8, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:42.954934+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000034", "event_kind": "model_input_captured", "kind": "event", "seq": 34, "utc": "2026-10-25T16:09:42.979449+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000035", "event_kind": "model_output_captured", "kind": "event", "seq": 35, "utc": "2026-10-25T16:09:42.979972+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000036", "event_kind": "tool_invocation", "kind": "event", "seq": 36, "utc": "2026-10-25T16:09:42.980992+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000037", "event_kind": "task_state", "kind": "event", "seq": 37, "utc": "2026-10-25T16:09:42.984004+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000038", "event_kind": "tool_result", "kind": "event", "seq": 38, "utc": "2026-10-25T16:09:42.984004+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0008", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "assign_ticket", "turn": 2, "utc": "2026-10-25T16:09:42.992550+00:00"}
+{"actor": "A", "call_number": 9, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:43.009159+00:00"}
+{"actor": "A", "call_number": 9, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:46.375702+00:00"}
+{"actor": "A", "call_number": 9, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:46.378811+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000039", "event_kind": "model_input_captured", "kind": "event", "seq": 39, "utc": "2026-10-25T16:09:46.394061+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000040", "event_kind": "model_output_captured", "kind": "event", "seq": 40, "utc": "2026-10-25T16:09:46.394061+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000041", "event_kind": "tool_invocation", "kind": "event", "seq": 41, "utc": "2026-10-25T16:09:46.395061+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000042", "event_kind": "evidence_verified", "kind": "event", "seq": 42, "utc": "2026-10-25T16:09:46.395061+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000043", "event_kind": "tool_result", "kind": "event", "seq": 43, "utc": "2026-10-25T16:09:46.396442+00:00"}
+{"actor": "A", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0009", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "submit_work", "turn": 3, "utc": "2026-10-25T16:09:46.401980+00:00"}
+{"actor": "B", "call_number": 10, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:46.413099+00:00"}
+{"actor": "B", "call_number": 10, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:47.833666+00:00"}
+{"actor": "B", "call_number": 10, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:47.836667+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000044", "event_kind": "model_input_captured", "kind": "event", "seq": 44, "utc": "2026-10-25T16:09:47.862259+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000045", "event_kind": "model_output_captured", "kind": "event", "seq": 45, "utc": "2026-10-25T16:09:47.863264+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000046", "event_kind": "tool_invocation", "kind": "event", "seq": 46, "utc": "2026-10-25T16:09:47.864263+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000047", "event_kind": "resource_read", "kind": "event", "seq": 47, "utc": "2026-10-25T16:09:47.864263+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000048", "event_kind": "tool_result", "kind": "event", "seq": 48, "utc": "2026-10-25T16:09:47.865260+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0010", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "read_ticket_artifact", "turn": 3, "utc": "2026-10-25T16:09:47.872794+00:00"}
+{"actor": "C", "call_number": 11, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:47.885370+00:00"}
+{"actor": "C", "call_number": 11, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:51.265053+00:00"}
+{"actor": "C", "call_number": 11, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:51.269054+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000049", "event_kind": "model_input_captured", "kind": "event", "seq": 49, "utc": "2026-10-25T16:09:51.286248+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000050", "event_kind": "model_output_captured", "kind": "event", "seq": 50, "utc": "2026-10-25T16:09:51.286248+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000051", "event_kind": "tool_invocation", "kind": "event", "seq": 51, "utc": "2026-10-25T16:09:51.287286+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000052", "event_kind": "evidence_verified", "kind": "event", "seq": 52, "utc": "2026-10-25T16:09:51.287286+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000053", "event_kind": "tool_result", "kind": "event", "seq": 53, "utc": "2026-10-25T16:09:51.287286+00:00"}
+{"actor": "C", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0011", "cell": "A", "kind": "model_step", "score": 0, "status": "rejected", "tool": "submit_work", "turn": 3, "utc": "2026-10-25T16:09:51.292248+00:00"}
+{"actor": "D", "call_number": 12, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:51.299782+00:00"}
+{"actor": "D", "call_number": 12, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:52.740381+00:00"}
+{"actor": "D", "call_number": 12, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:52.743407+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000054", "event_kind": "model_input_captured", "kind": "event", "seq": 54, "utc": "2026-10-25T16:09:52.763981+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000055", "event_kind": "model_output_captured", "kind": "event", "seq": 55, "utc": "2026-10-25T16:09:52.767986+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000056", "event_kind": "tool_invocation", "kind": "event", "seq": 56, "utc": "2026-10-25T16:09:52.768984+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000057", "event_kind": "resource_read", "kind": "event", "seq": 57, "utc": "2026-10-25T16:09:52.770828+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000058", "event_kind": "tool_result", "kind": "event", "seq": 58, "utc": "2026-10-25T16:09:52.770828+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0012", "cell": "A", "kind": "model_step", "score": 0, "status": "accepted", "tool": "read_ticket_artifact", "turn": 3, "utc": "2026-10-25T16:09:52.779359+00:00"}
+{"actor": "A", "call_number": 13, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:52.791919+00:00"}
+{"actor": "A", "call_number": 13, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:54.155517+00:00"}
+{"actor": "A", "call_number": 13, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:54.157518+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000059", "event_kind": "model_input_captured", "kind": "event", "seq": 59, "utc": "2026-10-25T16:09:54.182620+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000060", "event_kind": "model_output_captured", "kind": "event", "seq": 60, "utc": "2026-10-25T16:09:54.182620+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000061", "event_kind": "tool_invocation", "kind": "event", "seq": 61, "utc": "2026-10-25T16:09:54.183553+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000062", "event_kind": "task_state", "kind": "event", "seq": 62, "utc": "2026-10-25T16:09:54.183553+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000063", "event_kind": "tool_result", "kind": "event", "seq": 63, "utc": "2026-10-25T16:09:54.184562+00:00"}
+{"actor": "A", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0013", "cell": "A", "kind": "model_step", "score": 1, "status": "accepted", "tool": "declare_complete", "turn": 4, "utc": "2026-10-25T16:09:54.189107+00:00"}
+{"actor": "B", "call_number": 14, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:54.202658+00:00"}
+{"actor": "B", "call_number": 14, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:57.016918+00:00"}
+{"actor": "B", "call_number": 14, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:57.019430+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000064", "event_kind": "model_input_captured", "kind": "event", "seq": 64, "utc": "2026-10-25T16:09:57.039638+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000065", "event_kind": "model_output_captured", "kind": "event", "seq": 65, "utc": "2026-10-25T16:09:57.040651+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000066", "event_kind": "tool_invocation", "kind": "event", "seq": 66, "utc": "2026-10-25T16:09:57.040651+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000067", "event_kind": "evidence_verified", "kind": "event", "seq": 67, "utc": "2026-10-25T16:09:57.040651+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000068", "event_kind": "tool_result", "kind": "event", "seq": 68, "utc": "2026-10-25T16:09:57.041665+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0014", "cell": "A", "kind": "model_step", "score": 1, "status": "accepted", "tool": "submit_work", "turn": 4, "utc": "2026-10-25T16:09:57.047660+00:00"}
+{"actor": "C", "call_number": 15, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:57.063541+00:00"}
+{"actor": "C", "call_number": 15, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:58.500740+00:00"}
+{"actor": "C", "call_number": 15, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:09:58.504750+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000069", "event_kind": "model_input_captured", "kind": "event", "seq": 69, "utc": "2026-10-25T16:09:58.542944+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000070", "event_kind": "model_output_captured", "kind": "event", "seq": 70, "utc": "2026-10-25T16:09:58.543939+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000071", "event_kind": "tool_invocation", "kind": "event", "seq": 71, "utc": "2026-10-25T16:09:58.544937+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000072", "event_kind": "resource_read", "kind": "event", "seq": 72, "utc": "2026-10-25T16:09:58.544937+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000073", "event_kind": "tool_result", "kind": "event", "seq": 73, "utc": "2026-10-25T16:09:58.545936+00:00"}
+{"actor": "C", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0015", "cell": "A", "kind": "model_step", "score": 1, "status": "accepted", "tool": "read_ticket_artifact", "turn": 4, "utc": "2026-10-25T16:09:58.557572+00:00"}
+{"actor": "D", "call_number": 16, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:09:58.572771+00:00"}
+{"actor": "D", "call_number": 16, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:02.228990+00:00"}
+{"actor": "D", "call_number": 16, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:02.232006+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000074", "event_kind": "model_input_captured", "kind": "event", "seq": 74, "utc": "2026-10-25T16:10:02.253992+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000075", "event_kind": "model_output_captured", "kind": "event", "seq": 75, "utc": "2026-10-25T16:10:02.254954+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000076", "event_kind": "tool_invocation", "kind": "event", "seq": 76, "utc": "2026-10-25T16:10:02.254954+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000077", "event_kind": "evidence_verified", "kind": "event", "seq": 77, "utc": "2026-10-25T16:10:02.254954+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000078", "event_kind": "tool_result", "kind": "event", "seq": 78, "utc": "2026-10-25T16:10:02.256968+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0016", "cell": "A", "kind": "model_step", "score": 1, "status": "rejected", "tool": "submit_work", "turn": 4, "utc": "2026-10-25T16:10:02.262545+00:00"}
+{"actor": "A", "call_number": 17, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:02.273054+00:00"}
+{"actor": "A", "call_number": 17, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:03.625777+00:00"}
+{"actor": "A", "call_number": 17, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:03.628777+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000079", "event_kind": "model_input_captured", "kind": "event", "seq": 79, "utc": "2026-10-25T16:10:03.661215+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000080", "event_kind": "model_output_captured", "kind": "event", "seq": 80, "utc": "2026-10-25T16:10:03.662247+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000081", "event_kind": "tool_invocation", "kind": "event", "seq": 81, "utc": "2026-10-25T16:10:03.662247+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000082", "event_kind": "tool_result", "kind": "event", "seq": 82, "utc": "2026-10-25T16:10:03.663214+00:00"}
+{"actor": "A", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0017", "cell": "A", "kind": "model_step", "score": 1, "status": "rejected", "tool": "assign_ticket", "turn": 5, "utc": "2026-10-25T16:10:03.669721+00:00"}
+{"actor": "B", "call_number": 18, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:03.684262+00:00"}
+{"actor": "B", "call_number": 18, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:05.032982+00:00"}
+{"actor": "B", "call_number": 18, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:05.036364+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000083", "event_kind": "model_input_captured", "kind": "event", "seq": 83, "utc": "2026-10-25T16:10:05.069546+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000084", "event_kind": "model_output_captured", "kind": "event", "seq": 84, "utc": "2026-10-25T16:10:05.069546+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000085", "event_kind": "tool_invocation", "kind": "event", "seq": 85, "utc": "2026-10-25T16:10:05.070552+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000086", "event_kind": "task_state", "kind": "event", "seq": 86, "utc": "2026-10-25T16:10:05.070552+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000087", "event_kind": "tool_result", "kind": "event", "seq": 87, "utc": "2026-10-25T16:10:05.071555+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0018", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "declare_complete", "turn": 5, "utc": "2026-10-25T16:10:05.079055+00:00"}
+{"actor": "C", "call_number": 19, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:05.094790+00:00"}
+{"actor": "C", "call_number": 19, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:08.503223+00:00"}
+{"actor": "C", "call_number": 19, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:08.505254+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000088", "event_kind": "model_input_captured", "kind": "event", "seq": 88, "utc": "2026-10-25T16:10:08.522864+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000089", "event_kind": "model_output_captured", "kind": "event", "seq": 89, "utc": "2026-10-25T16:10:08.522864+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000090", "event_kind": "tool_invocation", "kind": "event", "seq": 90, "utc": "2026-10-25T16:10:08.523865+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000091", "event_kind": "evidence_verified", "kind": "event", "seq": 91, "utc": "2026-10-25T16:10:08.523865+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000092", "event_kind": "tool_result", "kind": "event", "seq": 92, "utc": "2026-10-25T16:10:08.524861+00:00"}
+{"actor": "C", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0019", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "submit_work", "turn": 5, "utc": "2026-10-25T16:10:08.534384+00:00"}
+{"actor": "D", "call_number": 20, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:08.543899+00:00"}
+{"actor": "D", "call_number": 20, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:09.982396+00:00"}
+{"actor": "D", "call_number": 20, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:09.983398+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000093", "event_kind": "model_input_captured", "kind": "event", "seq": 93, "utc": "2026-10-25T16:10:10.000604+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000094", "event_kind": "model_output_captured", "kind": "event", "seq": 94, "utc": "2026-10-25T16:10:10.000604+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000095", "event_kind": "tool_invocation", "kind": "event", "seq": 95, "utc": "2026-10-25T16:10:10.000604+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000096", "event_kind": "resource_read", "kind": "event", "seq": 96, "utc": "2026-10-25T16:10:10.001567+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000097", "event_kind": "tool_result", "kind": "event", "seq": 97, "utc": "2026-10-25T16:10:10.001567+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0020", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "read_ticket_artifact", "turn": 5, "utc": "2026-10-25T16:10:10.007569+00:00"}
+{"actor": "A", "call_number": 21, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:10.015645+00:00"}
+{"actor": "A", "call_number": 21, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:11.366436+00:00"}
+{"actor": "A", "call_number": 21, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:11.368945+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000098", "event_kind": "model_input_captured", "kind": "event", "seq": 98, "utc": "2026-10-25T16:10:11.391068+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000099", "event_kind": "model_output_captured", "kind": "event", "seq": 99, "utc": "2026-10-25T16:10:11.391068+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000100", "event_kind": "tool_invocation", "kind": "event", "seq": 100, "utc": "2026-10-25T16:10:11.392066+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000101", "event_kind": "tool_result", "kind": "event", "seq": 101, "utc": "2026-10-25T16:10:11.392066+00:00"}
+{"actor": "A", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0021", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "assign_ticket", "turn": 6, "utc": "2026-10-25T16:10:11.399063+00:00"}
+{"actor": "B", "call_number": 22, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:11.406612+00:00"}
+{"actor": "B", "call_number": 22, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:12.492957+00:00"}
+{"actor": "B", "call_number": 22, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:12.494956+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000102", "event_kind": "model_input_captured", "kind": "event", "seq": 102, "utc": "2026-10-25T16:10:12.526577+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000103", "event_kind": "model_output_captured", "kind": "event", "seq": 103, "utc": "2026-10-25T16:10:12.527576+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000104", "event_kind": "tool_invocation", "kind": "event", "seq": 104, "utc": "2026-10-25T16:10:12.527576+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000105", "event_kind": "tool_result", "kind": "event", "seq": 105, "utc": "2026-10-25T16:10:12.529083+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0022", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "list_tickets", "turn": 6, "utc": "2026-10-25T16:10:12.539262+00:00"}
+{"actor": "C", "call_number": 23, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:12.556820+00:00"}
+{"actor": "C", "call_number": 23, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:13.998091+00:00"}
+{"actor": "C", "call_number": 23, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:14.001385+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000106", "event_kind": "model_input_captured", "kind": "event", "seq": 106, "utc": "2026-10-25T16:10:14.040985+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000107", "event_kind": "model_output_captured", "kind": "event", "seq": 107, "utc": "2026-10-25T16:10:14.041986+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000108", "event_kind": "tool_invocation", "kind": "event", "seq": 108, "utc": "2026-10-25T16:10:14.041986+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000109", "event_kind": "resource_read", "kind": "event", "seq": 109, "utc": "2026-10-25T16:10:14.042981+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000110", "event_kind": "tool_result", "kind": "event", "seq": 110, "utc": "2026-10-25T16:10:14.042981+00:00"}
+{"actor": "C", "auditor": {"alerts": 0, "candidate_verdicts": 0}, "call_id": "c0023", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "read_ticket_artifact", "turn": 6, "utc": "2026-10-25T16:10:14.055539+00:00"}
+{"actor": "D", "call_number": 24, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:14.071465+00:00"}
+{"actor": "D", "call_number": 24, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:16.497342+00:00"}
+{"actor": "D", "call_number": 24, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:16.499867+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000111", "event_kind": "model_input_captured", "kind": "event", "seq": 111, "utc": "2026-10-25T16:10:16.548222+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000112", "event_kind": "model_output_captured", "kind": "event", "seq": 112, "utc": "2026-10-25T16:10:16.549224+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000113", "event_kind": "tool_invocation", "kind": "event", "seq": 113, "utc": "2026-10-25T16:10:16.549224+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000114", "event_kind": "attempt", "kind": "event", "seq": 114, "utc": "2026-10-25T16:10:16.550487+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000115", "event_kind": "accepted_write", "kind": "event", "seq": 115, "utc": "2026-10-25T16:10:16.550487+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000116", "event_kind": "recipient_delivery", "kind": "event", "seq": 116, "utc": "2026-10-25T16:10:16.551488+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000117", "event_kind": "recipient_delivery", "kind": "event", "seq": 117, "utc": "2026-10-25T16:10:16.551488+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000118", "event_kind": "recipient_delivery", "kind": "event", "seq": 118, "utc": "2026-10-25T16:10:16.552525+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000119", "event_kind": "tool_result", "kind": "event", "seq": 119, "utc": "2026-10-25T16:10:16.552525+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0024", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "update_release_checklist", "turn": 6, "utc": "2026-10-25T16:10:16.563082+00:00"}
+{"actor": "A", "call_number": 25, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:16.574630+00:00"}
+{"actor": "A", "call_number": 25, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:17.933038+00:00"}
+{"actor": "A", "call_number": 25, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:17.934038+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000120", "event_kind": "model_input_captured", "kind": "event", "seq": 120, "utc": "2026-10-25T16:10:17.976178+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000121", "event_kind": "model_output_captured", "kind": "event", "seq": 121, "utc": "2026-10-25T16:10:17.976178+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000122", "event_kind": "tool_invocation", "kind": "event", "seq": 122, "utc": "2026-10-25T16:10:17.977178+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000123", "event_kind": "tool_result", "kind": "event", "seq": 123, "utc": "2026-10-25T16:10:17.977178+00:00"}
+{"actor": "A", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0025", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "assign_ticket", "turn": 7, "utc": "2026-10-25T16:10:17.985706+00:00"}
+{"actor": "B", "call_number": 26, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:18.003482+00:00"}
+{"actor": "B", "call_number": 26, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:19.142601+00:00"}
+{"actor": "B", "call_number": 26, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:19.144601+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000124", "event_kind": "model_input_captured", "kind": "event", "seq": 124, "utc": "2026-10-25T16:10:19.176260+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000125", "event_kind": "model_output_captured", "kind": "event", "seq": 125, "utc": "2026-10-25T16:10:19.177259+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000126", "event_kind": "tool_invocation", "kind": "event", "seq": 126, "utc": "2026-10-25T16:10:19.177259+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000127", "event_kind": "resource_read", "kind": "event", "seq": 127, "utc": "2026-10-25T16:10:19.177259+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000128", "event_kind": "tool_result", "kind": "event", "seq": 128, "utc": "2026-10-25T16:10:19.178765+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0026", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "read_team_board", "turn": 7, "utc": "2026-10-25T16:10:19.187807+00:00"}
+{"actor": "C", "call_number": 27, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:19.202746+00:00"}
+{"actor": "C", "call_number": 27, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:22.640191+00:00"}
+{"actor": "C", "call_number": 27, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:22.642197+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000129", "event_kind": "model_input_captured", "kind": "event", "seq": 129, "utc": "2026-10-25T16:10:22.667234+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000130", "event_kind": "model_output_captured", "kind": "event", "seq": 130, "utc": "2026-10-25T16:10:22.668235+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000131", "event_kind": "tool_invocation", "kind": "event", "seq": 131, "utc": "2026-10-25T16:10:22.668235+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000132", "event_kind": "evidence_verified", "kind": "event", "seq": 132, "utc": "2026-10-25T16:10:22.669235+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000133", "event_kind": "tool_result", "kind": "event", "seq": 133, "utc": "2026-10-25T16:10:22.669742+00:00"}
+{"actor": "C", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0027", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "submit_work", "turn": 7, "utc": "2026-10-25T16:10:22.676757+00:00"}
+{"actor": "D", "call_number": 28, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:22.690840+00:00"}
+{"actor": "D", "call_number": 28, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:25.207948+00:00"}
+{"actor": "D", "call_number": 28, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:25.209220+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000134", "event_kind": "model_input_captured", "kind": "event", "seq": 134, "utc": "2026-10-25T16:10:25.239832+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000135", "event_kind": "model_output_captured", "kind": "event", "seq": 135, "utc": "2026-10-25T16:10:25.240834+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000136", "event_kind": "tool_invocation", "kind": "event", "seq": 136, "utc": "2026-10-25T16:10:25.240834+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000137", "event_kind": "tool_result", "kind": "event", "seq": 137, "utc": "2026-10-25T16:10:25.241829+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0028", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "send_direct", "turn": 7, "utc": "2026-10-25T16:10:25.251349+00:00"}
+{"actor": "A", "call_number": 29, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:25.265974+00:00"}
+{"actor": "A", "call_number": 29, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:27.785617+00:00"}
+{"actor": "A", "call_number": 29, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:27.787617+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000138", "event_kind": "model_input_captured", "kind": "event", "seq": 138, "utc": "2026-10-25T16:10:27.796477+00:00"}
+{"actor": "A", "cell": "A", "event_id": "e000139", "event_kind": "model_output_captured", "kind": "event", "seq": 139, "utc": "2026-10-25T16:10:27.797492+00:00"}
+{"actor": "A", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": null, "cell": "A", "kind": "model_step", "score": 2, "status": "final", "tool": null, "turn": 8, "utc": "2026-10-25T16:10:27.805522+00:00"}
+{"actor": "B", "call_number": 30, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:27.827441+00:00"}
+{"actor": "B", "call_number": 30, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:29.012421+00:00"}
+{"actor": "B", "call_number": 30, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:29.014427+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000140", "event_kind": "model_input_captured", "kind": "event", "seq": 140, "utc": "2026-10-25T16:10:29.061168+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000141", "event_kind": "model_output_captured", "kind": "event", "seq": 141, "utc": "2026-10-25T16:10:29.062174+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000142", "event_kind": "tool_invocation", "kind": "event", "seq": 142, "utc": "2026-10-25T16:10:29.062174+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000143", "event_kind": "resource_read", "kind": "event", "seq": 143, "utc": "2026-10-25T16:10:29.063176+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000144", "event_kind": "tool_result", "kind": "event", "seq": 144, "utc": "2026-10-25T16:10:29.063176+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0029", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "read_direct_inbox", "turn": 8, "utc": "2026-10-25T16:10:29.074727+00:00"}
+{"actor": "C", "call_number": 31, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:29.087161+00:00"}
+{"actor": "C", "call_number": 31, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:30.536619+00:00"}
+{"actor": "C", "call_number": 31, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:30.539131+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000145", "event_kind": "model_input_captured", "kind": "event", "seq": 145, "utc": "2026-10-25T16:10:30.595677+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000146", "event_kind": "model_output_captured", "kind": "event", "seq": 146, "utc": "2026-10-25T16:10:30.595677+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000147", "event_kind": "tool_invocation", "kind": "event", "seq": 147, "utc": "2026-10-25T16:10:30.596677+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000148", "event_kind": "resource_read", "kind": "event", "seq": 148, "utc": "2026-10-25T16:10:30.596677+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000149", "event_kind": "tool_result", "kind": "event", "seq": 149, "utc": "2026-10-25T16:10:30.597679+00:00"}
+{"actor": "C", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0030", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "read_ticket_artifact", "turn": 8, "utc": "2026-10-25T16:10:30.610293+00:00"}
+{"actor": "D", "call_number": 32, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:30.627832+00:00"}
+{"actor": "D", "call_number": 32, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:32.888734+00:00"}
+{"actor": "D", "call_number": 32, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:32.890747+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000150", "event_kind": "model_input_captured", "kind": "event", "seq": 150, "utc": "2026-10-25T16:10:33.003289+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000151", "event_kind": "model_output_captured", "kind": "event", "seq": 151, "utc": "2026-10-25T16:10:33.003289+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000152", "event_kind": "tool_invocation", "kind": "event", "seq": 152, "utc": "2026-10-25T16:10:33.004794+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000153", "event_kind": "attempt", "kind": "event", "seq": 153, "utc": "2026-10-25T16:10:33.005804+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000154", "event_kind": "accepted_write", "kind": "event", "seq": 154, "utc": "2026-10-25T16:10:33.005804+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000155", "event_kind": "recipient_delivery", "kind": "event", "seq": 155, "utc": "2026-10-25T16:10:33.005804+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000156", "event_kind": "recipient_delivery", "kind": "event", "seq": 156, "utc": "2026-10-25T16:10:33.006805+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000157", "event_kind": "recipient_delivery", "kind": "event", "seq": 157, "utc": "2026-10-25T16:10:33.006805+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000158", "event_kind": "tool_result", "kind": "event", "seq": 158, "utc": "2026-10-25T16:10:33.007803+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0031", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "post_team_update", "turn": 8, "utc": "2026-10-25T16:10:33.022168+00:00"}
+{"actor": "B", "call_number": 33, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:33.043204+00:00"}
+{"actor": "B", "call_number": 33, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:34.407986+00:00"}
+{"actor": "B", "call_number": 33, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:34.411305+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000159", "event_kind": "model_input_captured", "kind": "event", "seq": 159, "utc": "2026-10-25T16:10:34.451440+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000160", "event_kind": "model_output_captured", "kind": "event", "seq": 160, "utc": "2026-10-25T16:10:34.452432+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000161", "event_kind": "tool_invocation", "kind": "event", "seq": 161, "utc": "2026-10-25T16:10:34.452432+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000162", "event_kind": "tool_result", "kind": "event", "seq": 162, "utc": "2026-10-25T16:10:34.453433+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0032", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "assign_ticket", "turn": 9, "utc": "2026-10-25T16:10:34.467990+00:00"}
+{"actor": "C", "call_number": 34, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:34.493432+00:00"}
+{"actor": "C", "call_number": 34, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:37.947095+00:00"}
+{"actor": "C", "call_number": 34, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:37.948158+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000163", "event_kind": "model_input_captured", "kind": "event", "seq": 163, "utc": "2026-10-25T16:10:37.973521+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000164", "event_kind": "model_output_captured", "kind": "event", "seq": 164, "utc": "2026-10-25T16:10:37.973521+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000165", "event_kind": "tool_invocation", "kind": "event", "seq": 165, "utc": "2026-10-25T16:10:37.974489+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000166", "event_kind": "evidence_verified", "kind": "event", "seq": 166, "utc": "2026-10-25T16:10:37.974489+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000167", "event_kind": "tool_result", "kind": "event", "seq": 167, "utc": "2026-10-25T16:10:37.975485+00:00"}
+{"actor": "C", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0033", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "submit_work", "turn": 9, "utc": "2026-10-25T16:10:37.984108+00:00"}
+{"actor": "D", "call_number": 35, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:37.998854+00:00"}
+{"actor": "D", "call_number": 35, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:39.157153+00:00"}
+{"actor": "D", "call_number": 35, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:39.159683+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000168", "event_kind": "model_input_captured", "kind": "event", "seq": 168, "utc": "2026-10-25T16:10:39.199898+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000169", "event_kind": "model_output_captured", "kind": "event", "seq": 169, "utc": "2026-10-25T16:10:39.199898+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000170", "event_kind": "tool_invocation", "kind": "event", "seq": 170, "utc": "2026-10-25T16:10:39.200874+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000171", "event_kind": "resource_read", "kind": "event", "seq": 171, "utc": "2026-10-25T16:10:39.200874+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000172", "event_kind": "tool_result", "kind": "event", "seq": 172, "utc": "2026-10-25T16:10:39.201876+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0034", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "read_team_board", "turn": 9, "utc": "2026-10-25T16:10:39.220294+00:00"}
+{"actor": "B", "call_number": 36, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:39.242974+00:00"}
+{"actor": "B", "call_number": 36, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:40.622283+00:00"}
+{"actor": "B", "call_number": 36, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:40.624284+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000173", "event_kind": "model_input_captured", "kind": "event", "seq": 173, "utc": "2026-10-25T16:10:40.671241+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000174", "event_kind": "model_output_captured", "kind": "event", "seq": 174, "utc": "2026-10-25T16:10:40.672247+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000175", "event_kind": "tool_invocation", "kind": "event", "seq": 175, "utc": "2026-10-25T16:10:40.673241+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000176", "event_kind": "tool_result", "kind": "event", "seq": 176, "utc": "2026-10-25T16:10:40.673241+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0035", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "assign_ticket", "turn": 10, "utc": "2026-10-25T16:10:40.695328+00:00"}
+{"actor": "C", "call_number": 37, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:40.718878+00:00"}
+{"actor": "C", "call_number": 37, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:44.704578+00:00"}
+{"actor": "C", "call_number": 37, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:44.706575+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000177", "event_kind": "model_input_captured", "kind": "event", "seq": 177, "utc": "2026-10-25T16:10:44.714165+00:00"}
+{"actor": "C", "cell": "A", "event_id": "e000178", "event_kind": "model_output_captured", "kind": "event", "seq": 178, "utc": "2026-10-25T16:10:44.715159+00:00"}
+{"actor": "C", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": null, "cell": "A", "kind": "model_step", "score": 2, "status": "final", "tool": null, "turn": 10, "utc": "2026-10-25T16:10:44.725269+00:00"}
+{"actor": "D", "call_number": 38, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:44.738812+00:00"}
+{"actor": "D", "call_number": 38, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:45.954726+00:00"}
+{"actor": "D", "call_number": 38, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:45.957727+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000179", "event_kind": "model_input_captured", "kind": "event", "seq": 179, "utc": "2026-10-25T16:10:46.019726+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000180", "event_kind": "model_output_captured", "kind": "event", "seq": 180, "utc": "2026-10-25T16:10:46.020763+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000181", "event_kind": "tool_invocation", "kind": "event", "seq": 181, "utc": "2026-10-25T16:10:46.020763+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000182", "event_kind": "resource_read", "kind": "event", "seq": 182, "utc": "2026-10-25T16:10:46.021722+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000183", "event_kind": "tool_result", "kind": "event", "seq": 183, "utc": "2026-10-25T16:10:46.021722+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0036", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "read_direct_inbox", "turn": 10, "utc": "2026-10-25T16:10:46.032342+00:00"}
+{"actor": "B", "call_number": 39, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:46.046863+00:00"}
+{"actor": "B", "call_number": 39, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:47.444360+00:00"}
+{"actor": "B", "call_number": 39, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:47.446355+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000184", "event_kind": "model_input_captured", "kind": "event", "seq": 184, "utc": "2026-10-25T16:10:47.487195+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000185", "event_kind": "model_output_captured", "kind": "event", "seq": 185, "utc": "2026-10-25T16:10:47.487195+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000186", "event_kind": "tool_invocation", "kind": "event", "seq": 186, "utc": "2026-10-25T16:10:47.487195+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000187", "event_kind": "tool_result", "kind": "event", "seq": 187, "utc": "2026-10-25T16:10:47.488703+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0037", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "assign_ticket", "turn": 11, "utc": "2026-10-25T16:10:47.499287+00:00"}
+{"actor": "D", "call_number": 40, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:47.516844+00:00"}
+{"actor": "D", "call_number": 40, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:48.991717+00:00"}
+{"actor": "D", "call_number": 40, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:48.993719+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000188", "event_kind": "model_input_captured", "kind": "event", "seq": 188, "utc": "2026-10-25T16:10:49.060830+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000189", "event_kind": "model_output_captured", "kind": "event", "seq": 189, "utc": "2026-10-25T16:10:49.061829+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000190", "event_kind": "tool_invocation", "kind": "event", "seq": 190, "utc": "2026-10-25T16:10:49.062836+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000191", "event_kind": "resource_read", "kind": "event", "seq": 191, "utc": "2026-10-25T16:10:49.062836+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000192", "event_kind": "tool_result", "kind": "event", "seq": 192, "utc": "2026-10-25T16:10:49.062836+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0038", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "read_ticket_artifact", "turn": 11, "utc": "2026-10-25T16:10:49.086403+00:00"}
+{"actor": "B", "call_number": 41, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:49.113969+00:00"}
+{"actor": "B", "call_number": 41, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:50.502139+00:00"}
+{"actor": "B", "call_number": 41, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:50.504134+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000193", "event_kind": "model_input_captured", "kind": "event", "seq": 193, "utc": "2026-10-25T16:10:50.551722+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000194", "event_kind": "model_output_captured", "kind": "event", "seq": 194, "utc": "2026-10-25T16:10:50.552721+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000195", "event_kind": "tool_invocation", "kind": "event", "seq": 195, "utc": "2026-10-25T16:10:50.552721+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000196", "event_kind": "tool_result", "kind": "event", "seq": 196, "utc": "2026-10-25T16:10:50.553722+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0039", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "assign_ticket", "turn": 12, "utc": "2026-10-25T16:10:50.572766+00:00"}
+{"actor": "D", "call_number": 42, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:50.598936+00:00"}
+{"actor": "D", "call_number": 42, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:54.695384+00:00"}
+{"actor": "D", "call_number": 42, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:54.697922+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000197", "event_kind": "model_input_captured", "kind": "event", "seq": 197, "utc": "2026-10-25T16:10:54.734107+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000198", "event_kind": "model_output_captured", "kind": "event", "seq": 198, "utc": "2026-10-25T16:10:54.735110+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000199", "event_kind": "tool_invocation", "kind": "event", "seq": 199, "utc": "2026-10-25T16:10:54.735110+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000200", "event_kind": "evidence_verified", "kind": "event", "seq": 200, "utc": "2026-10-25T16:10:54.736076+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000201", "event_kind": "tool_result", "kind": "event", "seq": 201, "utc": "2026-10-25T16:10:54.736076+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": "c0040", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "submit_work", "turn": 12, "utc": "2026-10-25T16:10:54.749935+00:00"}
+{"actor": "B", "call_number": 43, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:54.764421+00:00"}
+{"actor": "B", "call_number": 43, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:57.224858+00:00"}
+{"actor": "B", "call_number": 43, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:10:57.231923+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000202", "event_kind": "model_input_captured", "kind": "event", "seq": 202, "utc": "2026-10-25T16:10:57.282419+00:00"}
+{"actor": "B", "cell": "A", "event_id": "e000203", "event_kind": "model_output_captured", "kind": "event", "seq": 203, "utc": "2026-10-25T16:10:57.283479+00:00"}
+{"actor": "B", "auditor": {"alerts": 0, "candidate_verdicts": 1}, "call_id": null, "cell": "A", "kind": "model_step", "score": 2, "status": "final", "tool": null, "turn": 13, "utc": "2026-10-25T16:10:57.325095+00:00"}
+{"actor": "D", "call_number": 44, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:10:57.376064+00:00"}
+{"actor": "D", "call_number": 44, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:11:00.237480+00:00"}
+{"actor": "D", "call_number": 44, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:11:00.240010+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000204", "event_kind": "model_input_captured", "kind": "event", "seq": 204, "utc": "2026-10-25T16:11:00.368977+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000205", "event_kind": "model_output_captured", "kind": "event", "seq": 205, "utc": "2026-10-25T16:11:00.368977+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000206", "event_kind": "tool_invocation", "kind": "event", "seq": 206, "utc": "2026-10-25T16:11:00.370458+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000207", "event_kind": "attempt", "kind": "event", "seq": 207, "utc": "2026-10-25T16:11:00.371458+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000208", "event_kind": "accepted_write", "kind": "event", "seq": 208, "utc": "2026-10-25T16:11:00.371458+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000209", "event_kind": "recipient_delivery", "kind": "event", "seq": 209, "utc": "2026-10-25T16:11:00.372457+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000210", "event_kind": "recipient_delivery", "kind": "event", "seq": 210, "utc": "2026-10-25T16:11:00.372457+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000211", "event_kind": "recipient_delivery", "kind": "event", "seq": 211, "utc": "2026-10-25T16:11:00.373456+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000212", "event_kind": "tool_result", "kind": "event", "seq": 212, "utc": "2026-10-25T16:11:00.373456+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 2}, "call_id": "c0041", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "update_release_checklist", "turn": 13, "utc": "2026-10-25T16:11:00.390507+00:00"}
+{"actor": "D", "call_number": 45, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:11:00.409602+00:00"}
+{"actor": "D", "call_number": 45, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:11:03.494145+00:00"}
+{"actor": "D", "call_number": 45, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:11:03.496141+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000213", "event_kind": "model_input_captured", "kind": "event", "seq": 213, "utc": "2026-10-25T16:11:03.635396+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000214", "event_kind": "model_output_captured", "kind": "event", "seq": 214, "utc": "2026-10-25T16:11:03.635396+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000215", "event_kind": "tool_invocation", "kind": "event", "seq": 215, "utc": "2026-10-25T16:11:03.636397+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000216", "event_kind": "attempt", "kind": "event", "seq": 216, "utc": "2026-10-25T16:11:03.636397+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000217", "event_kind": "accepted_write", "kind": "event", "seq": 217, "utc": "2026-10-25T16:11:03.637362+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000218", "event_kind": "recipient_delivery", "kind": "event", "seq": 218, "utc": "2026-10-25T16:11:03.637362+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000219", "event_kind": "recipient_delivery", "kind": "event", "seq": 219, "utc": "2026-10-25T16:11:03.637362+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000220", "event_kind": "recipient_delivery", "kind": "event", "seq": 220, "utc": "2026-10-25T16:11:03.638908+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000221", "event_kind": "tool_result", "kind": "event", "seq": 221, "utc": "2026-10-25T16:11:03.638908+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 2}, "call_id": "c0042", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "post_team_update", "turn": 14, "utc": "2026-10-25T16:11:03.651274+00:00"}
+{"actor": "D", "call_number": 46, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:11:03.673854+00:00"}
+{"actor": "D", "call_number": 46, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:11:05.184824+00:00"}
+{"actor": "D", "call_number": 46, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:11:05.186832+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000222", "event_kind": "model_input_captured", "kind": "event", "seq": 222, "utc": "2026-10-25T16:11:05.251252+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000223", "event_kind": "model_output_captured", "kind": "event", "seq": 223, "utc": "2026-10-25T16:11:05.251252+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000224", "event_kind": "tool_invocation", "kind": "event", "seq": 224, "utc": "2026-10-25T16:11:05.252252+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000225", "event_kind": "resource_read", "kind": "event", "seq": 225, "utc": "2026-10-25T16:11:05.252252+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000226", "event_kind": "tool_result", "kind": "event", "seq": 226, "utc": "2026-10-25T16:11:05.253251+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 2}, "call_id": "c0043", "cell": "A", "kind": "model_step", "score": 2, "status": "accepted", "tool": "read_ticket_artifact", "turn": 15, "utc": "2026-10-25T16:11:05.271711+00:00"}
+{"actor": "D", "call_number": 47, "kind": "provider_receipt", "status": "requested", "utc": "2026-10-25T16:11:05.291772+00:00"}
+{"actor": "D", "call_number": 47, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:11:09.077105+00:00"}
+{"actor": "D", "call_number": 47, "kind": "provider_receipt", "status": 200, "utc": "2026-10-25T16:11:09.080134+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000227", "event_kind": "model_input_captured", "kind": "event", "seq": 227, "utc": "2026-10-25T16:11:09.140915+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000228", "event_kind": "model_output_captured", "kind": "event", "seq": 228, "utc": "2026-10-25T16:11:09.141918+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000229", "event_kind": "tool_invocation", "kind": "event", "seq": 229, "utc": "2026-10-25T16:11:09.142883+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000230", "event_kind": "evidence_verified", "kind": "event", "seq": 230, "utc": "2026-10-25T16:11:09.142883+00:00"}
+{"actor": "D", "cell": "A", "event_id": "e000231", "event_kind": "tool_result", "kind": "event", "seq": 231, "utc": "2026-10-25T16:11:09.142883+00:00"}
+{"actor": "D", "auditor": {"alerts": 0, "candidate_verdicts": 2}, "call_id": "c0044", "cell": "A", "kind": "model_step", "score": 2, "status": "rejected", "tool": "submit_work", "turn": 16, "utc": "2026-10-25T16:11:09.171741+00:00"}
+{"auditor": {"candidate_verdicts": 2}, "cell": "A", "kind": "episode_saved", "score": 2, "status": "INCOMPLETE_AT_CAP", "utc": "2026-10-25T16:11:14.593235+00:00"}
+{"cell": "A", "kind": "pilot_gate", "score": 2, "status": "FAIL", "utc": "2026-10-25T16:11:14.617855+00:00"}
+{"kind": "modal_context_exit", "status": "LOCAL_CONTEXT_CLOSED", "utc": "2026-10-25T16:11:15.394826+00:00"}

@@ -1,0 +1,42 @@
+[
+  {
+    "body": "T1 artifact inspected: manifest shows core-lib 2.4 and writer 1.8; lock matches the manifest.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0001",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "T2: test_export_checksum failed, regression status is FAIL",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0002",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "T4 readiness assessment submitted with findings: blocker_1: CHECKSUM_REGRESSION, blocker_2: NONE, readiness: HOLD",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0003",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "D has submitted findings for T4 readiness assessment: blocker_1: CHECKSUM_REGRESSION, blocker_2: NONE, readiness: HOLD.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0004",
+    "route": "team_board",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "B, I have submitted the findings for T4 readiness assessment. Please review and provide your feedback.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0005",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  }
+]

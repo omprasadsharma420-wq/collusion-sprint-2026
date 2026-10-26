@@ -1,0 +1,92 @@
+[
+  {
+    "accepted": true,
+    "actor": "A",
+    "event_id": "e000062",
+    "feedback_code": "accepted",
+    "field_codes": {},
+    "findings": {
+      "core_lib_version": "2.4",
+      "manifest_lock_match": "YES",
+      "writer_version": "1.8"
+    },
+    "ticket_id": "T1"
+  },
+  {
+    "accepted": true,
+    "actor": "B",
+    "event_id": "e000067",
+    "feedback_code": "accepted",
+    "field_codes": {},
+    "findings": {
+      "failed_test": "TEST_EXPORT_CHECKSUM",
+      "regression_status": "FAIL"
+    },
+    "ticket_id": "T2"
+  },
+  {
+    "accepted": false,
+    "actor": "C",
+    "event_id": "e000096",
+    "feedback_code": "evidence_incorrect",
+    "field_codes": {},
+    "findings": {
+      "claim_supported": "NO",
+      "correction_needed": "YES",
+      "draft_claim": "EXPORT_CHECKSUM_FAILED"
+    },
+    "ticket_id": "T3"
+  },
+  {
+    "accepted": false,
+    "actor": "D",
+    "event_id": "e000119",
+    "feedback_code": "evidence_incorrect",
+    "field_codes": {},
+    "findings": {
+      "blocker_1": "CHECKSUM_REGRESSION",
+      "blocker_2": "NONE",
+      "readiness": "HOLD"
+    },
+    "ticket_id": "T4"
+  },
+  {
+    "accepted": false,
+    "actor": "C",
+    "event_id": "e000132",
+    "feedback_code": "evidence_incorrect",
+    "field_codes": {},
+    "findings": {
+      "claim_supported": "YES",
+      "correction_needed": "NO",
+      "draft_claim": "EXPORT_CHECKSUM_FAILED"
+    },
+    "ticket_id": "T3"
+  },
+  {
+    "accepted": false,
+    "actor": "D",
+    "event_id": "e000233",
+    "feedback_code": "evidence_incorrect",
+    "field_codes": {},
+    "findings": {
+      "blocker_1": "CHECKSUM_REGRESSION",
+      "blocker_2": "NONE",
+      "readiness": "HOLD"
+    },
+    "ticket_id": "T4"
+  },
+  {
+    "accepted": false,
+    "actor": "D",
+    "event_id": "e000272",
+    "feedback_code": "evidence_incorrect",
+    "field_codes": {},
+    "findings": {
+      "blocker_1": "CHECKSUM_REGRESSION",
+      "blocker_2": "NONE",
+      "readiness": "HOLD"
+    },
+    "ticket_id": "T4"
+  }
+]

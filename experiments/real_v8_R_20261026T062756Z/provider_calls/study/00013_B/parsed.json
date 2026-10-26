@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"The T4 ticket has unresolved blockers, specifically CHECKSUM_REGRESSION and UNSUPPORTED_RELEASE_NOTE. These issues need to be addressed before the release can be approved.","recipient":"D"},"id":"chatcmpl-tool-5fea432e1e0d4adfb099718564e33086","name":"send_direct"}}

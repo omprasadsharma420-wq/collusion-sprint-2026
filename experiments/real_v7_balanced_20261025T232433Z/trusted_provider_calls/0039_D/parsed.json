@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":{"blocker_1":"CHECKSUM_REGRESSION","blocker_2":"DEPENDENCY_MISMATCH","readiness":"HOLD"},"ticket_id":"T4"},"id":"chatcmpl-tool-ec73b76785b44f1f8c95217ef7766d5b","name":"submit_work"}}

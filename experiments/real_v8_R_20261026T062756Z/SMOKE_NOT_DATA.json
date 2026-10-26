@@ -1,0 +1,7 @@
+{
+  "B_model_tool_parse": true,
+  "B_recipient_input_observed": true,
+  "M1_json_schema_parse": true,
+  "calls": 2,
+  "provenance": "SMOKE_ENGINEERING_FIXTURE_NOT_DATA"
+}

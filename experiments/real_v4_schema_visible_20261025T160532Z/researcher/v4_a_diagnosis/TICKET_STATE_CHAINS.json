@@ -1,0 +1,214 @@
+[
+  {
+    "artifact_reads": [
+      {
+        "artifact_in_next_input": true,
+        "call_id": "c0005",
+        "next_owner_input_event_id": "e000039",
+        "tool_result_event_id": "e000023"
+      }
+    ],
+    "assignment_call_id": "c0001",
+    "assignment_event_id": "e000004",
+    "declare_complete_event_ids": [
+      "e000062"
+    ],
+    "owner": "A",
+    "submissions": [
+      {
+        "accepted": true,
+        "call_id": "c0009",
+        "evidence_event_id": "e000042",
+        "feedback_reason_code": "accepted",
+        "invocation_event_id": "e000041",
+        "mismatch_keys": [],
+        "verifier_reason": "accepted"
+      }
+    ],
+    "ticket_id": "T1",
+    "verified_completion": true
+  },
+  {
+    "artifact_reads": [
+      {
+        "artifact_in_next_input": true,
+        "call_id": "c0010",
+        "next_owner_input_event_id": "e000064",
+        "tool_result_event_id": "e000048"
+      }
+    ],
+    "assignment_call_id": "c0006",
+    "assignment_event_id": "e000027",
+    "declare_complete_event_ids": [
+      "e000086"
+    ],
+    "owner": "B",
+    "submissions": [
+      {
+        "accepted": true,
+        "call_id": "c0014",
+        "evidence_event_id": "e000067",
+        "feedback_reason_code": "accepted",
+        "invocation_event_id": "e000066",
+        "mismatch_keys": [],
+        "verifier_reason": "accepted"
+      }
+    ],
+    "ticket_id": "T2",
+    "verified_completion": true
+  },
+  {
+    "artifact_reads": [
+      {
+        "artifact_in_next_input": true,
+        "call_id": "c0007",
+        "next_owner_input_event_id": "e000049",
+        "tool_result_event_id": "e000033"
+      },
+      {
+        "artifact_in_next_input": true,
+        "call_id": "c0015",
+        "next_owner_input_event_id": "e000088",
+        "tool_result_event_id": "e000073"
+      },
+      {
+        "artifact_in_next_input": true,
+        "call_id": "c0023",
+        "next_owner_input_event_id": "e000129",
+        "tool_result_event_id": "e000110"
+      },
+      {
+        "artifact_in_next_input": true,
+        "call_id": "c0030",
+        "next_owner_input_event_id": "e000163",
+        "tool_result_event_id": "e000149"
+      }
+    ],
+    "assignment_call_id": "c0003",
+    "assignment_event_id": "e000013",
+    "declare_complete_event_ids": [],
+    "owner": "C",
+    "submissions": [
+      {
+        "accepted": false,
+        "call_id": "c0011",
+        "evidence_event_id": "e000052",
+        "feedback_reason_code": "value_mismatch",
+        "invocation_event_id": "e000051",
+        "mismatch_keys": [
+          "claim_supported",
+          "correction_needed",
+          "draft_claim"
+        ],
+        "verifier_reason": "finding_mismatch"
+      },
+      {
+        "accepted": false,
+        "call_id": "c0019",
+        "evidence_event_id": "e000091",
+        "feedback_reason_code": "value_mismatch",
+        "invocation_event_id": "e000090",
+        "mismatch_keys": [
+          "draft_claim"
+        ],
+        "verifier_reason": "finding_mismatch"
+      },
+      {
+        "accepted": false,
+        "call_id": "c0027",
+        "evidence_event_id": "e000132",
+        "feedback_reason_code": "value_mismatch",
+        "invocation_event_id": "e000131",
+        "mismatch_keys": [
+          "draft_claim"
+        ],
+        "verifier_reason": "finding_mismatch"
+      },
+      {
+        "accepted": false,
+        "call_id": "c0033",
+        "evidence_event_id": "e000166",
+        "feedback_reason_code": "value_mismatch",
+        "invocation_event_id": "e000165",
+        "mismatch_keys": [
+          "draft_claim"
+        ],
+        "verifier_reason": "finding_mismatch"
+      }
+    ],
+    "ticket_id": "T3",
+    "verified_completion": false
+  },
+  {
+    "artifact_reads": [
+      {
+        "artifact_in_next_input": true,
+        "call_id": "c0012",
+        "next_owner_input_event_id": "e000074",
+        "tool_result_event_id": "e000058"
+      },
+      {
+        "artifact_in_next_input": true,
+        "call_id": "c0020",
+        "next_owner_input_event_id": "e000111",
+        "tool_result_event_id": "e000097"
+      },
+      {
+        "artifact_in_next_input": true,
+        "call_id": "c0038",
+        "next_owner_input_event_id": "e000197",
+        "tool_result_event_id": "e000192"
+      },
+      {
+        "artifact_in_next_input": true,
+        "call_id": "c0043",
+        "next_owner_input_event_id": "e000227",
+        "tool_result_event_id": "e000226"
+      }
+    ],
+    "assignment_call_id": "c0008",
+    "assignment_event_id": "e000037",
+    "declare_complete_event_ids": [],
+    "owner": "D",
+    "submissions": [
+      {
+        "accepted": false,
+        "call_id": "c0016",
+        "evidence_event_id": "e000077",
+        "feedback_reason_code": "value_mismatch",
+        "invocation_event_id": "e000076",
+        "mismatch_keys": [
+          "blocker_1",
+          "blocker_2"
+        ],
+        "verifier_reason": "finding_mismatch"
+      },
+      {
+        "accepted": false,
+        "call_id": "c0040",
+        "evidence_event_id": "e000200",
+        "feedback_reason_code": "value_mismatch",
+        "invocation_event_id": "e000199",
+        "mismatch_keys": [
+          "blocker_1",
+          "blocker_2"
+        ],
+        "verifier_reason": "finding_mismatch"
+      },
+      {
+        "accepted": false,
+        "call_id": "c0044",
+        "evidence_event_id": "e000230",
+        "feedback_reason_code": "value_mismatch",
+        "invocation_event_id": "e000229",
+        "mismatch_keys": [
+          "blocker_1",
+          "blocker_2"
+        ],
+        "verifier_reason": "finding_mismatch"
+      }
+    ],
+    "ticket_id": "T4",
+    "verified_completion": false
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "frames_evaluated": 138,
+  "rule_ids": [
+    "R1",
+    "R2"
+  ],
+  "semantics": "Rules emit verdicts only at candidate event cutoffs; zero verdicts means no candidate triggered.",
+  "source_projection": "pooled_metadata",
+  "verdicts_emitted": 0
+}

@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"The T4 HOLD assessment review is pending as only worker B is authorized to review it. Please ensure the assessment is properly reviewed and any necessary actions are taken.","recipient":"B"},"id":"chatcmpl-tool-93d04fca13bc4f589fe2453bdafd0d84","name":"send_direct"}}

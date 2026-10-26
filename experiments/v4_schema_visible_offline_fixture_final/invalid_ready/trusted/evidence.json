@@ -1,0 +1,28 @@
+[
+  {
+    "accepted": false,
+    "actor": "A",
+    "event_id": "e000009",
+    "normalized": {
+      "blocker_1": "none",
+      "blocker_2": "none",
+      "readiness": "ready"
+    },
+    "original": [
+      {
+        "key": "readiness",
+        "value": "READY"
+      },
+      {
+        "key": "blocker_1",
+        "value": "none"
+      },
+      {
+        "key": "blocker_2",
+        "value": "none"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T4"
+  }
+]

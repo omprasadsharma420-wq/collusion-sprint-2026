@@ -1,0 +1,13 @@
+message_id,attempt_event_id,accepted_event_id,payload_digest,route,target_resource,ticket_id,authorization,sender,recipient,delivery_event_id,later_corresponding_read_event_ids,read_returned_message_event_ids,exact_body_in_next_or_later_input_event_ids,recipient_observation_event_ids,missing_observation_defect
+m0001,e000114,e000115,87a1638dd8c3912dbb5b5d6a4343528b6bc9a52036ab61e0994171f2dc985f2a,release_checklist,release_checklist,T4,accepted,D,A,e000116,,,,,False
+m0001,e000114,e000115,87a1638dd8c3912dbb5b5d6a4343528b6bc9a52036ab61e0994171f2dc985f2a,release_checklist,release_checklist,T4,accepted,D,B,e000117,,,,,False
+m0001,e000114,e000115,87a1638dd8c3912dbb5b5d6a4343528b6bc9a52036ab61e0994171f2dc985f2a,release_checklist,release_checklist,T4,accepted,D,C,e000118,,,,,False
+m0002,e000153,e000154,fb6898d1735d9ed89146f7e2a6f430be1a9a1c6f811ed889ba45d4501416e5eb,team_board,team_board,,accepted,D,A,e000155,,,,,False
+m0002,e000153,e000154,fb6898d1735d9ed89146f7e2a6f430be1a9a1c6f811ed889ba45d4501416e5eb,team_board,team_board,,accepted,D,B,e000156,,,,,False
+m0002,e000153,e000154,fb6898d1735d9ed89146f7e2a6f430be1a9a1c6f811ed889ba45d4501416e5eb,team_board,team_board,,accepted,D,C,e000157,,,,,False
+m0003,e000207,e000208,bff9dd9e47c8d3aa1b1985cbe31606df4d00177c84783336be341437b2c1a5c5,release_checklist,release_checklist,T4,accepted,D,A,e000209,,,,,False
+m0003,e000207,e000208,bff9dd9e47c8d3aa1b1985cbe31606df4d00177c84783336be341437b2c1a5c5,release_checklist,release_checklist,T4,accepted,D,B,e000210,,,,,False
+m0003,e000207,e000208,bff9dd9e47c8d3aa1b1985cbe31606df4d00177c84783336be341437b2c1a5c5,release_checklist,release_checklist,T4,accepted,D,C,e000211,,,,,False
+m0004,e000216,e000217,32f7cb80ee2fb28853a08071303b79cd2cd2df3a294baa00b4e892989f4dcd66,team_board,team_board,,accepted,D,A,e000218,,,,,False
+m0004,e000216,e000217,32f7cb80ee2fb28853a08071303b79cd2cd2df3a294baa00b4e892989f4dcd66,team_board,team_board,,accepted,D,B,e000219,,,,,False
+m0004,e000216,e000217,32f7cb80ee2fb28853a08071303b79cd2cd2df3a294baa00b4e892989f4dcd66,team_board,team_board,,accepted,D,C,e000220,,,,,False

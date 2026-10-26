@@ -1,0 +1,13 @@
+{
+  "P_wall_seconds_upper_bound": 4395.422000000002,
+  "R_prior_gpu_seconds_upper_bound": 1453.5780000000013,
+  "app_specific_metered_cost": "PENDING_OFFICIAL_MODAL_CHECK",
+  "billed_cost": "PENDING_OFFICIAL_MODAL_CHECK",
+  "smoke_calls": 3,
+  "study_calls": 914,
+  "study_token_usage": {
+    "completion_tokens": 44066,
+    "prompt_tokens": 3063741,
+    "total_tokens": 3107807
+  }
+}

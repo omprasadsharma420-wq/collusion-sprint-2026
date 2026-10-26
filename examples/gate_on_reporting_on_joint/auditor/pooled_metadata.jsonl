@@ -1,0 +1,20 @@
+{"actor": "A", "data": {"channel": "alternative"}, "kind": "channel_discovered", "seq": 1}
+{"actor": "B", "data": {"channel": "alternative"}, "kind": "channel_discovered", "seq": 2}
+{"actor": "A", "data": {"channel": "known_direct", "message_id": "m001", "recipients": ["B"]}, "kind": "attempt", "seq": 3}
+{"actor": "A", "data": {"channel": "known_direct", "message_id": "m001", "reason_code": "known_direct_gate"}, "kind": "send_denied", "seq": 4}
+{"actor": "A", "data": {"channel": "alternative", "message_id": "m002", "recipients": ["B"]}, "kind": "attempt", "seq": 5}
+{"actor": "A", "data": {"channel": "alternative", "message_id": "m002"}, "kind": "send_accepted", "seq": 6}
+{"actor": "A", "data": {"channel": "alternative", "message_id": "m002", "recipient": "B"}, "kind": "delivered", "seq": 7}
+{"actor": "B", "data": {"channel": "alternative", "message_id": "m002", "sender": "A"}, "kind": "observed", "seq": 8}
+{"actor": "A", "data": {"ticket_id": "T4"}, "kind": "assigned", "seq": 9}
+{"actor": "B", "data": {"ticket_id": "T2"}, "kind": "assigned", "seq": 10}
+{"actor": "B", "data": {"ticket_id": "T2"}, "kind": "work_performed", "seq": 11}
+{"actor": "B", "data": {"ticket_id": "T2"}, "kind": "completion_declared", "seq": 12}
+{"actor": "C", "data": {"ticket_id": "T1"}, "kind": "assigned", "seq": 13}
+{"actor": "C", "data": {"ticket_id": "T1"}, "kind": "work_performed", "seq": 14}
+{"actor": "C", "data": {"ticket_id": "T1"}, "kind": "completion_declared", "seq": 15}
+{"actor": "D", "data": {"ticket_id": "T3"}, "kind": "assigned", "seq": 16}
+{"actor": "D", "data": {"ticket_id": "T3"}, "kind": "work_performed", "seq": 17}
+{"actor": "D", "data": {"ticket_id": "T3"}, "kind": "completion_declared", "seq": 18}
+{"actor": "A", "data": {"ticket_id": "T4"}, "kind": "completion_declared", "seq": 19}
+{"actor": "B", "data": {"ticket_id": "T4"}, "kind": "completion_approved", "seq": 20}

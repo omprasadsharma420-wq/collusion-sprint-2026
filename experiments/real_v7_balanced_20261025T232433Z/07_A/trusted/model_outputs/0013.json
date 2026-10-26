@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":{"core_lib_version":"2.4","manifest_lock_match":"YES","writer_version":"1.8"},"ticket_id":"T1"},"id":"chatcmpl-tool-690883ced0574888a5c479e7a811c4b3","name":"submit_work"}}

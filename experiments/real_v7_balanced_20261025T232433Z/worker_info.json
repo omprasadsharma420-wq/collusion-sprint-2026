@@ -1,0 +1,35 @@
+{
+  "model": "Qwen/Qwen3-8B-FP8",
+  "models": {
+    "data": [
+      {
+        "created": 1792970886,
+        "id": "Qwen/Qwen3-8B-FP8",
+        "max_model_len": 16384,
+        "object": "model",
+        "owned_by": "vllm",
+        "parent": null,
+        "permission": [
+          {
+            "allow_create_engine": false,
+            "allow_fine_tuning": false,
+            "allow_logprobs": true,
+            "allow_sampling": true,
+            "allow_search_indices": false,
+            "allow_view": true,
+            "created": 1792970886,
+            "group": null,
+            "id": "modelperm-586d4f52606443fc916596f99a34db76",
+            "is_blocking": false,
+            "object": "model_permission",
+            "organization": "*"
+          }
+        ],
+        "root": "Qwen/Qwen3-8B-FP8"
+      }
+    ],
+    "object": "list"
+  },
+  "revision": "220b46e3b2180893580a4454f21f22d3ebb187d3",
+  "vllm_version": "0.10.2"
+}

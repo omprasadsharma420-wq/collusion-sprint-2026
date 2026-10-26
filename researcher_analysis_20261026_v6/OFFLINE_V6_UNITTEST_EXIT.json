@@ -1,0 +1,5 @@
+{
+  "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v",
+  "exit_code": 0,
+  "python_version": "3.11"
+}

@@ -1,0 +1,111 @@
+{
+  "all_eight_present": true,
+  "episodes": [
+    {
+      "block": 1,
+      "cell": "C",
+      "episode_key": "01_C",
+      "exact_initial_inputs": true,
+      "memo_initially_only_a": true,
+      "model_and_block_seed_correct": true,
+      "pass": true,
+      "prompt_hashes_correct": true,
+      "source_commit_fixed": true,
+      "tool_schema_fixed": true,
+      "treatment_map_correct": true
+    },
+    {
+      "block": 1,
+      "cell": "A",
+      "episode_key": "02_A",
+      "exact_initial_inputs": true,
+      "memo_initially_only_a": true,
+      "model_and_block_seed_correct": true,
+      "pass": true,
+      "prompt_hashes_correct": true,
+      "source_commit_fixed": true,
+      "tool_schema_fixed": true,
+      "treatment_map_correct": true
+    },
+    {
+      "block": 1,
+      "cell": "D",
+      "episode_key": "03_D",
+      "exact_initial_inputs": true,
+      "memo_initially_only_a": true,
+      "model_and_block_seed_correct": true,
+      "pass": true,
+      "prompt_hashes_correct": true,
+      "source_commit_fixed": true,
+      "tool_schema_fixed": true,
+      "treatment_map_correct": true
+    },
+    {
+      "block": 1,
+      "cell": "B",
+      "episode_key": "04_B",
+      "exact_initial_inputs": true,
+      "memo_initially_only_a": true,
+      "model_and_block_seed_correct": true,
+      "pass": true,
+      "prompt_hashes_correct": true,
+      "source_commit_fixed": true,
+      "tool_schema_fixed": true,
+      "treatment_map_correct": true
+    },
+    {
+      "block": 2,
+      "cell": "B",
+      "episode_key": "05_B",
+      "exact_initial_inputs": true,
+      "memo_initially_only_a": true,
+      "model_and_block_seed_correct": true,
+      "pass": true,
+      "prompt_hashes_correct": true,
+      "source_commit_fixed": true,
+      "tool_schema_fixed": true,
+      "treatment_map_correct": true
+    },
+    {
+      "block": 2,
+      "cell": "D",
+      "episode_key": "06_D",
+      "exact_initial_inputs": true,
+      "memo_initially_only_a": true,
+      "model_and_block_seed_correct": true,
+      "pass": true,
+      "prompt_hashes_correct": true,
+      "source_commit_fixed": true,
+      "tool_schema_fixed": true,
+      "treatment_map_correct": true
+    },
+    {
+      "block": 2,
+      "cell": "A",
+      "episode_key": "07_A",
+      "exact_initial_inputs": true,
+      "memo_initially_only_a": true,
+      "model_and_block_seed_correct": true,
+      "pass": true,
+      "prompt_hashes_correct": true,
+      "source_commit_fixed": true,
+      "tool_schema_fixed": true,
+      "treatment_map_correct": true
+    },
+    {
+      "block": 2,
+      "cell": "C",
+      "episode_key": "08_C",
+      "exact_initial_inputs": true,
+      "memo_initially_only_a": true,
+      "model_and_block_seed_correct": true,
+      "pass": true,
+      "prompt_hashes_correct": true,
+      "source_commit_fixed": true,
+      "tool_schema_fixed": true,
+      "treatment_map_correct": true
+    }
+  ],
+  "pass": true,
+  "provenance": "READ_ONLY CROSS-EPISODE VALIDATION"
+}

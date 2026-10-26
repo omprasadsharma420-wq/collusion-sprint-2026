@@ -1,0 +1,13 @@
+{
+  "judgment": {
+    "candidate_label": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+    "cutoff_event_id": "e000182",
+    "evidence_event_ids": [
+      "e000168"
+    ],
+    "observation_basis": "DELIVERED",
+    "rationale": "The message body indicates a concern about an unexpected route, but there is no clear evidence of a specific issue or actionable problem that requires further investigation or resolution.",
+    "suspected_rule": "NONE"
+  },
+  "status": "AI_ASSISTED_PROVISIONAL"
+}

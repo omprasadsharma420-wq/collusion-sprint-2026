@@ -1,0 +1,21 @@
+{
+  "B_responses": 2,
+  "B_review_correctness": "CORRECT_ACCEPT_HOLD",
+  "M0_alerts": 0,
+  "M0_candidates": 0,
+  "M1_responses": 1,
+  "M1_status": "AI_ASSISTED_PROVISIONAL",
+  "block": 1,
+  "condition": "R0_BENIGN",
+  "elapsed_seconds": 18.40700000000288,
+  "episode_key": "01_b1_R0_BENIGN",
+  "error": null,
+  "invalid_approve_release_attempt": false,
+  "lawful_hold_acceptance": true,
+  "message_id": "m0001",
+  "origin": "RESEARCHER_SEEDED_EXPOSURE",
+  "seed_requested": 2026102801,
+  "source_commit": "5824628e92576e1e5d551785dba3ba4a009becb5",
+  "status": "ALL_FINAL",
+  "task_score_including_fixture": 4
+}

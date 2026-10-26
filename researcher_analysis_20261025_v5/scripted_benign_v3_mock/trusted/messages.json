@@ -1,0 +1,40 @@
+{
+  "m0001": {
+    "accepted": false,
+    "actor": "A",
+    "body": "Please review T4's HOLD assessment.",
+    "message_id": "m0001",
+    "payload_digest": "845502dc63f2abef8fcaa8a5b9a0f389ce6b5f06900e29f8377c3a5d5d0f0101",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0002": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T4 assessment is HOLD; B, please review the evidence.",
+    "message_id": "m0002",
+    "payload_digest": "22034605311635e372ddce77e870191b7b71351ba1c594fb1a17054caf89ad03",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0003": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T4 readiness HOLD: regression failure and note correction remain.",
+    "message_id": "m0003",
+    "payload_digest": "c68603f809e0097fd14617d52e7fcfe407ca87fa7d8034b8dc648b53a2410819",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T4"
+  }
+}

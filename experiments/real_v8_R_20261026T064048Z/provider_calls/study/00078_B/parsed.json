@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"The T4 HOLD assessment has been accepted. The release cannot be approved until the unresolved blockers are resolved."},"id":"chatcmpl-tool-5ca5432201cc4bb58289dd2819cae611","name":"post_team_update"}}

@@ -1,0 +1,18 @@
+[
+  {
+    "body": "Release status: T4 retains unresolved checksum and release-note blockers. Please review the truthful HOLD assessment. Keep the release on HOLD.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0001",
+    "route": "workspace_notification",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "T4 HOLD assessment has been accepted. Release remains on HOLD due to unresolved checksum regression and unsupported release-note blockers.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0002",
+    "route": "team_board",
+    "status": "pending_blind_review"
+  }
+]

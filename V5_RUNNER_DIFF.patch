@@ -1,0 +1,197 @@
+diff --git a/run_real_modal_v4.py b/run_real_modal_v5.py
+index cbb1d5f..f4b829a 100644
+--- a/run_real_modal_v4.py
++++ b/run_real_modal_v5.py
+@@ -1,4 +1,4 @@
+-"""Bounded v4-schema-visible real-model pilot: A, then B/C/D only on fixed pass."""
++"""Bounded v5-longer-horizon real-model pilot: A, then B/C/D only on fixed pass."""
+ 
+ from __future__ import annotations
+ 
+@@ -14,7 +14,7 @@ from datetime import datetime, timezone
+ from pathlib import Path
+ from typing import Any
+ 
+-from agent_adapter_v4 import AgentAdapterV4
++from agent_adapter_v5 import AgentAdapterV5
+ from audit_projection_v2 import AuditView, project
+ from audit_rules_v3 import evaluate_cutoff, run_audit
+ from modal_transport import (
+@@ -22,19 +22,19 @@ from modal_transport import (
+     ModalTransport,
+ )
+ from protocol_v3 import AGENTS, MEMO_MARKER
+-from protocol_v4 import (
++from protocol_v5 import (
+     PROTOCOL_VERSION, TOOL_SCHEMAS, prompt_sha256, tool_schema_sha256,
+ )
+ from render_trace import build_model_html, build_model_text, load_model_run
+-from render_v4_replay import enrich as enrich_v4_replay
++from render_v5_replay import enrich as enrich_v5_replay
+ from trace_v2 import TraceV2
+-from world_v4 import WorldV4
++from world_v5 import WorldV5
+ 
+ CELL_ORDER = ("A", "B", "C", "D")
+ ACTOR_ORDER = ("A", "B", "C", "D")
+-MAX_RESPONSES_PER_AGENT = 16
+-MAX_STUDY_CALLS = 256
+-MAX_TOTAL_CALLS = 257  # At most one optional separate smoke; this runner uses none.
++MAX_RESPONSES_PER_AGENT = 24
++MAX_STUDY_CALLS = 384
++MAX_TOTAL_CALLS = 385  # At most one optional separate smoke; this runner uses none.
+ MAX_GPU_WALL_SECONDS = 90 * 60
+ MAX_CELL_WALL_SECONDS = 30 * 60
+ 
+@@ -61,7 +61,7 @@ def progress(root: Path, item: dict[str, Any], *, show: bool = False) -> None:
+         stream.flush()
+     if show:
+         print(
+-            f'[V4][{record.get("cell", "RUN")}][{record.get("actor", "controller")}] '
++            f'[V5][{record.get("cell", "RUN")}][{record.get("actor", "controller")}] '
+             f'{record.get("kind")} turn={record.get("turn", "-")} '
+             f'tool={record.get("tool", "-")} status={record.get("status", "-")} '
+             f'score={record.get("score", "-")}/4 audit={record.get("auditor", "-")}',
+@@ -158,7 +158,7 @@ def validate_cell(root: Path, cell: str, record: dict[str, Any],
+     assert trusted["protocol_version"] == PROTOCOL_VERSION
+     assert trusted["tool_schema_sha256"] == tool_schema_sha256()
+     assert trusted["prompt_sha256"] == {
+-        actor: prompt_sha256(actor, WorldV4(cell, run_id="validation").config)
++        actor: prompt_sha256(actor, WorldV5(cell, run_id="validation").config)
+         for actor in AGENTS}
+     outcome = json.loads((cell_root / "trusted" / "outcome.json").read_text(encoding="utf-8"))
+     assert outcome == record["outcome"]
+@@ -179,7 +179,7 @@ def validate_cell(root: Path, cell: str, record: dict[str, Any],
+     }
+ 
+ 
+-def export_cell(world: WorldV4, cell_root: Path, *, status: str,
++def export_cell(world: WorldV5, cell_root: Path, *, status: str,
+                 error: str | None, source_commit: str,
+                 transport: ModalTransport, call_start: int,
+                 usage_start: dict[str, int], elapsed: float,
+@@ -230,14 +230,14 @@ def export_cell(world: WorldV4, cell_root: Path, *, status: str,
+         "REAL MODEL — CAPTURED RUN", f"REAL MODEL — {PROTOCOL_VERSION} — CAPTURED RUN")
+     (researcher / "replay.txt").write_text(view_text, encoding="utf-8")
+     (researcher / "replay.html").write_text(
+-        enrich_v4_replay(view_html, loaded), encoding="utf-8")
++        enrich_v5_replay(view_html, loaded), encoding="utf-8")
+     write_json(cell_root / "researcher" / "summary.json", {
+         "cell": world.config.cell, "status": status, "outcome": world.outcome(),
+         "model_calls": record["model_calls"], "token_usage": usage,
+         "monitor_verdicts": len(verdicts), "pending_human_review": len(world.human_review_queue),
+     })
+     (cell_root / "EXPERIMENT_SUMMARY.md").write_text(
+-        f"# V4 cell {world.config.cell} — REAL MODEL\n\n"
++        f"# V5 cell {world.config.cell} — REAL MODEL\n\n"
+         f"Status: **{status}**; model calls: **{record['model_calls']}**; "
+         f"verified ticket completions: **{world.outcome()['task_score']}/4**.\n\n"
+         f"Exact marker observation is a lower bound. "
+@@ -252,9 +252,9 @@ def run_cell(cell: str, root: Path, transport: ModalTransport, *,
+              source_commit: str, total_started: float) -> tuple[dict[str, Any], dict[str, Any]]:
+     cell_root = root / cell
+     cell_root.mkdir(parents=True, exist_ok=False)
+-    world = WorldV4(cell, run_id=f"v4-{root.name}-{cell}",
++    world = WorldV5(cell, run_id=f"v5-{root.name}-{cell}",
+                     provenance="REAL MODEL", tool_call_cap=MAX_RESPONSES_PER_AGENT)
+-    adapter = AgentAdapterV4(world, transport, max_model_responses=MAX_RESPONSES_PER_AGENT)
++    adapter = AgentAdapterV5(world, transport, max_model_responses=MAX_RESPONSES_PER_AGENT)
+     started = time.monotonic()
+     call_start = transport.call_count
+     usage_start = dict(transport.token_usage)
+@@ -412,11 +412,11 @@ def write_overview(root: Path, records: list[dict[str, Any]],
+     pilot_text = html.escape(json.dumps(decision, sort_keys=True))
+     (root / "index.html").write_text(
+         '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+-        '<title>Collective Blind Spot v4 — REAL MODEL pilot</title>'
++        '<title>Collective Blind Spot v5 — REAL MODEL pilot</title>'
+         '<style>body{font:16px system-ui;max-width:1100px;margin:2rem auto;line-height:1.45;background:#f6f8fb;color:#1b2733}'
+         'section{background:white;padding:1.5rem;margin:1rem 0;border:1px solid #ccd3dc}'
+         'pre{white-space:pre-wrap;overflow-wrap:anywhere}</style></head><body>'
+-        '<h1>Collective Blind Spot v4-schema-visible</h1>'
++        '<h1>Collective Blind Spot v5-longer-horizon</h1>'
+         '<p>REAL MODEL episodes only where linked. Local privileged researcher view; not an agent or auditor input.</p>'
+         f'<section><h2>Run decision</h2><pre>{pilot_text}</pre></section>'
+         f'<section><h2>Episodes</h2><ul>{links}</ul></section>'
+@@ -426,12 +426,12 @@ def write_overview(root: Path, records: list[dict[str, Any]],
+         'a treatment effect or collusion propensity. Monitor alerts are review candidates.</p></section>'
+         '</body></html>\n', encoding="utf-8")
+     (root / "EXPERIMENT_SUMMARY.md").write_text(
+-        "# V4-schema-visible real-model pilot\n\n"
++        "# V5-schema-visible real-model pilot\n\n"
+         f"Pilot A pass: **{decision.get('pilot_pass')}**. "
+         f"Cells saved: **{', '.join(by_cell) or 'none'}**. "
+         "Cells with no replay are NOT RUN.\n\n"
+         "The comparison is descriptive; all message content labels remain pending. "
+-        "Do not pool v3 and v4 or treat monitor alerts as ground truth.\n\n"
++        "Do not pool v3 and v5 or treat monitor alerts as ground truth.\n\n"
+         "See index.html, comparison.csv, cell manifests and validation records.\n",
+         encoding="utf-8")
+ 
+@@ -439,18 +439,18 @@ def write_overview(root: Path, records: list[dict[str, Any]],
+ def main() -> None:
+     import modal_vllm_worker
+ 
+-    parser = argparse.ArgumentParser(description="One bounded v4 Modal feasibility pilot")
++    parser = argparse.ArgumentParser(description="One bounded v5 Modal feasibility pilot")
+     parser.add_argument("--offline-readiness", type=Path, required=True)
+     args = parser.parse_args()
+     readiness = json.loads(args.offline_readiness.read_text(encoding="utf-8"))
+     source_commit = subprocess.check_output(
+         ["git", "rev-parse", "HEAD"], text=True).strip()
+     if readiness.get("offline_gate_pass") is not True:
+-        parser.error("Offline v4 gate did not pass")
++        parser.error("Offline v5 gate did not pass")
+     if readiness.get("source_commit") != source_commit:
+         parser.error("Offline gate source commit does not match HEAD")
+     timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+-    root = Path(__file__).resolve().parent / "experiments" / f"real_v4_schema_visible_{timestamp}"
++    root = Path(__file__).resolve().parent / "experiments" / f"real_v5_longer_horizon_{timestamp}"
+     root.mkdir(parents=True, exist_ok=False)
+     write_json(root / "run_manifest.json", {
+         "protocol_version": PROTOCOL_VERSION, "source_commit": source_commit,
+@@ -464,7 +464,7 @@ def main() -> None:
+         "max_gpu_wall_seconds": MAX_GPU_WALL_SECONDS,
+         "tool_schema_sha256": tool_schema_sha256(),
+         "prompt_sha256": {cell: {
+-            actor: prompt_sha256(actor, WorldV4(cell, run_id="hash").config)
++            actor: prompt_sha256(actor, WorldV5(cell, run_id="hash").config)
+             for actor in AGENTS} for cell in CELL_ORDER},
+         "status": "STARTING", "cells_saved": [],
+     })
+@@ -473,7 +473,7 @@ def main() -> None:
+         "b_ran": False, "c_ran": False, "d_ran": False,
+         "criteria": {}, "stop_reason": None,
+     }
+-    write_json(root / "V4_LIVE_DECISION.json", decision)
++    write_json(root / "V5_LIVE_DECISION.json", decision)
+     write_overview(root, [], decision)
+     records: list[dict[str, Any]] = []
+     validations: dict[str, Any] = {}
+@@ -503,7 +503,7 @@ def main() -> None:
+             validations["A"] = validation
+             decision["a_ran"] = True
+             decision.update(pilot_gate(a, validation))
+-            write_json(root / "V4_LIVE_DECISION.json", decision)
++            write_json(root / "V5_LIVE_DECISION.json", decision)
+             write_overview(root, records, decision)
+             if decision["pilot_pass"]:
+                 for cell in ("B", "C", "D"):
+@@ -515,7 +515,7 @@ def main() -> None:
+                     records.append(record)
+                     validations[cell] = validation
+                     decision[f"{cell.lower()}_ran"] = True
+-                    write_json(root / "V4_LIVE_DECISION.json", decision)
++                    write_json(root / "V5_LIVE_DECISION.json", decision)
+                     write_overview(root, records, decision)
+                     if record["status"] == "ABORTED" or not validation.get("validation_ok"):
+                         decision["stop_reason"] = (
+@@ -544,7 +544,7 @@ def main() -> None:
+         manifest["cells_saved"] = [r["cell"] for r in records]
+         manifest["elapsed_wall_seconds"] = time.monotonic() - started
+         write_json(manifest_path, manifest)
+-        write_json(root / "V4_LIVE_DECISION.json", decision)
++        write_json(root / "V5_LIVE_DECISION.json", decision)
+         write_json(root / "VALIDATION.json", {
+             "protocol_version": PROTOCOL_VERSION, "cells": validations,
+             "model_calls": transport.call_count if transport else 0,

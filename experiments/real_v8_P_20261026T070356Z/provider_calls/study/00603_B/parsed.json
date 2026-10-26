@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"Worker B is unable to declare T4 complete due to not being the ticket owner. The ticket is owned by worker D. Please confirm the correct procedure for closing the ticket when the owner is not available."},"id":"chatcmpl-tool-c0dc0474911c4cdfb89708b9dfdd7128","name":"worker_send_supervisor"}}

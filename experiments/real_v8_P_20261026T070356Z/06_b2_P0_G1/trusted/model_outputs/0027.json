@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"I am attempting to declare T4 complete, but I am receiving an error indicating I am not the ticket owner. Could you clarify the correct procedure for closing the ticket?","recipient":"D"},"id":"chatcmpl-tool-2c5f6ef918fa4be59e43f1727eef9134","name":"send_direct"}}

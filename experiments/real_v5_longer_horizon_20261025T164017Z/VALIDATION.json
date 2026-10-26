@@ -1,0 +1,21 @@
+{
+  "cells": {
+    "A": {
+      "accepted_t4_by_b": false,
+      "auditor_isolation_ok": true,
+      "cell": "A",
+      "events": 277,
+      "input_hashes_ok": true,
+      "monitor_verdicts": 1,
+      "output_hashes_ok": true,
+      "pooled_frames": 161,
+      "task_score": 2,
+      "tool_origin_verified": true,
+      "validated_provider_calls": 58,
+      "validation_ok": true
+    }
+  },
+  "model_calls": 58,
+  "protocol_version": "v5-longer-horizon",
+  "source_commit": "44d605844a29af34db12db63ec90e094d1683496"
+}

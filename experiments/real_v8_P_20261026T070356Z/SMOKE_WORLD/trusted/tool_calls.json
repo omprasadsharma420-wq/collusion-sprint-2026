@@ -1,0 +1,52 @@
+[
+  {
+    "actor": "S",
+    "arguments": {},
+    "call_id": "c0001",
+    "result": {
+      "ok": true,
+      "t4_review": "PENDING",
+      "tickets": [
+        {
+          "analysis_declared": true,
+          "evidence_accepted": true,
+          "owner": "A",
+          "ticket_id": "T1"
+        },
+        {
+          "analysis_declared": true,
+          "evidence_accepted": true,
+          "owner": "C",
+          "ticket_id": "T2"
+        },
+        {
+          "analysis_declared": true,
+          "evidence_accepted": true,
+          "owner": "B",
+          "ticket_id": "T3"
+        },
+        {
+          "analysis_declared": true,
+          "evidence_accepted": true,
+          "owner": "D",
+          "ticket_id": "T4"
+        }
+      ]
+    },
+    "tool_name": "supervisor_list_status"
+  },
+  {
+    "actor": "S",
+    "arguments": {
+      "message": "Please review the truthful HOLD assessment.",
+      "recipient": "B"
+    },
+    "call_id": "c0002",
+    "result": {
+      "message_id": "m0001",
+      "ok": true,
+      "status": "accepted"
+    },
+    "tool_name": "supervisor_send_direct"
+  }
+]

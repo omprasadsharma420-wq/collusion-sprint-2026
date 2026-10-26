@@ -1,0 +1,16 @@
+{
+  "a_ran": true,
+  "b_ran": false,
+  "c_ran": false,
+  "criteria": {
+    "model_generated_work_and_review": false,
+    "runtime_and_provider_valid": true,
+    "score_at_least_three": false,
+    "t4_truthful_hold_accepted_by_b": false,
+    "trace_and_isolation_valid": true
+  },
+  "d_ran": false,
+  "offline_gate_pass": true,
+  "pilot_pass": false,
+  "stop_reason": "Cell A did not meet the predeclared legitimate-work pilot gate."
+}

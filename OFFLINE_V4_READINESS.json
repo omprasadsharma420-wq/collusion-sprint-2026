@@ -1,0 +1,77 @@
+{
+  "checks": {
+    "exact_prompt_and_schema_hashes": true,
+    "frozen_v3_runtime_clean": true,
+    "guide_keys_without_oracle_values": true,
+    "local_fixture_replay_links": true,
+    "no_uncommitted_scientific_source": true,
+    "only_approved_tool_descriptions_changed": true,
+    "protocol_version": true,
+    "python_3_11_and_all_tests_pass": true,
+    "scripted_positive_and_negative_controls": true,
+    "source_files_present": true,
+    "tool_names_and_argument_schemas_frozen": true,
+    "unchanged_task_facts_and_hidden_verifier": true
+  },
+  "details": {
+    "changed_tool_descriptions": [
+      "read_ticket_artifact",
+      "submit_work"
+    ],
+    "unittest_count": 63
+  },
+  "fixture": {
+    "invalid_ready_score": 0,
+    "valid_hold_score": 4
+  },
+  "offline_gate_pass": true,
+  "prompt_sha256": {
+    "A": {
+      "A": "eb186b4996533b4f002144383bbcb6522523f8d98ac99c4b7ce3ec324b81b900",
+      "B": "9b8f19dc5e8a9ee28a306e3b1cd163e3e0790a07cf8c326889fc751786b88233",
+      "C": "352e2302eb8f8624ea6aa4140a8083100950f4a090d089b6cb6a1e4e1d612df7",
+      "D": "313b6bec1e0b90ff728aad8459520a280f9b65e7779c8d570dcb1a50f80b385a"
+    },
+    "B": {
+      "A": "462744098fa13e44923535d310ef63e2ca958421ceda62076b6bf2d735ccab2e",
+      "B": "91353d1d193f0337182d059a42d3a9430e60369804e433f4af1235bda55bd609",
+      "C": "3046f0cc1688a48eefdd5740859eadd1209701ace028c0b957e97b1f94d3b8da",
+      "D": "bff2621c3252e556dc2a67b9bd0015f7a91e47d360bc944a46c90f838ba63442"
+    },
+    "C": {
+      "A": "eb186b4996533b4f002144383bbcb6522523f8d98ac99c4b7ce3ec324b81b900",
+      "B": "9b8f19dc5e8a9ee28a306e3b1cd163e3e0790a07cf8c326889fc751786b88233",
+      "C": "352e2302eb8f8624ea6aa4140a8083100950f4a090d089b6cb6a1e4e1d612df7",
+      "D": "313b6bec1e0b90ff728aad8459520a280f9b65e7779c8d570dcb1a50f80b385a"
+    },
+    "D": {
+      "A": "462744098fa13e44923535d310ef63e2ca958421ceda62076b6bf2d735ccab2e",
+      "B": "91353d1d193f0337182d059a42d3a9430e60369804e433f4af1235bda55bd609",
+      "C": "3046f0cc1688a48eefdd5740859eadd1209701ace028c0b957e97b1f94d3b8da",
+      "D": "bff2621c3252e556dc2a67b9bd0015f7a91e47d360bc944a46c90f838ba63442"
+    }
+  },
+  "protocol_version": "v4-schema-visible",
+  "source_commit": "a9e863f43d0367cda1122f48a29795baca0e748c",
+  "source_sha256": {
+    "PROMPT_HASHES_V4.json": "4b4b8558802a5b524d4efa7b9d570546a95a35e9b64a170c897f8feb91a5c9c8",
+    "V4_MODEL_VISIBLE_DIFF.md": "a082b4b9553ab7b923e0b3d8cb3d41390b11edcee55d27108b643e85b8339763",
+    "agent_adapter_v3.py": "25f49d6ede70d66971eafb7456d14760e91b1a4d17b653cadefe59a0faa47717",
+    "agent_adapter_v4.py": "c124dc1315fa3b3a2e291c4d5e1053ed84730d233029e5b929c53f7858b2d9ad",
+    "audit_projection_v2.py": "d437c5d7d24285e9f50d4ba459a91e12eecf2ac98cef788facc057ed30054d22",
+    "audit_rules_v3.py": "562fe8a33931bff15d2c3a3c521333b30bd0d2818be69acfd40c2b2156dfd1fa",
+    "diagnostics/v4_offline_gate.py": "9532dc482c3f80cc64ac3c7877ec9e42a8421fbae4e9aeffe798dce0456ae99d",
+    "modal_transport.py": "435e8179b3e357edc58fea853975e5c3ec780ef2b264ef9118affc624ac05263",
+    "modal_vllm_worker.py": "464b68e6b593cdb64136a478c85e62acef688f11d58b5c275f7b0f5c8ce56d1c",
+    "protocol_v3.py": "8f51d55371b733477803c89219a31d49c4b3a77b1a2fc951247d3fcfa1cab5de",
+    "protocol_v4.py": "12f6e371d02553aca2cb86186370997312dbafc8b28b6f4c2585d57e140d0332",
+    "render_trace.py": "6f4ef2b505611815a5b22c260af0ad393b610e36f7ed0b1a80ad442e9da1b5c8",
+    "render_v4_replay.py": "ea46e43e17ec52a03c4c5f79e97c9ea1d17616758760e27033470e20ed11a566",
+    "run_mock_v4.py": "9fe489591590f736e3ac59b1823f2126b62bc68f79f7726d99e390a10115bbd5",
+    "run_real_modal_v4.py": "d66507260c1eee6363a4fbe8040b1a6bca8a124feadb72773084d6e7c114feba",
+    "tests/test_v4_offline.py": "91b26abdefef9a882d7fe91825b3cea7c847ac01e90b94fd6546e2713c4cad7f",
+    "world_v3.py": "a5585e51dbc9c6390e0d847f8e935c2cd8c5caa9e0eb73076ef0923229fe577b",
+    "world_v4.py": "44ae532244f8ac58400fbc78c1a45ebe6f47919b3e85fb1bbd92e095c10ca9df"
+  },
+  "tool_schema_sha256": "731cc6a16818df562ee7b4d6801035948c27630fb3785441ab4f36158936fb99"
+}

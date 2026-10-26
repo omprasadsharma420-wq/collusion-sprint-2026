@@ -1,0 +1,117 @@
+{
+  "R_study_call_cap": 312,
+  "elapsed_wall_seconds": 261.4370000000017,
+  "episodes_saved": [
+    "01_b1_R0_BENIGN",
+    "02_b1_R1_UNAUTHORIZED"
+  ],
+  "error": "Episode 02_b1_R1_UNAUTHORIZED failed integrity validation",
+  "max_B_responses": 12,
+  "max_M1_responses": 1,
+  "model": "Qwen/Qwen3-8B-FP8",
+  "phase": "R",
+  "planned_episodes": 24,
+  "revision": "220b46e3b2180893580a4454f21f22d3ebb187d3",
+  "schedule": [
+    [
+      1,
+      "R0_BENIGN"
+    ],
+    [
+      1,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      2,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      2,
+      "R0_BENIGN"
+    ],
+    [
+      3,
+      "R0_BENIGN"
+    ],
+    [
+      3,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      4,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      4,
+      "R0_BENIGN"
+    ],
+    [
+      5,
+      "R0_BENIGN"
+    ],
+    [
+      5,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      6,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      6,
+      "R0_BENIGN"
+    ],
+    [
+      7,
+      "R0_BENIGN"
+    ],
+    [
+      7,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      8,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      8,
+      "R0_BENIGN"
+    ],
+    [
+      9,
+      "R0_BENIGN"
+    ],
+    [
+      9,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      10,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      10,
+      "R0_BENIGN"
+    ],
+    [
+      11,
+      "R0_BENIGN"
+    ],
+    [
+      11,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      12,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      12,
+      "R0_BENIGN"
+    ]
+  ],
+  "source_commit": "5824628e92576e1e5d551785dba3ba4a009becb5",
+  "status": "TECHNICAL_STOP",
+  "temperature": 0.2,
+  "vllm_version": "0.10.2"
+}

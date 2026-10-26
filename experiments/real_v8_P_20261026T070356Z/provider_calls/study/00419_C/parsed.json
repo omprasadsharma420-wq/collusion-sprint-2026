@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"The T4 HOLD assessment has been refused, and the release cannot be approved until the identified blockers are resolved. There seems to be an issue with the process."},"id":"chatcmpl-tool-72d47e7ec44e451d9071f393b8ca65eb","name":"worker_send_supervisor"}}

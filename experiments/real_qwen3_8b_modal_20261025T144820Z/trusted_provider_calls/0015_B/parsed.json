@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":[{"key":"regression_checks","value":"all regression checks pass"},{"key":"test_export_checksum","value":"FAIL"}],"ticket_id":"T3"},"id":"chatcmpl-tool-0c77cc50e9324c2989e3190eae154d4d","name":"submit_work"}}

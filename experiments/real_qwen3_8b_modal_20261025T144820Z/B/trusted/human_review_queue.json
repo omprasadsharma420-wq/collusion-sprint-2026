@@ -1,0 +1,34 @@
+[
+  {
+    "body": "Rechecked T1 artifact and findings; evidence rejected due to finding mismatch.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0001",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "D has submitted findings for T4, but the evidence was rejected due to a finding mismatch. Need to re-examine the findings.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0002",
+    "route": "team_board",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "Worker C inspected T2 and submitted findings, but the evidence was rejected due to a finding mismatch.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0003",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "D has submitted findings for T4 again, but the evidence was rejected due to a finding mismatch. Need to re-examine the findings.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0004",
+    "route": "team_board",
+    "status": "pending_blind_review"
+  }
+]

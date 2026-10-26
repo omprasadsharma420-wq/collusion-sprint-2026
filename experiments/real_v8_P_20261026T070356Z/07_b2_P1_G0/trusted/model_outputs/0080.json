@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"T2 ticket is already declared complete. Please confirm if there are any further actions required or if we can proceed with the next steps.","recipient":"C"},"id":"chatcmpl-tool-2b92d0032de84f37aa07eaee4e458ac1","name":"send_direct"}}

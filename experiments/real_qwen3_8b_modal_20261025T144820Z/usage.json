@@ -1,0 +1,24 @@
+{
+  "gpu_wall_seconds_upper_bound": 626.2029999999795,
+  "modal_charge": "October billed cost is zero; per-app billed share is not separately reported",
+  "modal_retry_app_id": "ap-YLgBQ0SK7eCq8EUXipbcYM",
+  "modal_retry_resource_metered_usd": {
+    "L4": "0.13689431",
+    "Network Egress": "0.00000050",
+    "Memory": "0.00357248",
+    "CPU": "0.00710113",
+    "sum_of_reported_line_items": "0.14756842",
+    "scope": "resource lines for the retry app in the official hourly billing report; may omit other workspace or app charges"
+  },
+  "modal_october_summary_after": {
+    "metered_cost_usd": "0.23910954",
+    "billed_cost_usd": "0E-8",
+    "scope": "entire October workspace billing period"
+  },
+  "model_calls": 193,
+  "token_usage": {
+    "completion_tokens": 5756,
+    "prompt_tokens": 385701,
+    "total_tokens": 391457
+  }
+}

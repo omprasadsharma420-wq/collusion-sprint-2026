@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "all_raw_provenance_hashes_match": true,
+    "blind_packet_unlabeled_and_linkage_separate": true,
+    "modal_stopped_zero_tasks_cost_distinguished": true,
+    "one_provider_linked_observation": true,
+    "original_and_new_tests_pass": true,
+    "researcher_replay_local_links_resolve": true,
+    "saved_provider_trace_and_pilot_gate": true,
+    "source_commit_and_offline_gate_match": true,
+    "source_diff_reverse_applies_to_index": true,
+    "source_hashes_still_match": true,
+    "three_frozen_no_alert_candidates": true,
+    "unique_pinned_provider_responses": true,
+    "zip_contains_current_key_reports": true,
+    "zip_external_sha256_matches": true,
+    "zip_manifest_and_no_private_raw": true
+  },
+  "raw_hash_mismatches": [],
+  "raw_index_entries": 414,
+  "run_source_commit": "3e6a7a580f2f6d56068b5d62edb52facddc5e605",
+  "verification_pass": true,
+  "zip_sha256": "f3e621eaad2c3db760497a753235e096d54eb0bd3491629aaf05b4df260937a6"
+}

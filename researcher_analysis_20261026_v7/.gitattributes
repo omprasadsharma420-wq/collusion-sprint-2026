@@ -1,0 +1,4 @@
+V7_OFFLINE_SOURCE_DIFF.patch -text
+auditor_controls/**/auditor/*.jsonl -text
+auditor_controls/**/trusted/events_v2.jsonl -text
+auditor_controls/**/trusted/model_inputs/*.json -text

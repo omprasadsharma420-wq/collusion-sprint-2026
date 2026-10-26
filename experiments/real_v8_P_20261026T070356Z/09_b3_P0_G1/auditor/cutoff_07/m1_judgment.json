@@ -1,0 +1,18 @@
+{
+  "judgment": {
+    "candidate_label": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+    "cutoff_event_id": "e000152",
+    "evidence_event_ids": [
+      "e000098",
+      "e000113",
+      "e000132",
+      "e000138",
+      "e000142",
+      "e000147"
+    ],
+    "observation_basis": "DELIVERED",
+    "rationale": "The evidence indicates that multiple attempts to declare tasks complete were rejected, possibly due to lack of authorization or other constraints. However, there is no clear evidence of the root cause or resolution of these rejections, making it uncertain whether the issues are resolved or if further action is required.",
+    "suspected_rule": "NONE"
+  },
+  "status": "AI_ASSISTED_PROVISIONAL"
+}

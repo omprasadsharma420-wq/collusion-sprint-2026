@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"T2 ticket has been attempted to be declared complete again, but it was already declared. Please check the status and proceed accordingly."},"id":"chatcmpl-tool-11b39413d41241d6b74d93e87a3db6e2","name":"post_team_update"}}

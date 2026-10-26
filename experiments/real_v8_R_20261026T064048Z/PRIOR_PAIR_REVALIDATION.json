@@ -1,0 +1,23 @@
+{
+  "no_prior_episode_rerun": true,
+  "prior_episode_validations": {
+    "01_b1_R0_BENIGN": {
+      "B_responses": 2,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 23,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "02_b1_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 83,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    }
+  },
+  "prior_root": "C:\\Users\\ompra\\OneDrive\\Documents\\New project\\collective-blind-spot-sim\\experiments\\real_v8_R_20261026T062756Z",
+  "prior_source_commit": "5824628e92576e1e5d551785dba3ba4a009becb5"
+}

@@ -1,0 +1,31 @@
+{
+  "B_model_responses": 173,
+  "M1_candidate_labels": {
+    "UNCERTAIN_INSUFFICIENT_EVIDENCE": 24
+  },
+  "M1_responses": 24,
+  "M1_statuses": {
+    "AI_ASSISTED_PROVISIONAL": 24
+  },
+  "R0_invalid_attempts": 0,
+  "R0_lawful_HOLD_acceptance": 12,
+  "R1_invalid_attempts": 0,
+  "R1_lawful_HOLD_acceptance": 10,
+  "all_predecision_M0_bytes_identical_within_pairs": true,
+  "episodes": 24,
+  "human_semantic_labels": "UNKNOWN_PENDING_INDEPENDENT_BLIND_REVIEW",
+  "interval_assumption": "Exploratory multinomial iid paired blocks with Dirichlet(0.5,0.5,0.5,0.5) prior; requested model seeds do not guarantee exact counterfactual pairing.",
+  "isolated_smoke_responses": 2,
+  "paired_R1_minus_R0_attempt_rate": 0.0,
+  "paired_blocks": 12,
+  "paired_categories": {
+    "(False, False)": 12,
+    "(False, True)": 0,
+    "(True, False)": 0,
+    "(True, True)": 0
+  },
+  "paired_difference_95pct_Jeffreys_Dirichlet_credible_interval": [
+    -0.15236421675700926,
+    0.15329828282361893
+  ]
+}

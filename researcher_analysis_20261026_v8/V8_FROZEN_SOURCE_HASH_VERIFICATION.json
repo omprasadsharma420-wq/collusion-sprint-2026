@@ -1,0 +1,539 @@
+{
+  "freeze_source_commit_verification": [
+    {
+      "manifest": "V8_FROZEN_MANIFEST.json",
+      "commit": "5824628e92576e1e5d551785dba3ba4a009becb5",
+      "files_checked": 22,
+      "unexplained_mismatches": [],
+      "checkout_line_ending_cases": [
+        "protocol_v3.py"
+      ],
+      "current_exact_match_count": 20,
+      "entries": [
+        {
+          "path": "audit_projection_v2.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "d437c5d7d24285e9f50d4ba459a91e12eecf2ac98cef788facc057ed30054d22"
+        },
+        {
+          "path": "audit_rules_v3.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "562fe8a33931bff15d2c3a3c521333b30bd0d2818be69acfd40c2b2156dfd1fa"
+        },
+        {
+          "path": "modal_vllm_worker.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "464b68e6b593cdb64136a478c85e62acef688f11d58b5c275f7b0f5c8ce56d1c"
+        },
+        {
+          "path": "protocol_v3.py",
+          "match_to_git_blob_exact": false,
+          "match_after_git_LF_to_CRLF_checkout": true,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "8f51d55371b733477803c89219a31d49c4b3a77b1a2fc951247d3fcfa1cab5de"
+        },
+        {
+          "path": "protocol_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "b30956248d5969efcc91e4c0f9384433e3a23d744ef3edbe30c896795458cb2e"
+        },
+        {
+          "path": "trace_v2.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "34b3661b63585248e71cb4b0dbe8c5a0638b849248e1e492ec7bdc6825f65a9e"
+        },
+        {
+          "path": "truth_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "1fe9dbe79576013e415e2954ef276df7044a39c1f35f3d42b9eff551453e2c8a"
+        },
+        {
+          "path": "v8/V8_DESIGN.md",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "623d3d9f0322dd4567b3290a0ffcceda5f169beaf1f6c05172b28e84a473d8aa"
+        },
+        {
+          "path": "v8/adapter.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "ba304efc73f69d8081485b57186a74702f81318c3307f54a05a8e1c7e2398cf0"
+        },
+        {
+          "path": "v8/auditor.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "34edb58f83e79c51f26907883f2e73b4a70d9e2677ca6f81b6f998bfbcbc3b61"
+        },
+        {
+          "path": "v8/freeze.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "62f7051cae805caa8111bdc4c2a980536d8286e22ad15ca6e6076abcfb567567"
+        },
+        {
+          "path": "v8/protocol.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "f105316e66682df0077d118e62a38b5c03257b2054f48e87ee60f957a8055b96"
+        },
+        {
+          "path": "v8/run_r.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": false,
+          "frozen_sha256": "a647b30102724ae7b49eba5fbff13bcfa9138a4c3751b39323bcab8e717ab51e"
+        },
+        {
+          "path": "v8/tests/test_run_r_offline.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": false,
+          "frozen_sha256": "f2a7166ff3a2113e183dddad22a3607309fc22d3110f5b4c9cf1748d4fd6e1aa"
+        },
+        {
+          "path": "v8/tests/test_transport.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "f1992c742adc6140cfef6620b5ffc2c4303b9ee033fd0b3f93997cc937f418c5"
+        },
+        {
+          "path": "v8/tests/test_world.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "8639f3eec82bad28a3bd32f0fbd3838322e139b138ee72252dc44842dbf5d173"
+        },
+        {
+          "path": "v8/transport.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "cd17ea1038748f3f0c4397f5fcb8f23e1bf96e5d7a31099aeebe141668bf60fd"
+        },
+        {
+          "path": "v8/world.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "a011e0fcfad5be133c307b9df839baa11b75e1fc5088336038666a4b32b4b8aa"
+        },
+        {
+          "path": "verifier_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "02e92254a7b1078215bdee08c0063dfbc6811f08eb5b070468a66452745cd982"
+        },
+        {
+          "path": "world_v3.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "a5585e51dbc9c6390e0d847f8e935c2cd8c5caa9e0eb73076ef0923229fe577b"
+        },
+        {
+          "path": "world_v6.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "4a737dc0bc9e0daaa62187deb3a395f8088c009a82f8ac32203286084a30547a"
+        },
+        {
+          "path": "world_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "eba7e950155b254c465bfd7d55802fbad51005401c1e0dcf6b407a028c7c3a84"
+        }
+      ]
+    },
+    {
+      "manifest": "V8_FROZEN_MANIFEST_R_CONTINUATION.json",
+      "commit": "5619b588849f2a1aae277b60587d070ba952539f",
+      "files_checked": 22,
+      "unexplained_mismatches": [],
+      "checkout_line_ending_cases": [
+        "protocol_v3.py"
+      ],
+      "current_exact_match_count": 22,
+      "entries": [
+        {
+          "path": "audit_projection_v2.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "d437c5d7d24285e9f50d4ba459a91e12eecf2ac98cef788facc057ed30054d22"
+        },
+        {
+          "path": "audit_rules_v3.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "562fe8a33931bff15d2c3a3c521333b30bd0d2818be69acfd40c2b2156dfd1fa"
+        },
+        {
+          "path": "modal_vllm_worker.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "464b68e6b593cdb64136a478c85e62acef688f11d58b5c275f7b0f5c8ce56d1c"
+        },
+        {
+          "path": "protocol_v3.py",
+          "match_to_git_blob_exact": false,
+          "match_after_git_LF_to_CRLF_checkout": true,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "8f51d55371b733477803c89219a31d49c4b3a77b1a2fc951247d3fcfa1cab5de"
+        },
+        {
+          "path": "protocol_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "b30956248d5969efcc91e4c0f9384433e3a23d744ef3edbe30c896795458cb2e"
+        },
+        {
+          "path": "trace_v2.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "34b3661b63585248e71cb4b0dbe8c5a0638b849248e1e492ec7bdc6825f65a9e"
+        },
+        {
+          "path": "truth_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "1fe9dbe79576013e415e2954ef276df7044a39c1f35f3d42b9eff551453e2c8a"
+        },
+        {
+          "path": "v8/V8_DESIGN.md",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "623d3d9f0322dd4567b3290a0ffcceda5f169beaf1f6c05172b28e84a473d8aa"
+        },
+        {
+          "path": "v8/adapter.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "ba304efc73f69d8081485b57186a74702f81318c3307f54a05a8e1c7e2398cf0"
+        },
+        {
+          "path": "v8/auditor.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "34edb58f83e79c51f26907883f2e73b4a70d9e2677ca6f81b6f998bfbcbc3b61"
+        },
+        {
+          "path": "v8/freeze.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "62f7051cae805caa8111bdc4c2a980536d8286e22ad15ca6e6076abcfb567567"
+        },
+        {
+          "path": "v8/protocol.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "f105316e66682df0077d118e62a38b5c03257b2054f48e87ee60f957a8055b96"
+        },
+        {
+          "path": "v8/run_r.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "e0e1b59aea74b41e12d3a7e2d01b6cf81c7bf19ee66fd5cf2246970eadabf9e2"
+        },
+        {
+          "path": "v8/tests/test_run_r_offline.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "75213d6a19c8e3317c6552f21f6d2d0c72b422e9183f93b66d1161a15185f230"
+        },
+        {
+          "path": "v8/tests/test_transport.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "f1992c742adc6140cfef6620b5ffc2c4303b9ee033fd0b3f93997cc937f418c5"
+        },
+        {
+          "path": "v8/tests/test_world.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "8639f3eec82bad28a3bd32f0fbd3838322e139b138ee72252dc44842dbf5d173"
+        },
+        {
+          "path": "v8/transport.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "cd17ea1038748f3f0c4397f5fcb8f23e1bf96e5d7a31099aeebe141668bf60fd"
+        },
+        {
+          "path": "v8/world.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "a011e0fcfad5be133c307b9df839baa11b75e1fc5088336038666a4b32b4b8aa"
+        },
+        {
+          "path": "verifier_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "02e92254a7b1078215bdee08c0063dfbc6811f08eb5b070468a66452745cd982"
+        },
+        {
+          "path": "world_v3.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "a5585e51dbc9c6390e0d847f8e935c2cd8c5caa9e0eb73076ef0923229fe577b"
+        },
+        {
+          "path": "world_v6.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "4a737dc0bc9e0daaa62187deb3a395f8088c009a82f8ac32203286084a30547a"
+        },
+        {
+          "path": "world_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "eba7e950155b254c465bfd7d55802fbad51005401c1e0dcf6b407a028c7c3a84"
+        }
+      ]
+    },
+    {
+      "manifest": "V8_P_FROZEN_MANIFEST.json",
+      "commit": "a2cde14796f7a7ab28a0ff4ce6aa410668c76dde",
+      "files_checked": 27,
+      "unexplained_mismatches": [],
+      "checkout_line_ending_cases": [
+        "protocol_v3.py"
+      ],
+      "current_exact_match_count": 27,
+      "entries": [
+        {
+          "path": "audit_projection_v2.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "d437c5d7d24285e9f50d4ba459a91e12eecf2ac98cef788facc057ed30054d22"
+        },
+        {
+          "path": "audit_rules_v3.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "562fe8a33931bff15d2c3a3c521333b30bd0d2818be69acfd40c2b2156dfd1fa"
+        },
+        {
+          "path": "modal_vllm_worker.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "464b68e6b593cdb64136a478c85e62acef688f11d58b5c275f7b0f5c8ce56d1c"
+        },
+        {
+          "path": "protocol_v3.py",
+          "match_to_git_blob_exact": false,
+          "match_after_git_LF_to_CRLF_checkout": true,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "8f51d55371b733477803c89219a31d49c4b3a77b1a2fc951247d3fcfa1cab5de"
+        },
+        {
+          "path": "protocol_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "b30956248d5969efcc91e4c0f9384433e3a23d744ef3edbe30c896795458cb2e"
+        },
+        {
+          "path": "trace_v2.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "34b3661b63585248e71cb4b0dbe8c5a0638b849248e1e492ec7bdc6825f65a9e"
+        },
+        {
+          "path": "truth_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "1fe9dbe79576013e415e2954ef276df7044a39c1f35f3d42b9eff551453e2c8a"
+        },
+        {
+          "path": "v8/V8_DESIGN.md",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "623d3d9f0322dd4567b3290a0ffcceda5f169beaf1f6c05172b28e84a473d8aa"
+        },
+        {
+          "path": "v8/adapter.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "ba304efc73f69d8081485b57186a74702f81318c3307f54a05a8e1c7e2398cf0"
+        },
+        {
+          "path": "v8/audit_r.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "8b0389358da30925e1f31541494d6c035dc0f0737977cd89d50a5af664f78a2a"
+        },
+        {
+          "path": "v8/auditor.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "34edb58f83e79c51f26907883f2e73b4a70d9e2677ca6f81b6f998bfbcbc3b61"
+        },
+        {
+          "path": "v8/freeze.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "62f7051cae805caa8111bdc4c2a980536d8286e22ad15ca6e6076abcfb567567"
+        },
+        {
+          "path": "v8/freeze_p.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "47d38d80c767fb39cd16ae1054cebf1602eb9ec3b8c0274f9a916e96a1e3a9f4"
+        },
+        {
+          "path": "v8/protocol.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "f105316e66682df0077d118e62a38b5c03257b2054f48e87ee60f957a8055b96"
+        },
+        {
+          "path": "v8/run_p.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "175e33f337a731c5024078fabb51af2e595a663d83b9b8341a1783ea63b728a1"
+        },
+        {
+          "path": "v8/run_r.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "e0e1b59aea74b41e12d3a7e2d01b6cf81c7bf19ee66fd5cf2246970eadabf9e2"
+        },
+        {
+          "path": "v8/smoke_p.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "1e9e3ae2d69a32a4345af05a65a948c0629ed45b0423d9b5fe58a3f60048e2b8"
+        },
+        {
+          "path": "v8/tests/test_run_p_offline.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "74fa51013b5060aa096b2012f052f2b87c7b6dc521fa722123652eb73343ec02"
+        },
+        {
+          "path": "v8/tests/test_run_r_offline.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "75213d6a19c8e3317c6552f21f6d2d0c72b422e9183f93b66d1161a15185f230"
+        },
+        {
+          "path": "v8/tests/test_transport.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "f1992c742adc6140cfef6620b5ffc2c4303b9ee033fd0b3f93997cc937f418c5"
+        },
+        {
+          "path": "v8/tests/test_world.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "8639f3eec82bad28a3bd32f0fbd3838322e139b138ee72252dc44842dbf5d173"
+        },
+        {
+          "path": "v8/transport.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "cd17ea1038748f3f0c4397f5fcb8f23e1bf96e5d7a31099aeebe141668bf60fd"
+        },
+        {
+          "path": "v8/world.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "a011e0fcfad5be133c307b9df839baa11b75e1fc5088336038666a4b32b4b8aa"
+        },
+        {
+          "path": "verifier_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "02e92254a7b1078215bdee08c0063dfbc6811f08eb5b070468a66452745cd982"
+        },
+        {
+          "path": "world_v3.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "a5585e51dbc9c6390e0d847f8e935c2cd8c5caa9e0eb73076ef0923229fe577b"
+        },
+        {
+          "path": "world_v6.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "4a737dc0bc9e0daaa62187deb3a395f8088c009a82f8ac32203286084a30547a"
+        },
+        {
+          "path": "world_v7.py",
+          "match_to_git_blob_exact": true,
+          "match_after_git_LF_to_CRLF_checkout": false,
+          "current_worktree_exact_match": true,
+          "frozen_sha256": "eba7e950155b254c465bfd7d55802fbad51005401c1e0dcf6b407a028c7c3a84"
+        }
+      ]
+    }
+  ],
+  "R_original_continuation_scientific_fields_equal": true,
+  "note": "Frozen SHA-256 hashes are of checkout bytes. Git normalizes protocol_v3.py LF; its CRLF checkout bytes match the freeze. Full current checkout bytes and tracked source snapshots are both included."
+}

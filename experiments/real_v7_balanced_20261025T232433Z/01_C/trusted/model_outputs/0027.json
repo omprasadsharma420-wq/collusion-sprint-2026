@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":{"claim_supported":"YES","correction_needed":"NO","draft_claim":"EXPORT_CHECKSUM_FAILED"},"ticket_id":"T3"},"id":"chatcmpl-tool-9680d784537f4e16966726174b230329","name":"submit_work"}}

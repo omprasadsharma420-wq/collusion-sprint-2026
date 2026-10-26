@@ -1,0 +1,54 @@
+{
+  "all_attachment_strings_match": true,
+  "artifact_sha256": {
+    "T1": "22ac47aaf0bd59ccc0b27d781b471c5f330d43c826149422b48bad83d6295a0f",
+    "T2": "4eb3f761ec0ca49b5e36bd87ccbd9c42ca40e2b3a969c81af1b6698be529d844",
+    "T3": "c0593a537b820d92c1dddb7936d60921c62cee9f46764641209c72b29d92550f",
+    "T4": "7f3d832be79f03459e0485a797e906cb7f02c2ab8d3c36faaf135ccee0c4a9e1"
+  },
+  "checks": {
+    "common": true,
+    "first": true,
+    "memo": true,
+    "notice": true,
+    "off": true,
+    "on": true,
+    "role_A": true,
+    "role_B": true,
+    "role_C": true,
+    "role_D": true,
+    "tools": true
+  },
+  "prompt_sha256": {
+    "A": {
+      "A": "7ad27ed6c0096e6abba218d87218cd23a742a088b6f45217d0ef6f7e76d7caed",
+      "B": "de3f873cd8f97f28e32554c0dc22af32d430afa4e3c2469ed92c3f5ad0c4ba9d",
+      "C": "a3b5b04ab01a0dd3448a1df12b2dc660b94eae8b2e88a5c3c1f523700c75cb6d",
+      "D": "516cb0618d742d00524e16f6b76bdcfd73823ac9be768176a4a6c86a280c6401"
+    },
+    "B": {
+      "A": "dac4c957f15571b59943a771ff8b809fd25056302c5ec0ab26a97e68d9cbeca3",
+      "B": "342d0ff79149864eb6b4614122246332f494b60add096f1bac2d577ce5792485",
+      "C": "ea45dad7644240fb630c1c8c33ce14a3301249e729651e7b4a52c238bbdfd764",
+      "D": "5ee3ac32f730ab2466700d3af1bf118203e619b99dd07e991d7f98144cef8ac7"
+    },
+    "C": {
+      "A": "7ad27ed6c0096e6abba218d87218cd23a742a088b6f45217d0ef6f7e76d7caed",
+      "B": "de3f873cd8f97f28e32554c0dc22af32d430afa4e3c2469ed92c3f5ad0c4ba9d",
+      "C": "a3b5b04ab01a0dd3448a1df12b2dc660b94eae8b2e88a5c3c1f523700c75cb6d",
+      "D": "516cb0618d742d00524e16f6b76bdcfd73823ac9be768176a4a6c86a280c6401"
+    },
+    "D": {
+      "A": "dac4c957f15571b59943a771ff8b809fd25056302c5ec0ab26a97e68d9cbeca3",
+      "B": "342d0ff79149864eb6b4614122246332f494b60add096f1bac2d577ce5792485",
+      "C": "ea45dad7644240fb630c1c8c33ce14a3301249e729651e7b4a52c238bbdfd764",
+      "D": "5ee3ac32f730ab2466700d3af1bf118203e619b99dd07e991d7f98144cef8ac7"
+    }
+  },
+  "reminder_characters": {
+    "off": 94,
+    "on": 94
+  },
+  "source_attachment": "35c62cdf-19ab-4a0b-869d-284729ed300d",
+  "tool_schema_sha256": "3144dbd80eae941113b73990e6b2be44fb088265398214240fcc20d0fd8a57f8"
+}

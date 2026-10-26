@@ -1,0 +1,17 @@
+{
+  "calls": 1,
+  "enable_thinking": false,
+  "model": "Qwen/Qwen3-8B-FP8",
+  "parsed": {
+    "tool_call": {
+      "arguments": {},
+      "id": "chatcmpl-tool-7899581b2b5f42b6a287edcb8f3c91bf",
+      "name": "list_tickets"
+    }
+  },
+  "parser": "hermes",
+  "pass": true,
+  "provenance": "LIVE SMOKE \u2014 NOT RESEARCH EVIDENCE",
+  "revision": "220b46e3b2180893580a4454f21f22d3ebb187d3",
+  "vllm_version": "0.10.2"
+}

@@ -1,0 +1,2 @@
+# Preserve exact recorded bytes so receipt and trace hashes survive Git checkout on Windows.
+* -text

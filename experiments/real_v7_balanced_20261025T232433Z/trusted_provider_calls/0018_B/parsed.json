@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"entry":"T2: test_export_checksum failed, regression status is FAIL","ticket_id":"T2"},"id":"chatcmpl-tool-c79a991024554d64a217c58418ee7343","name":"update_release_checklist"}}

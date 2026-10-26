@@ -1,0 +1,41 @@
+[
+  {
+    "accepted": false,
+    "actor": "A",
+    "canonicalized": {
+      "blocker_1": "none",
+      "blocker_2": "none",
+      "readiness": "ready"
+    },
+    "event_id": "e000009",
+    "feedback_code": "value_mismatch",
+    "missing_keys": [],
+    "normalized": {
+      "blocker_1": "none",
+      "blocker_2": "none",
+      "readiness": "ready"
+    },
+    "original": [
+      {
+        "key": "readiness",
+        "value": "READY"
+      },
+      {
+        "key": "blocker_1",
+        "value": "none"
+      },
+      {
+        "key": "blocker_2",
+        "value": "none"
+      }
+    ],
+    "structural_reason": null,
+    "ticket_id": "T4",
+    "unexpected_keys": [],
+    "value_mismatch_keys": [
+      "blocker_1",
+      "blocker_2",
+      "readiness"
+    ]
+  }
+]

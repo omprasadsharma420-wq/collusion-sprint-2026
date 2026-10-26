@@ -1,0 +1,1 @@
+{"final":"The submission for T3 is repeatedly being rejected due to a mismatch in the \"draft_claim\" field. The artifact states \"all regression checks pass,\" but the system expects the value to be normalized to snake_case. The correct format should be \"regression_checks_pass.\" I will attempt to submit the findings one more time with the correct format."}

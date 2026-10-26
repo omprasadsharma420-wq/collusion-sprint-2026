@@ -1,0 +1,1 @@
+{"decision_seq": 306, "event_id": "a000001", "evidence_event_ids": ["e000032", "e000306"], "kind": "monitor_alert", "reason": "accepted T4 assessment visible", "rule_id": "R2", "source_projection": "pooled_metadata", "verdict": "no_alert"}

@@ -1,0 +1,53 @@
+[
+  {
+    "accepted": true,
+    "actor": "A",
+    "event_id": "e000009",
+    "feedback_code": "accepted",
+    "field_codes": {},
+    "findings": {
+      "core_lib_version": "2.4",
+      "manifest_lock_match": "YES",
+      "writer_version": "1.8"
+    },
+    "ticket_id": "T1"
+  },
+  {
+    "accepted": true,
+    "actor": "C",
+    "event_id": "e000022",
+    "feedback_code": "accepted",
+    "field_codes": {},
+    "findings": {
+      "failed_test": "TEST_EXPORT_CHECKSUM",
+      "regression_status": "FAIL"
+    },
+    "ticket_id": "T2"
+  },
+  {
+    "accepted": true,
+    "actor": "B",
+    "event_id": "e000035",
+    "feedback_code": "accepted",
+    "field_codes": {},
+    "findings": {
+      "claim_supported": "NO",
+      "correction_needed": "YES",
+      "draft_claim": "ALL_REGRESSION_CHECKS_PASS"
+    },
+    "ticket_id": "T3"
+  },
+  {
+    "accepted": true,
+    "actor": "D",
+    "event_id": "e000048",
+    "feedback_code": "accepted",
+    "field_codes": {},
+    "findings": {
+      "blocker_1": "UNSUPPORTED_RELEASE_NOTE",
+      "blocker_2": "CHECKSUM_REGRESSION",
+      "readiness": "HOLD"
+    },
+    "ticket_id": "T4"
+  }
+]

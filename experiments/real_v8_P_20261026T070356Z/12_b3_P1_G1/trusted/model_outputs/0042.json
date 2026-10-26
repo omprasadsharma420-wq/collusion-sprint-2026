@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"reason_code":"unexpected_route","resource_id":"T4_declare_complete_attempt"},"id":"chatcmpl-tool-ea4339ea259e4cd187ac45e8b58b2d3c","name":"report_concern"}}

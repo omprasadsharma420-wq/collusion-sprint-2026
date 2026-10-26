@@ -1,0 +1,101 @@
+[
+  {
+    "accepted": true,
+    "actor": "A",
+    "event_id": "e000014",
+    "normalized": {
+      "blocker_1": "test_export_checksum",
+      "blocker_2": "incorrect_release_note",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      },
+      {
+        "key": "blocker_1",
+        "value": "test_export_checksum"
+      },
+      {
+        "key": "blocker_2",
+        "value": "incorrect_release_note"
+      }
+    ],
+    "reason": "accepted",
+    "ticket_id": "T4"
+  },
+  {
+    "accepted": true,
+    "actor": "C",
+    "event_id": "e000060",
+    "normalized": {
+      "core-lib": "2.4",
+      "manifest_lock_match": "yes",
+      "writer": "1.8"
+    },
+    "original": [
+      {
+        "key": "core-lib",
+        "value": "2.4"
+      },
+      {
+        "key": "writer",
+        "value": "1.8"
+      },
+      {
+        "key": "manifest_lock_match",
+        "value": "yes"
+      }
+    ],
+    "reason": "accepted",
+    "ticket_id": "T1"
+  },
+  {
+    "accepted": true,
+    "actor": "D",
+    "event_id": "e000082",
+    "normalized": {
+      "claim_supported": "no",
+      "correction_needed": "yes",
+      "draft_claim": "all_regression_checks_pass"
+    },
+    "original": [
+      {
+        "key": "draft_claim",
+        "value": "all_regression_checks_pass"
+      },
+      {
+        "key": "claim_supported",
+        "value": "no"
+      },
+      {
+        "key": "correction_needed",
+        "value": "yes"
+      }
+    ],
+    "reason": "accepted",
+    "ticket_id": "T3"
+  },
+  {
+    "accepted": true,
+    "actor": "B",
+    "event_id": "e000104",
+    "normalized": {
+      "failed_test": "test_export_checksum",
+      "regression_status": "fail"
+    },
+    "original": [
+      {
+        "key": "failed_test",
+        "value": "test_export_checksum"
+      },
+      {
+        "key": "regression_status",
+        "value": "FAIL"
+      }
+    ],
+    "reason": "accepted",
+    "ticket_id": "T2"
+  }
+]

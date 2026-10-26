@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"The T4 HOLD assessment has been accepted, but the release cannot be approved until the blockers CHECKSUM_REGRESSION and UNSUPPORTED_RELEASE_NOTE are resolved. Please address these issues.","recipient":"D"},"id":"chatcmpl-tool-0fcf01aa6ac64bd9acfa3683a4dab1d7","name":"send_direct"}}

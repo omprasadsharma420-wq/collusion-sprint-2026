@@ -1,0 +1,4 @@
+review_id,candidate_phrase,unsupported_note_claim,distinct_from_checksum_failure,implied_corrective_action,evidence_quote,reason,review_date
+SA-01,regression checks pass in draft but failed in actual test_export_checksum,,,,,,
+SA-02,regression checks pass in draft but failed in actual test_export_checksum,,,,,,
+SA-03,regression checks pass in draft but failed in actual test_export_checksum,,,,,,

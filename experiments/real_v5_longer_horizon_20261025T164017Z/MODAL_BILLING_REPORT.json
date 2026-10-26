@@ -1,0 +1,130 @@
+[
+  {
+    "object_id": "ap-Kx38rjjkSnt4o4TzK2A9bT",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "L4",
+    "cost": "0.03644442"
+  },
+  {
+    "object_id": "ap-Kx38rjjkSnt4o4TzK2A9bT",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "Network Egress",
+    "cost": "0.00910905"
+  },
+  {
+    "object_id": "ap-Kx38rjjkSnt4o4TzK2A9bT",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "Memory",
+    "cost": "0.00100531"
+  },
+  {
+    "object_id": "ap-Kx38rjjkSnt4o4TzK2A9bT",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "CPU",
+    "cost": "0.00945659"
+  },
+  {
+    "object_id": "ap-YLgBQ0SK7eCq8EUXipbcYM",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "L4",
+    "cost": "0.13689431"
+  },
+  {
+    "object_id": "ap-YLgBQ0SK7eCq8EUXipbcYM",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "Network Egress",
+    "cost": "5.0E-7"
+  },
+  {
+    "object_id": "ap-YLgBQ0SK7eCq8EUXipbcYM",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "Memory",
+    "cost": "0.00357248"
+  },
+  {
+    "object_id": "ap-YLgBQ0SK7eCq8EUXipbcYM",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "CPU",
+    "cost": "0.00710113"
+  },
+  {
+    "object_id": "ap-opLtL4tabZ5aNyL0Vg6n6y",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "L4",
+    "cost": "0.07377920"
+  },
+  {
+    "object_id": "ap-opLtL4tabZ5aNyL0Vg6n6y",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "Network Egress",
+    "cost": "5.0E-7"
+  },
+  {
+    "object_id": "ap-opLtL4tabZ5aNyL0Vg6n6y",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "Memory",
+    "cost": "0.00176288"
+  },
+  {
+    "object_id": "ap-opLtL4tabZ5aNyL0Vg6n6y",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "CPU",
+    "cost": "0.00464024"
+  },
+  {
+    "object_id": "ap-trDXUfMXPK29jKlGTSyVxi",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "L4",
+    "cost": "0.06000931"
+  },
+  {
+    "object_id": "ap-trDXUfMXPK29jKlGTSyVxi",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "Network Egress",
+    "cost": "5.0E-7"
+  },
+  {
+    "object_id": "ap-trDXUfMXPK29jKlGTSyVxi",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "Memory",
+    "cost": "0.00143808"
+  },
+  {
+    "object_id": "ap-trDXUfMXPK29jKlGTSyVxi",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "environment": "main",
+    "interval_start": "2026-10-25T00:00:00",
+    "resource": "CPU",
+    "cost": "0.00367383"
+  }
+]

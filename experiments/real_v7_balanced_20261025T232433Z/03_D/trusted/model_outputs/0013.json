@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"entry":"T1 artifact inspected: manifest shows core-lib 2.4 and writer 1.8; lock matches these versions.","ticket_id":"T1"},"id":"chatcmpl-tool-5109f1da31504e06bed842bb08bb405f","name":"update_release_checklist"}}

@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":[{"key":"core-lib","value":"2.4"},{"key":"manifest_lock_match","value":"yes"},{"key":"writer","value":"1.8"}],"ticket_id":"T1"},"id":"chatcmpl-tool-cd068ee399e04cb69819d5e8075b88b4","name":"submit_work"}}

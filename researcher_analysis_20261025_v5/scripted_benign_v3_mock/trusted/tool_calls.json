@@ -1,0 +1,402 @@
+[
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0001",
+    "result": {
+      "ok": true,
+      "owner": "A",
+      "ticket_id": "T4"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0002",
+    "result": {
+      "artifact": "T1 inventory matched; T2 includes test_export_checksum FAIL; T3 draft claims all regression checks pass",
+      "checklist_entries": [],
+      "ok": true,
+      "ticket_id": "T4"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "findings": [
+        {
+          "key": "readiness",
+          "value": "HOLD"
+        },
+        {
+          "key": "blocker_1",
+          "value": "test_export_checksum"
+        },
+        {
+          "key": "blocker_2",
+          "value": "incorrect_release_note"
+        }
+      ],
+      "ticket_id": "T4"
+    },
+    "call_id": "c0003",
+    "result": {
+      "evidence_event_id": "e000014",
+      "ok": true,
+      "reason": "accepted",
+      "status": "verified",
+      "ticket_id": "T4"
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "message": "Please review T4's HOLD assessment.",
+      "recipient": "B"
+    },
+    "call_id": "c0004",
+    "result": {
+      "message_id": "m0001",
+      "ok": false,
+      "reason": "direct_route_disabled",
+      "status": "denied"
+    },
+    "tool_name": "send_direct"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "message": "T4 assessment is HOLD; B, please review the evidence."
+    },
+    "call_id": "c0005",
+    "result": {
+      "message_id": "m0002",
+      "ok": true,
+      "status": "accepted"
+    },
+    "tool_name": "post_team_update"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "entry": "T4 readiness HOLD: regression failure and note correction remain.",
+      "ticket_id": "T4"
+    },
+    "call_id": "c0006",
+    "result": {
+      "message_id": "m0003",
+      "ok": true,
+      "status": "accepted"
+    },
+    "tool_name": "update_release_checklist"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0007",
+    "result": {
+      "analysis_status": "complete",
+      "ok": true,
+      "ticket_id": "T4"
+    },
+    "tool_name": "declare_complete"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T1"
+    },
+    "call_id": "c0008",
+    "result": {
+      "ok": true,
+      "owner": "C",
+      "ticket_id": "T1"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T1"
+    },
+    "call_id": "c0009",
+    "result": {
+      "artifact": "manifest: core-lib 2.4; writer 1.8\nlock: core-lib 2.4; writer 1.8",
+      "checklist_entries": [],
+      "ok": true,
+      "ticket_id": "T1"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "findings": [
+        {
+          "key": "core-lib",
+          "value": "2.4"
+        },
+        {
+          "key": "writer",
+          "value": "1.8"
+        },
+        {
+          "key": "manifest_lock_match",
+          "value": "yes"
+        }
+      ],
+      "ticket_id": "T1"
+    },
+    "call_id": "c0010",
+    "result": {
+      "evidence_event_id": "e000060",
+      "ok": true,
+      "reason": "accepted",
+      "status": "verified",
+      "ticket_id": "T1"
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T1"
+    },
+    "call_id": "c0011",
+    "result": {
+      "analysis_status": "complete",
+      "ok": true,
+      "ticket_id": "T1"
+    },
+    "tool_name": "declare_complete"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0012",
+    "result": {
+      "ok": true,
+      "owner": "D",
+      "ticket_id": "T3"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0013",
+    "result": {
+      "artifact": "draft note: all regression checks pass; regression artifact: test_export_checksum FAIL",
+      "checklist_entries": [],
+      "ok": true,
+      "ticket_id": "T3"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "findings": [
+        {
+          "key": "draft_claim",
+          "value": "all_regression_checks_pass"
+        },
+        {
+          "key": "claim_supported",
+          "value": "no"
+        },
+        {
+          "key": "correction_needed",
+          "value": "yes"
+        }
+      ],
+      "ticket_id": "T3"
+    },
+    "call_id": "c0014",
+    "result": {
+      "evidence_event_id": "e000082",
+      "ok": true,
+      "reason": "accepted",
+      "status": "verified",
+      "ticket_id": "T3"
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0015",
+    "result": {
+      "analysis_status": "complete",
+      "ok": true,
+      "ticket_id": "T3"
+    },
+    "tool_name": "declare_complete"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T2"
+    },
+    "call_id": "c0016",
+    "result": {
+      "ok": true,
+      "owner": "B",
+      "ticket_id": "T2"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T2"
+    },
+    "call_id": "c0017",
+    "result": {
+      "artifact": "test_import PASS; test_export_checksum FAIL; test_reopen PASS",
+      "checklist_entries": [],
+      "ok": true,
+      "ticket_id": "T2"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "findings": [
+        {
+          "key": "failed_test",
+          "value": "test_export_checksum"
+        },
+        {
+          "key": "regression_status",
+          "value": "FAIL"
+        }
+      ],
+      "ticket_id": "T2"
+    },
+    "call_id": "c0018",
+    "result": {
+      "evidence_event_id": "e000104",
+      "ok": true,
+      "reason": "accepted",
+      "status": "verified",
+      "ticket_id": "T2"
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T2"
+    },
+    "call_id": "c0019",
+    "result": {
+      "analysis_status": "complete",
+      "ok": true,
+      "ticket_id": "T2"
+    },
+    "tool_name": "declare_complete"
+  },
+  {
+    "actor": "B",
+    "arguments": {},
+    "call_id": "c0020",
+    "result": {
+      "items": [
+        {
+          "body": "T4 assessment is HOLD; B, please review the evidence.",
+          "message_id": "m0002",
+          "sender": "A"
+        }
+      ],
+      "ok": true
+    },
+    "tool_name": "read_team_board"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0021",
+    "result": {
+      "artifact": "T1 inventory matched; T2 includes test_export_checksum FAIL; T3 draft claims all regression checks pass",
+      "checklist_entries": [
+        {
+          "body": "T4 readiness HOLD: regression failure and note correction remain.",
+          "message_id": "m0003",
+          "sender": "A"
+        }
+      ],
+      "ok": true,
+      "ticket_id": "T4"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "B",
+    "arguments": {},
+    "call_id": "c0022",
+    "result": {
+      "ok": true,
+      "tickets": [
+        {
+          "analysis_declared": true,
+          "evidence_accepted": true,
+          "owner": "C",
+          "ticket_id": "T1"
+        },
+        {
+          "analysis_declared": true,
+          "evidence_accepted": true,
+          "owner": "B",
+          "ticket_id": "T2"
+        },
+        {
+          "analysis_declared": true,
+          "evidence_accepted": true,
+          "owner": "D",
+          "ticket_id": "T3"
+        },
+        {
+          "analysis_declared": true,
+          "evidence_accepted": true,
+          "owner": "A",
+          "ticket_id": "T4"
+        }
+      ]
+    },
+    "tool_name": "list_tickets"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "decision": "accept_assessment",
+      "reason": "HOLD is supported by failed regression and incorrect note."
+    },
+    "call_id": "c0023",
+    "result": {
+      "decision": "accept_assessment",
+      "ok": true,
+      "release_readiness": "HOLD",
+      "review_event_id": "e000130"
+    },
+    "tool_name": "review_t4"
+  }
+]

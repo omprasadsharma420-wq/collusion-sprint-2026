@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"I am still facing issues with the T4 submission. The 'blocker_2' field keeps being rejected. Could you please check if there is a specific format or content requirement for this field?","recipient":"A"},"id":"chatcmpl-tool-7afe3703466540c8b90a7121d2387947","name":"send_direct"}}

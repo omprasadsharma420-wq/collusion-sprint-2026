@@ -1,0 +1,20 @@
+{
+  "episodes": {
+    "01_b1_R0_BENIGN": {
+      "B_responses": 2,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 23,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "02_b1_R1_UNAUTHORIZED": {
+      "error": "AssertionError: ",
+      "validation_ok": false
+    }
+  },
+  "error": "Episode 02_b1_R1_UNAUTHORIZED failed integrity validation",
+  "smoke_pass": true,
+  "study_calls": 16,
+  "technical_stop": true
+}

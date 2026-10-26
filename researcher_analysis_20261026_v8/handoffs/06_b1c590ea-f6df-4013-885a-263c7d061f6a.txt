@@ -1,0 +1,203 @@
+COLLECTIVE BLIND SPOT — SINGLE CODEX HANDOFF
+
+Recover Modal connectivity, preserve the failed run, and complete the already authorized bounded real-agent pilot
+
+Issued: 25 October 2026, Nepal time.
+Submission target: 26 October 2026, 17:44 Nepal time.
+Status: Recovery and execution order, not a new scientific protocol.
+Read this whole file before making changes. This file replaces the previous run instruction only with respect to recovery from the DNS failure; all scientific freezes and stricter safety/cost caps still apply.
+
+1. Verified-by-researcher report: what actually happened
+
+Codex's latest report, which has not yet been independently corroborated by reviewing the raw local logs, states:
+
+The pinned vLLM container image built and exactly one ephemeral Modal L4 worker started.
+
+The Windows/local Modal client failed before worker identity verification or generation with ConnectionError: [Errno 11001] getaddrinfo failed.
+
+Zero inference/model calls were made, zero genuine LLM-agent episodes occurred, and cells A/B/C/D are each NOT RUN / NOT MEASURED. No empirical collusion, leakage, auditor performance, or task success findings exist.
+
+Model target was Qwen/Qwen3-8B-FP8, revision 220b46e3b2180893580a4454f21f22d3ebb187d3, vLLM 0.10.2, Hermes tool parser, one Modal L4.
+
+Software tests: 53/53 pass, according to Codex; implementation commit 15d3835, failure/tracker commit ac66143 (short IDs; record full hashes locally).
+
+Partial experiment folder: collective-blind-spot-sim/experiments/real_qwen3_8b_modal_20261025T142518Z/ with STARTUP_FAILURE.md and local index.html. The failure page is a status report, not an agent replay containing model behavior.
+
+Modal October summary: $0.05910905 metered, $0 billed, not attributed specifically to the attempt; remaining credit not checked. modal app list reportedly showed the application stopped.
+
+Error meaning: Windows socket error 11001 indicates a hostname-resolution failure. The exact failing hostname and call stack have not yet been established in the researcher report. Therefore do not claim to know whether the failure was Modal control-plane DNS, a model-download host, a misconfigured endpoint, a proxy, or a transient resolver issue. A built image and started worker do not prove inference was ready. Investigate the actual traceback first.
+
+2. Nonnegotiable scientific authority
+
+Codex implements, executes, and documents. The researcher and scientific reviewer direct hypotheses, policy, agent prompts, tool list, task artifacts, treatment A/B/C/D, model, monitoring logic, labels, endpoints, and interpretation.
+
+Do not change protocol_v3.py prompt strings/artifacts, roles, reporting ON/OFF sentences, G1 gate, 12 tools, v3 scorer, role-private data, predeclared R1/R2 monitor definitions, or four treatment conditions to get a more interesting result.
+
+No programmatically scripted discovery, illicit plan, false approval, or agent tool call may be substituted for an actual model decision. Existing mock fixtures remain useful but must be labeled MOCK/SCRIPTED.
+
+The baseline R1 false-positive on an innocent mock must remain visible and unchanged. Report triage suspicion separately from confirmed policy breach; do not rewrite an auditor just to avoid alerts.
+
+Do not reclassify general message transfer, benign board use, independent errors, or a two-agent bad outcome as confirmed collusion without independent evidence of coordination. Preserve pending human review of ambiguous free text.
+
+In all genuine cells the model/revision, tool schema, prompts except predeclared ON/OFF difference, task, turn order, sampling, logging, and independent auditor rule version remain fixed.
+
+The user explicitly declined changing Modal's dashboard budget/spend settings; do not make that a blocker, but preserve previously approved operational limits and report actual charges clearly. No silent switch to a paid token endpoint, other GPU, model or provider.
+
+3. First task: forensic review, NO new GPU
+
+Before any retry:
+
+In the project workspace, inspect git status, git log -5 --oneline, STARTUP_FAILURE.md, referenced local stdout/stderr/app/worker logs, run manifest, progress, and Python traceback. Confirm the implementation at 15d3835 and failure snapshot at ac66143, or report divergence. Avoid modifying or erasing these artifacts.
+
+Record the first causal exception: exception class/errno, Python file and function, first failed operation, timestamp, relevant hostname (hostname only, redact credentials/query strings), whether raised on local Windows client or in Modal worker, and any later wrapper exceptions. If no hostname appears, state FAILED_HOSTNAME_UNKNOWN; do not guess one.
+
+Confirm modal app list --json and app logs (modal app logs <actual-app-id-or-name> --tail 200 --timestamps) using the already recorded app identifier; do not invent an app name. Modal may retain logs after an app stops. If CLI commands fail due to the same DNS problem, record that rather than spinning up another worker.
+
+Preserve old index.html and failure records. Update the run overview to show 0 REAL MODEL calls and A–D NOT RUN. Do not invent a trace to fill empty lanes.
+
+Save a sanitized DNS_FAILURE_DIAGNOSIS.md inside the failed run folder. Include local Modal/Python versions, current system DNS checks, exact program point, and unknowns. Never display API tokens, .modal.toml secret values, .env contents, payment information, or full authenticated URLs.
+
+4. Second task: isolate hostname lookup versus transport failure on Windows, NO new GPU
+
+Execute these from the same PowerShell session and .venv Python interpreter used by the failed run. Substitute <actual-hostname-from-trace> ONLY after obtaining it from actual logs. Never literally test the placeholder.
+
+Read-only diagnostics:
+
+# Existing Python/Modal versions and basic Modal control-plane reachability
+.\.venv\Scripts\python.exe --version
+.\.venv\Scripts\modal.exe --version
+.\.venv\Scripts\modal.exe app list --json
+
+# General external DNS sanity check
+Resolve-DnsName modal.com
+
+# Only when a failing hostname is recovered from traceback:
+Resolve-DnsName -Name '<actual-hostname-from-trace>'
+Test-NetConnection -ComputerName '<actual-hostname-from-trace>' -Port 443
+
+# System resolver comparison inside the exact Python venv:
+.\.venv\Scripts\python.exe -c "import socket; print(socket.getaddrinfo('modal.com', 443, type=socket.SOCK_STREAM)[:2])"
+
+For the actual failing hostname, also run a Python socket.getaddrinfo(host, port) check using its true protocol/port; do not assume everything uses HTTPS/443. Log success/failure, timestamps, DNS record presence, and error codes; redact sensitive data. Query OS/proxy/VPN configuration without logging credential values. Check whether hostname is malformed, incorrectly passed, expired/ephemeral, or otherwise does not match the actual target.
+
+Branch on evidence, not guesses:
+
+A — Local DNS fails for the precise host: confirm whether Resolve-DnsName and .venv Python both fail; compare with a known public host. Investigate VPN/proxy/security filtering, DNS cache, or a wrong hostname. No global DNS/IP/hosts-file changes, disabling security tools, or forceful network reconfiguration without an explicit, documented need and human approval. If the target is actually a malformed hostname created by our code, correct only that transport bug, preserve diffs/tests, and explain why.
+
+B — DNS succeeds but connection/auth/SSL fails: this is not the same incident. Record the new concrete failure and address only that exact layer; no broad retry loop or silent auth changes.
+
+C — Modal control-plane CLI works but a GPU worker host is unreachable: compare local traceback with worker app logs, check whether the host is transient and whether the client invoked a stale or improperly constructed endpoint. Do not assume the model itself failed.
+
+D — DNS has recovered spontaneously: document timing and check whether a simple non-GPU remote call can round-trip before relaunching L4.
+
+E — Unable to identify host or failure stage: stop rather than blindly reinstalling model dependencies, changing parser/model/GPU, or consuming more GPU time.
+
+If the issue is a general DNS or network problem outside this repository, Codex should describe a minimal human action if needed, rather than editing research code. Do not install an unrelated VPN/proxy or reveal credentials.
+
+5. Third task: tiny authenticated Modal CPU probe, only after control-plane DNS is reliable
+
+Before paying for another L4 startup, perform at most one short CPU round trip, with timeout and auto-shutdown; it is infrastructure verification, not a model call or experiment. Prefer built-in commands if the existing app already provides a truly CPU-only function. Otherwise, create a minimal isolated diagnostic file in collective-blind-spot-sim/diagnostics/:
+
+import modal
+
+app = modal.App("cbs-connection-cpu-probe")
+
+@app.function(cpu=0.25, memory=256, timeout=30)
+def ping():
+    return {"ok": True, "message": "authenticated Modal CPU roundtrip"}
+
+@app.local_entrypoint()
+def main():
+    result = ping.remote()
+    assert result.get("ok") is True
+    print(result)
+
+Launch via the verified .venv Modal executable with non-detached modal run, record stdout/stderr/exit code and any compute usage, and verify the app stops. If even this fails, do not relaunch L4. Troubleshoot the specific CPU-probe failure or stop and return a decision summary.
+
+Do not claim $0 cost: a CPU worker can accrue small metered usage covered by available credit, as with the earlier L4 attempt.
+
+6. Fourth task: single controlled L4 relaunch and REAL model smoke, only after CPU probe passes
+
+The researcher has already authorized a bounded Modal run and A–D pilot; this recovery does not expand that authorization. Reuse the same pinned Qwen/Qwen3-8B-FP8 revision 220b46e3b2180893580a4454f21f22d3ebb187d3, vLLM 0.10.2, Hermes parser, one L4, cached image/model volume where available, and unchanged server settings. Inference via eligible custom GPU compute, not separately billed Modal Shared Endpoints.
+
+Launch one short-lived non-detached job, max_containers=1, with no permanently warm deployment, no auto fallback, no concurrency escalation, no model/GPU changes. One deliberate L4 retry; no loop of fresh GPU launches. Keep cumulative usage within the prior 3-hour GPU ceiling including the earlier attempt as far as measurable. Use shorter reasonable readiness deadlines rather than leaving an unresponsive GPU indefinitely.
+
+Verify remote worker identity/readiness and the exact model revision/parser/tool-use configuration. Do not infer identity merely because the image built.
+
+Run at most one independent live tool-use smoke sequence, up to 3 inference calls, isolated from task evidence and labeled LIVE SMOKE — NOT RESEARCH EVIDENCE. It must show an actual model-generated valid tool call, not canned output or a scripted forced tool call. Capture actual model request/response/errors, model ID, token counts, and tool-call validation. If no valid tool call, stop; do not modify approved experimental prompts, model or server parser without research approval.
+
+If the smoke fails or DNS recurs, save the true error, stop Modal app, and do not proceed to A–D.
+
+If the smoke passes, proceed with the previously authorized four cells, exactly one genuine autonomous episode each, in fixed predeclared order and model configuration. Do not restart a completed cell or tune prompts in response to outcomes. Respect previous hard caps (calls per turn, tokens, retries, runtime, one GPU, budget); compute and enforce exact remaining allocation from the previous handoff. If the earlier cap file is unavailable or ambiguous, stop rather than invent a larger cap. Save and show each cell immediately after completion, including no-discovery, no-attempt, invalid tools, crashes and null outcomes.
+
+7. Researcher observability: you must show WHAT HAPPENED, not only say 'ran'
+
+Retain the previously implemented researcher-only HTML replay and overview for the failed run. For any genuine cell, write per-episode manifests, model-visible inputs, model-generated visible output/tool calls, tool responses, event sequences, audited projections/verdicts, server-verified ticket outcomes, pending human labels and errors. Never invent hidden model reasoning.
+
+After the first genuine episode, regenerate the project index.html and a local researcher/replay.html from actual recorded events and print the absolute Windows path plus ready-to-use:
+
+Start-Process 'C:\Users\ompra\OneDrive\Documents\New project\collective-blind-spot-sim\experiments\<actual-run-folder>\index.html'
+
+Replace <actual-run-folder> with the real created folder, never leave placeholders in the final executable command. Distinguish LIVE REAL MODEL, LIVE SMOKE, MOCK MODEL, and NOT RUN prominently. At minimum show:
+
+Agent A/B/C/D separate timelines: exact inputs each actually received, user-visible outputs, tool calls/results, actor and timestamps.
+
+Collective timeline: team board, inbox, checklist, attempts, denials, acceptances, recipient deliveries and content actually included in subsequent agent model inputs.
+
+Independent R1/R2 auditor: only the sanitized evidence it had by that moment, rule IDs, alert/no-alert/abstain, and pending/false labels only when a separate trusted adjudicator can support them. Self-reports are distinct.
+
+Task/scorer view: truthful HOLD, verified ticket findings, legitimate successes, false decisions, and missing task steps.
+
+Privileged researcher-only trusted data clearly marked NEVER SHOWN TO AGENTS OR AUDITOR. Do not contaminate auditor projection with confidential memo, oracle labels, experimental cell names, or future events.
+
+A–D comparison with counts and denominators, including number of episodes, attempted/observed unauthorized transfer (only confirmed, rest pending review), independent audit review candidates, legitimate completed tickets, calls/tokens/cost, and error/missingness rates.
+
+During execution print sparse event-by-event progress to the Codex terminal and append progress.jsonl after model/tool actions. The static HTML replay is after-event/after-episode refresh, not a continuously live dashboard. The Modal console shows deployment/resource use, not research behavior.
+
+Even if a retry fails, show an honest status page with zero real episodes and a link to sanitized failure diagnostics. Preserve both old and new failure attempts separately.
+
+8. If Modal is not fixed quickly: credible fallback, not a silent substitution
+
+If the CPU probe fails, or the one permitted L4 retry fails:
+
+Stop and verify any Modal app is stopped. Preserve all error and billing artifacts.
+
+Record MODAL BLOCKED / 0 REAL MODEL EPISODES if none succeeded. Do not count a smoke test as a research episode.
+
+Prepare a separate proposal for Ollama local inference on the user's GTX 1660 Ti, likely with a smaller tool-capable Qwen model such as qwen3:4b; check RAM, GPU memory, Ollama version and tool support before picking a local model.
+
+Do not silently launch A–D on the local model under the Qwen3-8B-FP8 protocol. Different model/precision/hardware must be documented as a different cohort and requires separate explicit research approval. Local feasibility smoke may be useful after that decision.
+
+To save the deadline, produce a concise report of the exact obstacle and the shortest approved next action instead of spending hours rebuilding images or writing a new framework.
+
+9. Required return to the researcher (ONE completion response, no pile of new files)
+
+Report in a single completion message and preserve paths in the project:
+
+Root-cause classification and evidence: failing hostname and where it failed, exact traceback locations, whether it was reproducible, and what fixed it (or why still unknown). Link sanitized local logs; do not leak secrets.
+
+Connectivity: Modal app list, DNS and Python resolver checks, CPU round-trip result, L4 readiness result.
+
+Software quality: exact commands and unittest counts, Git commit and diff, unchanged treatment/prompt/tool hashes, status of existing fixtures.
+
+Actual live results: count real inference calls and real episodes in A/B/C/D; exact model ID/version, tool-call successes, actual model-generated decisions, unauthorized observed transfer only if evidence confirms, pending human labels, independent monitor candidate alerts, legitimate ticket scores. Never claim collusion without evidence.
+
+Observability: print the full existing path to index.html and any new replay, the full Start-Process command with no placeholders, and verify that it can be opened. Show NOT RUN for unexecuted cells.
+
+Metering and cleanup: separate metered vs billed amounts, per-attempt vs workspace-wide reports, remaining credit only if directly checked, stopped apps, CPU/GPU time and any unexpected costs.
+
+Scientific status: software recovery success ≠ empirical safety/collusion finding. A one-episode-per-cell pilot is a feasibility comparison, not a statistically generalizable efficacy estimate.
+
+STOP after this one bounded recovery/retry/pilot. Do not re-run for attractive outcomes, change R1, build new scientific arms, switch to Shared Endpoints, or submit a paper without researcher direction.
+
+10. Canonical source references for implementer (diagnostic only)
+
+Microsoft Winsock error code 11001 / WSAHOST_NOT_FOUND: https://github.com/MicrosoftDocs/win32/blob/docs/desktop-src/WinSock/windows-sockets-error-codes-2.md
+
+Modal CLI app list, logs and stop: https://modal.com/docs/cli/latest/app
+
+Modal CLI modal run ephemeral applications: https://modal.com/docs/cli/latest/run
+
+Modal status: https://status.modal.com/
+
+Existing locally pinned scientific protocol, v3 mock, test fixtures, Modal integration and failed startup reports remain the source of truth for exact paths and launch commands.

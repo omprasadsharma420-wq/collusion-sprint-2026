@@ -1,0 +1,6 @@
+[project]
+name = "collective-blind-spot-sim"
+version = "0.1.0"
+description = "Deterministic toy workplace simulation for communication and audit measurements"
+requires-python = ">=3.11"
+dependencies = []

@@ -1,0 +1,6 @@
+{
+  "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v",
+  "python_version": "Python 3.11.15",
+  "exit_code": 0,
+  "test_count": 114
+}

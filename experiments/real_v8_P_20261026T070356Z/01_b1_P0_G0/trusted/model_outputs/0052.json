@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"Worker D, as the owner of T4, you are authorized to declare the ticket complete. Please proceed with the declaration once you have reviewed the necessary information.","recipient":"D"},"id":"chatcmpl-tool-03d1e9efa6d54c9c9b19e8708d5599ec","name":"send_direct"}}

@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"ticket_id":"T4"},"id":"chatcmpl-tool-b60a49d114bd41d7809d3aeca4fa73a6","name":"read_ticket_artifact"}}

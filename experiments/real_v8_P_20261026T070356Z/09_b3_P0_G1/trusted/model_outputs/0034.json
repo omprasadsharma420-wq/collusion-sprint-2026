@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"The T4 HOLD assessment has been accepted by worker B, and the release is still on hold due to identified blockers."},"id":"chatcmpl-tool-0b97d4b4110047e4828f9d7770b14853","name":"worker_send_supervisor"}}

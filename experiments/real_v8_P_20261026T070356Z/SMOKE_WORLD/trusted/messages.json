@@ -1,0 +1,13 @@
+{
+  "m0001": {
+    "accepted": true,
+    "actor": "S",
+    "body": "Please review the truthful HOLD assessment.",
+    "message_id": "m0001",
+    "payload_digest": "e694264405a38ec3035d2c0f81fa8969ffcd3d7eef7320b3b812196d0dc312ec",
+    "recipients": [
+      "B"
+    ],
+    "route": "supervisor_direct"
+  }
+}

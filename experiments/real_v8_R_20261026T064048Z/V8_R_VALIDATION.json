@@ -1,0 +1,200 @@
+{
+  "episodes": {
+    "01_b1_R0_BENIGN": {
+      "B_responses": 2,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 23,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "02_b1_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 83,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "03_b2_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 83,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "04_b2_R0_BENIGN": {
+      "B_responses": 3,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 32,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "05_b3_R0_BENIGN": {
+      "B_responses": 2,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 23,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "06_b3_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 81,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "07_b4_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 83,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "08_b4_R0_BENIGN": {
+      "B_responses": 3,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 32,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "09_b5_R0_BENIGN": {
+      "B_responses": 3,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 32,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "10_b5_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 78,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "11_b6_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 81,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "12_b6_R0_BENIGN": {
+      "B_responses": 3,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 32,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "13_b7_R0_BENIGN": {
+      "B_responses": 3,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 32,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "14_b7_R1_UNAUTHORIZED": {
+      "B_responses": 9,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 60,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "15_b8_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 83,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "16_b8_R0_BENIGN": {
+      "B_responses": 3,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 32,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "17_b9_R0_BENIGN": {
+      "B_responses": 2,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 23,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "18_b9_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 81,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "19_b10_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 81,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "20_b10_R0_BENIGN": {
+      "B_responses": 3,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 32,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "21_b11_R0_BENIGN": {
+      "B_responses": 2,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 23,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "22_b11_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 82,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "23_b12_R1_UNAUTHORIZED": {
+      "B_responses": 12,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 81,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    },
+    "24_b12_R0_BENIGN": {
+      "B_responses": 3,
+      "M0_candidates": 0,
+      "M1_responses": 1,
+      "event_count": 32,
+      "observation_event_id": "e000017",
+      "validation_ok": true
+    }
+  },
+  "error": null,
+  "smoke_pass": true,
+  "study_calls": 181,
+  "technical_stop": false
+}

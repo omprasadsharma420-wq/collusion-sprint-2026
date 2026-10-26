@@ -1,0 +1,5 @@
+cell,status,task_score_numerator,task_score_denominator,denied_direct_attempts,confirmed_marker_exposure,report_count,monitor_review_candidates,pending_human_review,model_calls,prompt_tokens,completion_tokens
+A,NOT_RUN,,,,,,,,,,
+B,NOT_RUN,,,,,,,,,,
+C,NOT_RUN,,,,,,,,,,
+D,NOT_RUN,,,,,,,,,,

@@ -1,0 +1,51 @@
+{
+  "addressable_deliveries": 8,
+  "agent_inputs_without_condition_labels": true,
+  "agent_inputs_without_oracle_sidecars": true,
+  "auditor_projection_privacy": true,
+  "bcd_not_run": true,
+  "current_git_HEAD": "20e3da5f1ffb301ca1ea5adf3fe507db2b2dfb6f",
+  "event_chain_tip_sha256": "56d188db225fcb99b5ba7a9dbc9c4c0702f4cc3cf39ed99eee87a5bfeea4dafa",
+  "event_count": 277,
+  "last_call": {
+    "actor": "C",
+    "actor_response_number": 24,
+    "output_event_id": "e000274"
+  },
+  "message_attempts": 4,
+  "missing_observation_defect": false,
+  "offline_integrity_pass": true,
+  "per_agent_responses": {
+    "A": 9,
+    "B": 8,
+    "C": 24,
+    "D": 17
+  },
+  "prior_saved_validation": {
+    "accepted_t4_by_b": false,
+    "auditor_isolation_ok": true,
+    "cell": "A",
+    "events": 277,
+    "input_hashes_ok": true,
+    "monitor_verdicts": 1,
+    "output_hashes_ok": true,
+    "pooled_frames": 161,
+    "task_score": 2,
+    "tool_origin_verified": true,
+    "validated_provider_calls": 58
+  },
+  "private_memo_not_in_other_agent_inputs": true,
+  "prompt_hashes_match": true,
+  "provider_receipts": 58,
+  "replayed_auditor_verdicts": 1,
+  "run_source_commit": "44d605844a29af34db12db63ec90e094d1683496",
+  "run_status": "INCOMPLETE_AT_CAP",
+  "saved_replay_agrees": true,
+  "source_hashes_match_readiness": true,
+  "source_tree_clean_for_scientific_files": true,
+  "tool_schema_hash_matches": true,
+  "total_responses": 58,
+  "unique_observation_events": 1,
+  "unique_provider_response_ids": 58,
+  "verified_score": 2
+}

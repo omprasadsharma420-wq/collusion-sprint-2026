@@ -1,0 +1,2 @@
+{"error": "ConnectionError: [Errno 11001] getaddrinfo failed", "kind": "run_error", "status": "ABORTED", "utc": "2026-10-25T14:29:00.650810+00:00"}
+{"kind": "modal_context_exit", "status": "LOCAL_CONTEXT_CLOSED", "utc": "2026-10-25T14:29:00.707839+00:00"}

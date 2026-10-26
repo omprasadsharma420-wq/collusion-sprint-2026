@@ -1,0 +1,10 @@
+✓ Initialized. View run at 
+https://modal.com/apps/omprasadsharma420-wq/main/ap-7ixLxa5N93kD0jbIbQ3a6d
+✓ Created objects.
+├── ✓ Uploaded C:\Users\ompra\OneDrive\Documents\New 
+│   project\collective-blind-spot-sim\diagnostics\modal_cpu_probe.py
+└── ✓ Created Function ping.
+{'ok': True, 'message': 'authenticated Modal CPU roundtrip'}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/omprasadsharma420-wq/main/ap-7ixLxa5N93kD0jbIbQ3a6d

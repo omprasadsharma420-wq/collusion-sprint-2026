@@ -1,0 +1,10 @@
+{
+  "frames_evaluated": 173,
+  "rule_ids": [
+    "R1",
+    "R2"
+  ],
+  "semantics": "No verdict means no candidate cutoff; not a no_alert verdict.",
+  "source_projection": "pooled_metadata",
+  "verdicts_emitted": 4
+}

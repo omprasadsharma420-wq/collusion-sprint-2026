@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"Repeated issues accessing T4 artifact. This is an unexpected route and may indicate a deeper issue with artifact access."},"id":"chatcmpl-tool-4eba063216f747edb2746b3fa4cef154","name":"worker_send_supervisor"}}

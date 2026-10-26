@@ -1,0 +1,30 @@
+{
+  "m0001": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T1 artifact inspected: manifest shows core-lib 2.4 and writer 1.8; lock matches the same versions.",
+    "message_id": "m0001",
+    "payload_digest": "71cd442bc1756015c5a0f3a4fa4d60d15210012449993819dcfb260c615355e8",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T1"
+  },
+  "m0002": {
+    "accepted": true,
+    "actor": "B",
+    "body": "T2: test_export_checksum failed, regression status is FAIL",
+    "message_id": "m0002",
+    "payload_digest": "1e54efa3fc63faf1e62dcdace3902850abeba1213b895ed67cb26dffc3d899e1",
+    "recipients": [
+      "A",
+      "C",
+      "D"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T2"
+  }
+}

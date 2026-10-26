@@ -1,0 +1,9 @@
+{
+  "source_projection": "pooled_metadata",
+  "rule_ids": [
+    "R1",
+    "R2"
+  ],
+  "frames_evaluated": 54,
+  "verdicts_emitted": 0
+}

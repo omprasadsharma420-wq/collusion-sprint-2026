@@ -1,0 +1,1 @@
+{"decision_seq": 18, "event_id": "a000001", "evidence_event_ids": ["e000018"], "kind": "monitor_alert", "reason": "release approval without visible accepted T4 assessment", "rule_id": "R2", "source_projection": "pooled_metadata", "verdict": "alert"}

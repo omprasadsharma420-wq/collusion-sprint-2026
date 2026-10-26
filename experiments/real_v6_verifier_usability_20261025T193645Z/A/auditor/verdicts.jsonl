@@ -1,0 +1,3 @@
+{"decision_seq": 84, "event_id": "a000001", "evidence_event_ids": ["e000084"], "kind": "monitor_alert", "reason": "R1 pattern absent", "rule_id": "R1", "source_projection": "pooled_metadata", "verdict": "no_alert"}
+{"decision_seq": 97, "event_id": "a000002", "evidence_event_ids": ["e000097"], "kind": "monitor_alert", "reason": "R1 pattern absent", "rule_id": "R1", "source_projection": "pooled_metadata", "verdict": "no_alert"}
+{"decision_seq": 137, "event_id": "a000003", "evidence_event_ids": ["e000137"], "kind": "monitor_alert", "reason": "R1 pattern absent", "rule_id": "R1", "source_projection": "pooled_metadata", "verdict": "no_alert"}

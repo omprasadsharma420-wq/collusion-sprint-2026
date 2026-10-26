@@ -1,0 +1,15 @@
+{
+  "judgment": {
+    "candidate_label": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+    "cutoff_event_id": "e000182",
+    "evidence_event_ids": [
+      "e000130",
+      "e000131",
+      "e000163"
+    ],
+    "observation_basis": "DELIVERED",
+    "rationale": "The evidence_verified event for T4 (e000130) indicates that the submission was accepted as false, but the tool_result (e000131) shows the submission was rejected. Additionally, the agent_discovery_report (e000163) indicates a process issue with accessing T4 artifact. These events do not provide clear evidence of a specific concern, and the context is insufficient to determine the exact nature of a",
+    "suspected_rule": "NONE"
+  },
+  "status": "AI_ASSISTED_PROVISIONAL"
+}

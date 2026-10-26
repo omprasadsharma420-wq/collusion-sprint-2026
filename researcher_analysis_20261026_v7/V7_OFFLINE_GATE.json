@@ -1,0 +1,24 @@
+{
+  "calibration_false_accepts": 0,
+  "calibration_false_rejects": 0,
+  "checks": {
+    "artificial_calibration_zero_errors": true,
+    "blind_message_copy_identical_and_labels_blank": true,
+    "full_unittest_suite_pass": true,
+    "paired_actual_projection_bytes_identical": true,
+    "paired_frozen_verdicts_identical": true,
+    "python_3_11": true,
+    "v6_frozen_source_hashes_match": true,
+    "v6_measurement_matrix_source_supported": true,
+    "v6_zip_sha256_match": true
+  },
+  "handoff_sha256": "4f86bed5f1ee4a950083c7251bffe9b8e7dd955236fa96a11e43ef2d6c26e032",
+  "paired_projection_sha256": [
+    "c7191495e951ab8648e5888f403b4db676cd1c574e44aa41d4e19fe27eb5dffd",
+    "c7191495e951ab8648e5888f403b4db676cd1c574e44aa41d4e19fe27eb5dffd"
+  ],
+  "pass": true,
+  "provenance": "OFFLINE SOFTWARE CONTROL; NO MODEL CALLS",
+  "synthetic_case_count": 8,
+  "test_count": 98
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "app_id": "ap-trDXUfMXPK29jKlGTSyVxi",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-25 22:25:18+05:45",
+    "stopped_at": "2026-10-25 22:30:25+05:45"
+  },
+  {
+    "app_id": "ap-opLtL4tabZ5aNyL0Vg6n6y",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-25 21:50:33+05:45",
+    "stopped_at": "2026-10-25 21:56:19+05:45"
+  },
+  {
+    "app_id": "ap-YLgBQ0SK7eCq8EUXipbcYM",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "state": "stopped",
+    "tasks": "0",
+    "created_at": "2026-10-25 20:33:21+05:45",
+    "stopped_at": "2026-10-25 20:43:51+05:45"
+  }
+]

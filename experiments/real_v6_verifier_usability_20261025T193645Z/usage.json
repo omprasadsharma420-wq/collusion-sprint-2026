@@ -1,0 +1,10 @@
+{
+  "billing": "PENDING_READ_ONLY_MODAL_CHECK",
+  "model_calls": 67,
+  "token_usage": {
+    "completion_tokens": 2239,
+    "prompt_tokens": 163761,
+    "total_tokens": 166000
+  },
+  "worker_context_wall_seconds_upper_bound": 361.10999999998603
+}

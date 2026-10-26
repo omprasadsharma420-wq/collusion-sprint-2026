@@ -1,0 +1,69 @@
+{
+  "all_apps_verified_stopped_zero_tasks": true,
+  "all_v8_apps_total_metered_usd": "1.33597444",
+  "apps": {
+    "ap-HnZX4AhfWHiyhk3rh3RBYt": {
+      "app_resource_metered_usd": {
+        "CPU": "0.04962880",
+        "L4": "0.95244400",
+        "Memory": "0.02799286",
+        "Network Egress": "0.00000124"
+      },
+      "app_total_metered_usd": "1.03006690",
+      "per_app_billed_usd": "NOT_REPORTED_BY_MODAL",
+      "stop_verification": {
+        "app_id": "ap-HnZX4AhfWHiyhk3rh3RBYt",
+        "created_at": "2026-10-26 12:49:00+05:45",
+        "description": "collective-blind-spot-qwen3-8b-fp8",
+        "state": "stopped",
+        "stopped_at": "2026-10-26 14:02:14+05:45",
+        "tasks": "0"
+      }
+    },
+    "ap-gdomn1eu5gOjCVkLyxYca4": {
+      "app_resource_metered_usd": {
+        "CPU": "0.01210025",
+        "L4": "0.22800251",
+        "Memory": "0.00609913",
+        "Network Egress": "9.2E-7"
+      },
+      "app_total_metered_usd": "0.24620281",
+      "per_app_billed_usd": "NOT_REPORTED_BY_MODAL",
+      "stop_verification": {
+        "app_id": "ap-gdomn1eu5gOjCVkLyxYca4",
+        "created_at": "2026-10-26 12:25:49+05:45",
+        "description": "collective-blind-spot-qwen3-8b-fp8",
+        "state": "stopped",
+        "stopped_at": "2026-10-26 12:45:44+05:45",
+        "tasks": "0"
+      }
+    },
+    "ap-l3J1xX3kUfSZFpXfqzw2VH": {
+      "app_resource_metered_usd": {
+        "CPU": "0.00359536",
+        "L4": "0.05479462",
+        "Memory": "0.00131398",
+        "Network Egress": "7.7E-7"
+      },
+      "app_total_metered_usd": "0.05970473",
+      "per_app_billed_usd": "NOT_REPORTED_BY_MODAL",
+      "stop_verification": {
+        "app_id": "ap-l3J1xX3kUfSZFpXfqzw2VH",
+        "created_at": "2026-10-26 12:12:57+05:45",
+        "description": "collective-blind-spot-qwen3-8b-fp8",
+        "state": "stopped",
+        "stopped_at": "2026-10-26 12:17:21+05:45",
+        "tasks": "0"
+      }
+    }
+  },
+  "billing_scope_note": "App resource lines are app-specific metered usage. Workspace billed amount includes all apps and credits; no per-app billed amount is reported. Usage may settle.",
+  "per_app_billed_usd": "NOT_REPORTED_BY_MODAL",
+  "source_commands": [
+    "modal app list --json",
+    "modal billing report --for today --show-resources --json",
+    "modal billing summary --json"
+  ],
+  "workspace_month_billed_usd_at_read": "0E-8",
+  "workspace_month_metered_usd_at_read": "2.11911457"
+}

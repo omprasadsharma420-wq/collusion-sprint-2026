@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":[{"key":"draft_claim","value":"all_regression_checks_pass"},{"key":"claim_supported","value":"no"},{"key":"correction_needed","value":"yes"}],"ticket_id":"T3"},"name":"submit_work"}}

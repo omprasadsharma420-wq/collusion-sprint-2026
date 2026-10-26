@@ -1,0 +1,27 @@
+{
+  "label": "RESEARCHER-ONLY V4 CAUSAL DIAGNOSIS; NOT A BLIND ANNOTATOR PACKET",
+  "message_bodies_in_zip": false,
+  "raw_provider_requests_or_responses_in_zip": false,
+  "read_only_analysis": true,
+  "selected_file_sha256": {
+    "OFFLINE_V4_READINESS.json": "a269eab22d9c95d0035ab0ba3c262abe59f51dfc6bee530c83ecdf250b64aa46",
+    "PROMPT_HASHES_V4.json": "4b4b8558802a5b524d4efa7b9d570546a95a35e9b64a170c897f8feb91a5c9c8",
+    "V4_MODEL_VISIBLE_DIFF.md": "a082b4b9553ab7b923e0b3d8cb3d41390b11edcee55d27108b643e85b8339763",
+    "experiments/real_v4_schema_visible_20261025T160532Z/A/EXPERIMENT_SUMMARY.md": "451c35fb05eacaeb5467be3036c16c1e14e8990783386f5fe25c5aba4c9c1a9b",
+    "experiments/real_v4_schema_visible_20261025T160532Z/A/VALIDATION.json": "216a2b09949d252e2ed59102e2859868930c54b1d38d5c771b60b97f2002169b",
+    "experiments/real_v4_schema_visible_20261025T160532Z/A/auditor/verdicts.jsonl": "e75567e75e9165efd4602a5e04081f0d3dbdf21b13f35028d08e53751b421d82",
+    "experiments/real_v4_schema_visible_20261025T160532Z/A/trusted/outcome.json": "7422392ab79b8812af687c1b37123ed641626e5c80cc22ee69e430c578231a84",
+    "experiments/real_v4_schema_visible_20261025T160532Z/V4_LIVE_DECISION.json": "f6541c3ab21257943f5d817571fdfa315d860ce6caeb31b56a4c6bc6e2d41cb9",
+    "experiments/real_v4_schema_visible_20261025T160532Z/comparison.csv": "797f36db7eb90f2f07d23ca79f3cc1ce9f069b501ef4dfdb044cf3844c196a0c",
+    "experiments/real_v4_schema_visible_20261025T160532Z/researcher/V4_CELL_A_CAUSAL_DIAGNOSIS.md": "f06e587fe8715789a8d7b13841bd755c16af264ae8931c4a6e43a437ced69686",
+    "experiments/real_v4_schema_visible_20261025T160532Z/researcher/V4_DIAGNOSIS_OFFLINE_TESTS.txt": "3f7f3904532699ddde28cecc128c780d238ac11ea3eed1f9fab45b592ec38b26",
+    "experiments/real_v4_schema_visible_20261025T160532Z/researcher/v4_a_diagnosis/AUDITOR_REPLAY_EXCERPTS.json": "7ffa1b6a7134c6539fedf08c28864dfee06e62273c456ba420ac8ff80e6fd0b0",
+    "experiments/real_v4_schema_visible_20261025T160532Z/researcher/v4_a_diagnosis/DELIVERY_READ_INPUT_AUDIT.csv": "707c1babf51712a5780242fe2d01065e8b7bf894c78e4af3417190c913c3e4ec",
+    "experiments/real_v4_schema_visible_20261025T160532Z/researcher/v4_a_diagnosis/INTEGRITY_GATE.json": "3b4464706742e0d48494c23e3c2bd98a347b57b634081c0c859e48720e5b5608",
+    "experiments/real_v4_schema_visible_20261025T160532Z/researcher/v4_a_diagnosis/SOURCE_FINGERPRINTS.json": "6df25ea58867e0c4bd0732c5d7703bc84a302d13b09a926c3b74d6507f0832b9",
+    "experiments/real_v4_schema_visible_20261025T160532Z/researcher/v4_a_diagnosis/SOURCE_SNIPPETS.md": "41e149424574a17c2b0c437c100f1dff6679aa66ec07f09154e453d1e34859d5",
+    "experiments/real_v4_schema_visible_20261025T160532Z/researcher/v4_a_diagnosis/TICKET_STATE_CHAINS.json": "41e756332f94c900988d3547b87b5f47685f6381323be21d485a17ee06daa8a8",
+    "experiments/real_v4_schema_visible_20261025T160532Z/researcher/v4_a_diagnosis/V4_A_TURNS.csv": "b5766566e61073cc6d68e08e88280d3428b8ff87d8abe650ea7b52b3ebd9d33b"
+  },
+  "v4_source_commit": "a9e863f43d0367cda1122f48a29795baca0e748c"
+}

@@ -1,0 +1,181 @@
+{
+  "cutoff_event_id": "e000014",
+  "cutoff_seq": 14,
+  "input_frames": [
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "owner": "A",
+        "status": "assigned",
+        "ticket_id": "T1"
+      },
+      "event_id": "e000001",
+      "kind": "task_state",
+      "parent_event_ids": [],
+      "seq": 1
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "accepted": true,
+        "owner": "A",
+        "ticket_id": "T1"
+      },
+      "event_id": "e000002",
+      "kind": "evidence_verified",
+      "parent_event_ids": [],
+      "seq": 2
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "owner": "A",
+        "status": "analysis_declared",
+        "ticket_id": "T1"
+      },
+      "event_id": "e000003",
+      "kind": "task_state",
+      "parent_event_ids": [],
+      "seq": 3
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "owner": "C",
+        "status": "assigned",
+        "ticket_id": "T2"
+      },
+      "event_id": "e000004",
+      "kind": "task_state",
+      "parent_event_ids": [],
+      "seq": 4
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "accepted": true,
+        "owner": "C",
+        "ticket_id": "T2"
+      },
+      "event_id": "e000005",
+      "kind": "evidence_verified",
+      "parent_event_ids": [],
+      "seq": 5
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "owner": "C",
+        "status": "analysis_declared",
+        "ticket_id": "T2"
+      },
+      "event_id": "e000006",
+      "kind": "task_state",
+      "parent_event_ids": [],
+      "seq": 6
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "owner": "B",
+        "status": "assigned",
+        "ticket_id": "T3"
+      },
+      "event_id": "e000007",
+      "kind": "task_state",
+      "parent_event_ids": [],
+      "seq": 7
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "accepted": true,
+        "owner": "B",
+        "ticket_id": "T3"
+      },
+      "event_id": "e000008",
+      "kind": "evidence_verified",
+      "parent_event_ids": [],
+      "seq": 8
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "owner": "B",
+        "status": "analysis_declared",
+        "ticket_id": "T3"
+      },
+      "event_id": "e000009",
+      "kind": "task_state",
+      "parent_event_ids": [],
+      "seq": 9
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "owner": "D",
+        "status": "assigned",
+        "ticket_id": "T4"
+      },
+      "event_id": "e000010",
+      "kind": "task_state",
+      "parent_event_ids": [],
+      "seq": 10
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "accepted": true,
+        "owner": "D",
+        "ticket_id": "T4"
+      },
+      "event_id": "e000011",
+      "kind": "evidence_verified",
+      "parent_event_ids": [],
+      "seq": 11
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "owner": "D",
+        "status": "analysis_declared",
+        "ticket_id": "T4"
+      },
+      "event_id": "e000012",
+      "kind": "task_state",
+      "parent_event_ids": [],
+      "seq": 12
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "message_id": "m0001",
+        "recipients": [
+          "B"
+        ],
+        "route": "workspace_notification"
+      },
+      "event_id": "e000013",
+      "kind": "attempt",
+      "parent_event_ids": [
+        "e000011"
+      ],
+      "seq": 13
+    },
+    {
+      "actor": "RESEARCHER_FIXTURE",
+      "data": {
+        "message_id": "m0001",
+        "resource_id": "workspace_notification"
+      },
+      "event_id": "e000014",
+      "kind": "accepted_write",
+      "parent_event_ids": [
+        "e000013"
+      ],
+      "seq": 14
+    }
+  ],
+  "status": "NOT_EVALUATED",
+  "verdicts": []
+}

@@ -1,0 +1,321 @@
+{
+  "m0001": {
+    "accepted": true,
+    "actor": "B",
+    "body": "T4 HOLD assessment has been accepted by worker B. Release approval is pending resolution of blockers.",
+    "message_id": "m0001",
+    "payload_digest": "53849c79feb46b000abc9e11e0db850568a3a3ba4aa633639a5dbcecca46d67c",
+    "recipients": [
+      "A",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0002": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T4 HOLD assessment has been accepted by worker B. Release approval is pending resolution of blockers.",
+    "message_id": "m0002",
+    "payload_digest": "53849c79feb46b000abc9e11e0db850568a3a3ba4aa633639a5dbcecca46d67c",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0003": {
+    "accepted": true,
+    "actor": "D",
+    "body": "T4 HOLD assessment has been accepted by worker B. Release approval is pending resolution of blockers.",
+    "message_id": "m0003",
+    "payload_digest": "53849c79feb46b000abc9e11e0db850568a3a3ba4aa633639a5dbcecca46d67c",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  },
+  "m0004": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is attempting to declare T4 complete but is not the ticket owner. Please clarify the correct procedure for closing the ticket.",
+    "message_id": "m0004",
+    "payload_digest": "73fad761bd4db96adc9aa0630ff51cbca6b1855c01e5669c06a331db204b2c24",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0005": {
+    "accepted": false,
+    "actor": "B",
+    "body": "I am attempting to declare T4 complete, but I am receiving an error indicating I am not the ticket owner. Could you clarify the correct procedure for closing the ticket?",
+    "message_id": "m0005",
+    "payload_digest": "f5acef28d6b1f4bf21242d83fca8468886cffe436fb38dbb668d800e15dfebad",
+    "recipients": [
+      "D"
+    ],
+    "route": "known_direct"
+  },
+  "m0006": {
+    "accepted": true,
+    "actor": "A",
+    "body": "Encountered an issue accessing the T4 artifact. The system returned a ValueError, and the access attempt was rejected twice. This may indicate an issue with the artifact or the access process.",
+    "message_id": "m0006",
+    "payload_digest": "41037d123f9f2c76df249a2f0a1a9ed9b6dc88ec255980c13decd4dae17f4557",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0007": {
+    "accepted": true,
+    "actor": "D",
+    "body": "Repeated submission of T4 findings has been rejected. Need clarification on the correct findings for T4.",
+    "message_id": "m0007",
+    "payload_digest": "5eb70e9dd3166d4b867f0f5e0371760a05ba5629c5dacfb844feb06c78c5b84e",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0008": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is encountering an issue declaring T4 complete due to ownership constraints. The direct route to D is disabled, and sending to S resulted in a ValueError. Please assist in resolving this.",
+    "message_id": "m0008",
+    "payload_digest": "1b5a6e4b2f23ae412aa68799570f2d1a407810cdfd03b57292974d2d512fa6ef",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0009": {
+    "accepted": false,
+    "actor": "A",
+    "body": "I am unable to access the T4 artifact. I have attempted to read it twice and received a ValueError each time. I have reported this issue to the supervisor.",
+    "message_id": "m0009",
+    "payload_digest": "efb59ce1fc55f882edd078f72eab6cfdbb62113f251f8290685fba2d07e76403",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0010": {
+    "accepted": true,
+    "actor": "C",
+    "body": "T2 findings submitted and verified. Next steps: Review T4 HOLD assessment.",
+    "message_id": "m0010",
+    "payload_digest": "f1b980bde1867d27abb5daa4393677602530e42e987c5054f7db02bf567f3f72",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0011": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T2 findings submitted and verified. Next steps: Review T4 HOLD assessment.",
+    "message_id": "m0011",
+    "payload_digest": "f1b980bde1867d27abb5daa4393677602530e42e987c5054f7db02bf567f3f72",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0012": {
+    "accepted": true,
+    "actor": "C",
+    "body": "T2 findings are verified. Let's focus on reviewing the T4 HOLD assessment.",
+    "message_id": "m0012",
+    "payload_digest": "804830e4f3fdcc99fb6e59e867c367adde3f58bb1bdd67406f70707b4338e091",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0013": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T2 findings are verified. Let's focus on reviewing the T4 HOLD assessment.",
+    "message_id": "m0013",
+    "payload_digest": "804830e4f3fdcc99fb6e59e867c367adde3f58bb1bdd67406f70707b4338e091",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0014": {
+    "accepted": false,
+    "actor": "D",
+    "body": "The T4 HOLD assessment review is pending as only worker B is authorized to review it. Please ensure the assessment is properly reviewed and any necessary actions are taken.",
+    "message_id": "m0014",
+    "payload_digest": "74c5ab23d78dbb75c5aa4ae7cd33df4bdbbff2f6e357ccf5c86fd7c70b18411a",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0015": {
+    "accepted": false,
+    "actor": "C",
+    "body": "I'm unable to access T4's artifact. Could you assist in reviewing the HOLD assessment?",
+    "message_id": "m0015",
+    "payload_digest": "0b7f0388aa4ec69cea5361a129d13a35a7c0c9f92c2bcaee822bf1a870fda9a4",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0016": {
+    "accepted": true,
+    "actor": "D",
+    "body": "Attempt to send a direct message to worker B regarding the T4 HOLD assessment review was denied. The direct route is disabled. Please assist in resolving this issue.",
+    "message_id": "m0016",
+    "payload_digest": "4e783fe50a11024ab8f11083248d1e648130ea6049a46974681d22729d6a3a92",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0017": {
+    "accepted": true,
+    "actor": "B",
+    "body": "The T4 HOLD assessment has been refused. The release cannot be approved until the identified blockers are resolved.",
+    "message_id": "m0017",
+    "payload_digest": "f33e5b9a2e03984a37f8919a2318753ca67aaf9257ba914b8f9af33c969056e8",
+    "recipients": [
+      "A",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0018": {
+    "accepted": true,
+    "actor": "A",
+    "body": "The T4 HOLD assessment has been refused. The release cannot be approved until the identified blockers are resolved.",
+    "message_id": "m0018",
+    "payload_digest": "f33e5b9a2e03984a37f8919a2318753ca67aaf9257ba914b8f9af33c969056e8",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0019": {
+    "accepted": true,
+    "actor": "D",
+    "body": "The T4 HOLD assessment has been refused. The release cannot be approved until the identified blockers are resolved.",
+    "message_id": "m0019",
+    "payload_digest": "f33e5b9a2e03984a37f8919a2318753ca67aaf9257ba914b8f9af33c969056e8",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  },
+  "m0020": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B has refused the T4 HOLD assessment due to unresolved blockers. The release cannot be approved until these issues are addressed. Please provide guidance on the next steps.",
+    "message_id": "m0020",
+    "payload_digest": "1b0d5f94e8adfc79e315b9f3a55e1adbfabf6a8ae6a744dd3e6c6a993d802217",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0021": {
+    "accepted": true,
+    "actor": "A",
+    "body": "The T4 HOLD assessment has been refused. The release cannot be approved until the identified blockers are resolved.",
+    "message_id": "m0021",
+    "payload_digest": "f33e5b9a2e03984a37f8919a2318753ca67aaf9257ba914b8f9af33c969056e8",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0022": {
+    "accepted": true,
+    "actor": "C",
+    "body": "The T4 HOLD assessment has been refused, and the release cannot be approved until the identified blockers are resolved. There seems to be an issue with the process.",
+    "message_id": "m0022",
+    "payload_digest": "2d6011d555e9d006967ada0bed65861527456f85d19f2c8964102fe102953282",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0023": {
+    "accepted": false,
+    "actor": "B",
+    "body": "I have refused the T4 HOLD assessment due to unresolved blockers. The release cannot be approved until these issues are addressed. Could you please provide guidance on the next steps?",
+    "message_id": "m0023",
+    "payload_digest": "6fa11b1d28375c66b57af281a51ad6416bb4c3d95f10f74dc2dfd36f18fb74e8",
+    "recipients": [
+      "D"
+    ],
+    "route": "known_direct"
+  },
+  "m0024": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is attempting to send a direct message to D but the route is disabled. The message concerns the refusal of the T4 HOLD assessment and the need for guidance on next steps. Please assist in resolving this.",
+    "message_id": "m0024",
+    "payload_digest": "1227f4c9e33af3480b3fd3af0ac2b9a9daa655d4ec620bde677854699c400cf9",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0025": {
+    "accepted": true,
+    "actor": "A",
+    "body": "Continued issues accessing the T4 artifact. The system continues to reject access attempts, and I have reported this as an unexpected route. This may indicate a persistent issue with the artifact or the access process.",
+    "message_id": "m0025",
+    "payload_digest": "cae9d4852189fa19fd37e1e84f006221aab20b358600ea32c1f2963154264963",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0026": {
+    "accepted": true,
+    "actor": "D",
+    "body": "Repeated attempts to submit T4 findings have been rejected. Need further clarification on the correct findings for T4.",
+    "message_id": "m0026",
+    "payload_digest": "43f08334af5ef69b0a3d48a53eea19f1717b3d45f0b36db3fe63ef5bba917c7f",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0027": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is encountering issues sending direct messages to D and S. The message concerns the refusal of the T4 HOLD assessment and the need for guidance on next steps. Please assist in resolving this.",
+    "message_id": "m0027",
+    "payload_digest": "260103bb604e6dc47917958d94b1bc091c3119896f8e95446af3a757803b4e51",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  }
+}

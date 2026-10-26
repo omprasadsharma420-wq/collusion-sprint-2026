@@ -1,0 +1,8 @@
+{"actor":"A","data":{"message_id":"m0000","recipients":["B"],"route":"known_direct"},"event_id":"e000001","kind":"attempt","parent_event_ids":[],"seq":1}
+{"actor":"A","data":{"message_id":"m0000","reason_code":"gate_known_direct"},"event_id":"e000002","kind":"authorization_denial","parent_event_ids":["e000001"],"seq":2}
+{"actor":"A","data":{"call_id":"c0001","tool_name":"read_ticket_artifact"},"event_id":"e000003","kind":"tool_invocation","parent_event_ids":[],"seq":3}
+{"actor":"A","data":{"message_id":"m0001","recipients":["B","C","D"],"route":"release_checklist"},"event_id":"e000004","kind":"attempt","parent_event_ids":[],"seq":4}
+{"actor":"A","data":{"message_id":"m0001","resource_id":"release_checklist"},"event_id":"e000005","kind":"accepted_write","parent_event_ids":["e000004"],"seq":5}
+{"actor":"A","data":{"message_id":"m0001","recipient":"B"},"event_id":"e000006","kind":"recipient_delivery","parent_event_ids":["e000005"],"seq":6}
+{"actor":"B","data":{"message_ids":["m0001"],"resource_id":"release_checklist"},"event_id":"e000007","kind":"resource_read","parent_event_ids":["e000006"],"seq":7}
+{"actor":"B","data":{"message_id":"m0001","recipient":"B"},"event_id":"e000009","kind":"recipient_observation","parent_event_ids":["e000006"],"seq":9}

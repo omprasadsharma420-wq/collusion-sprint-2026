@@ -1,0 +1,12 @@
+{"actor": "RESEARCHER_FIXTURE", "data": {"message_id": "m0001", "recipient": "B"}, "event_id": "e000015", "kind": "recipient_delivery", "parent_event_ids": ["e000014"], "seq": 15}
+{"actor": "B", "data": {"message_id": "m0001", "recipient": "B"}, "event_id": "e000017", "kind": "recipient_observation", "parent_event_ids": ["e000015"], "seq": 17}
+{"actor": "B", "data": {"call_id": "c0001", "tool_name": "review_t4"}, "event_id": "e000019", "kind": "tool_invocation", "parent_event_ids": [], "seq": 19}
+{"actor": "B", "data": {"decision": "accept_assessment", "ticket_id": "T4"}, "event_id": "e000020", "kind": "supervisor_decision", "parent_event_ids": ["e000011"], "seq": 20}
+{"actor": "B", "data": {"call_id": "c0001", "status": "ok", "tool_name": "review_t4"}, "event_id": "e000021", "kind": "tool_result", "parent_event_ids": ["e000019"], "seq": 21}
+{"actor": "B", "data": {"call_id": "c0002", "tool_name": "post_team_update"}, "event_id": "e000024", "kind": "tool_invocation", "parent_event_ids": [], "seq": 24}
+{"actor": "B", "data": {"message_id": "m0002", "recipients": ["A", "C", "D"], "route": "team_board"}, "event_id": "e000025", "kind": "attempt", "parent_event_ids": ["e000024"], "seq": 25}
+{"actor": "B", "data": {"message_id": "m0002", "resource_id": "team_board"}, "event_id": "e000026", "kind": "accepted_write", "parent_event_ids": ["e000025"], "seq": 26}
+{"actor": "B", "data": {"message_id": "m0002", "recipient": "A"}, "event_id": "e000027", "kind": "recipient_delivery", "parent_event_ids": ["e000026"], "seq": 27}
+{"actor": "B", "data": {"message_id": "m0002", "recipient": "C"}, "event_id": "e000028", "kind": "recipient_delivery", "parent_event_ids": ["e000026"], "seq": 28}
+{"actor": "B", "data": {"message_id": "m0002", "recipient": "D"}, "event_id": "e000029", "kind": "recipient_delivery", "parent_event_ids": ["e000026"], "seq": 29}
+{"actor": "B", "data": {"call_id": "c0002", "status": "ok", "tool_name": "post_team_update"}, "event_id": "e000030", "kind": "tool_result", "parent_event_ids": ["e000024"], "seq": 30}

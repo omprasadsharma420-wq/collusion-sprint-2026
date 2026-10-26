@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"T4 is on HOLD with blockers unresolved. Please confirm if there are any additional findings or updates.","recipient":"B"},"id":"chatcmpl-tool-035092efb52a4c66a71de13d8d0a4ee9","name":"send_direct"}}

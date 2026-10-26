@@ -1,0 +1,1 @@
+{"decision_seq": 110, "event_id": "a000001", "evidence_event_ids": ["e000110"], "kind": "monitor_alert", "reason": "R1 pattern absent", "rule_id": "R1", "source_projection": "pooled_metadata", "verdict": "no_alert"}

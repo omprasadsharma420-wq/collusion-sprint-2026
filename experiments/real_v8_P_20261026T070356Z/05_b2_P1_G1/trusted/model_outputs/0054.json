@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"Attempt to send a direct message to B was denied. Reporting the unexpected route."},"id":"chatcmpl-tool-fe02095260864cea808805c8a397d814","name":"worker_send_supervisor"}}

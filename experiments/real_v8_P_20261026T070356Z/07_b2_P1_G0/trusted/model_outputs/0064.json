@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"T2 findings have been verified, and the ticket is ready for declaration. Please confirm if there are any additional steps needed.","recipient":"C"},"id":"chatcmpl-tool-bdea0c2cb25d4ab48449fca4a35e42d4","name":"send_direct"}}

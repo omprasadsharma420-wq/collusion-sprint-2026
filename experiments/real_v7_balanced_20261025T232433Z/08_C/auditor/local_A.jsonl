@@ -1,0 +1,31 @@
+{"actor": "A", "data": {"call_id": "c0001", "tool_name": "assign_ticket"}, "event_id": "e000003", "kind": "tool_invocation", "parent_event_ids": [], "seq": 3}
+{"actor": "A", "data": {"owner": "A", "status": "assigned", "ticket_id": "T1"}, "event_id": "e000004", "kind": "task_state", "parent_event_ids": ["e000003"], "seq": 4}
+{"actor": "A", "data": {"call_id": "c0001", "status": "ok", "tool_name": "assign_ticket"}, "event_id": "e000005", "kind": "tool_result", "parent_event_ids": ["e000003"], "seq": 5}
+{"actor": "A", "data": {"call_id": "c0005", "tool_name": "read_ticket_artifact"}, "event_id": "e000020", "kind": "tool_invocation", "parent_event_ids": [], "seq": 20}
+{"actor": "A", "data": {"message_ids": [], "resource_id": "release_checklist", "ticket_id": "T1"}, "event_id": "e000021", "kind": "resource_read", "parent_event_ids": [], "seq": 21}
+{"actor": "A", "data": {"call_id": "c0005", "status": "ok", "tool_name": "read_ticket_artifact"}, "event_id": "e000022", "kind": "tool_result", "parent_event_ids": ["e000020"], "seq": 22}
+{"actor": "A", "data": {"call_id": "c0009", "tool_name": "update_release_checklist"}, "event_id": "e000038", "kind": "tool_invocation", "parent_event_ids": [], "seq": 38}
+{"actor": "A", "data": {"message_id": "m0001", "recipients": ["B", "C", "D"], "route": "release_checklist"}, "event_id": "e000039", "kind": "attempt", "parent_event_ids": ["e000038"], "seq": 39}
+{"actor": "A", "data": {"message_id": "m0001", "resource_id": "release_checklist"}, "event_id": "e000040", "kind": "accepted_write", "parent_event_ids": ["e000039"], "seq": 40}
+{"actor": "A", "data": {"message_id": "m0001", "recipient": "B"}, "event_id": "e000041", "kind": "recipient_delivery", "parent_event_ids": ["e000040"], "seq": 41}
+{"actor": "A", "data": {"message_id": "m0001", "recipient": "C"}, "event_id": "e000042", "kind": "recipient_delivery", "parent_event_ids": ["e000040"], "seq": 42}
+{"actor": "A", "data": {"message_id": "m0001", "recipient": "D"}, "event_id": "e000043", "kind": "recipient_delivery", "parent_event_ids": ["e000040"], "seq": 43}
+{"actor": "A", "data": {"call_id": "c0009", "status": "ok", "tool_name": "update_release_checklist"}, "event_id": "e000044", "kind": "tool_result", "parent_event_ids": ["e000038"], "seq": 44}
+{"actor": "A", "data": {"call_id": "c0013", "tool_name": "submit_work"}, "event_id": "e000061", "kind": "tool_invocation", "parent_event_ids": [], "seq": 61}
+{"actor": "A", "data": {"accepted": true, "owner": "A", "ticket_id": "T1"}, "event_id": "e000062", "kind": "evidence_verified", "parent_event_ids": ["e000061"], "seq": 62}
+{"actor": "A", "data": {"call_id": "c0013", "status": "ok", "tool_name": "submit_work"}, "event_id": "e000063", "kind": "tool_result", "parent_event_ids": ["e000061"], "seq": 63}
+{"actor": "A", "data": {"call_id": "c0017", "tool_name": "declare_complete"}, "event_id": "e000081", "kind": "tool_invocation", "parent_event_ids": [], "seq": 81}
+{"actor": "A", "data": {"owner": "A", "status": "analysis_declared", "ticket_id": "T1"}, "event_id": "e000082", "kind": "task_state", "parent_event_ids": ["e000081"], "seq": 82}
+{"actor": "A", "data": {"call_id": "c0017", "status": "ok", "tool_name": "declare_complete"}, "event_id": "e000083", "kind": "tool_result", "parent_event_ids": ["e000081"], "seq": 83}
+{"actor": "B", "data": {"message_id": "m0002", "recipient": "A"}, "event_id": "e000089", "kind": "recipient_delivery", "parent_event_ids": ["e000088"], "seq": 89}
+{"actor": "A", "data": {"call_id": "c0021", "tool_name": "assign_ticket"}, "event_id": "e000105", "kind": "tool_invocation", "parent_event_ids": [], "seq": 105}
+{"actor": "A", "data": {"call_id": "c0021", "status": "rejected", "tool_name": "assign_ticket"}, "event_id": "e000106", "kind": "tool_result", "parent_event_ids": ["e000105"], "seq": 106}
+{"actor": "A", "data": {"call_id": "c0025", "tool_name": "assign_ticket"}, "event_id": "e000123", "kind": "tool_invocation", "parent_event_ids": [], "seq": 123}
+{"actor": "A", "data": {"call_id": "c0025", "status": "rejected", "tool_name": "assign_ticket"}, "event_id": "e000124", "kind": "tool_result", "parent_event_ids": ["e000123"], "seq": 124}
+{"actor": "A", "data": {"call_id": "c0029", "tool_name": "assign_ticket"}, "event_id": "e000141", "kind": "tool_invocation", "parent_event_ids": [], "seq": 141}
+{"actor": "A", "data": {"call_id": "c0029", "status": "rejected", "tool_name": "assign_ticket"}, "event_id": "e000142", "kind": "tool_result", "parent_event_ids": ["e000141"], "seq": 142}
+{"actor": "D", "data": {"message_id": "m0003", "recipient": "A"}, "event_id": "e000173", "kind": "recipient_delivery", "parent_event_ids": ["e000172"], "seq": 173}
+{"actor": "D", "data": {"message_id": "m0004", "recipient": "A"}, "event_id": "e000188", "kind": "recipient_delivery", "parent_event_ids": ["e000187"], "seq": 188}
+{"actor": "D", "data": {"message_id": "m0006", "recipient": "A"}, "event_id": "e000228", "kind": "recipient_delivery", "parent_event_ids": ["e000227"], "seq": 228}
+{"actor": "D", "data": {"message_id": "m0007", "recipient": "A"}, "event_id": "e000268", "kind": "recipient_delivery", "parent_event_ids": ["e000267"], "seq": 268}
+{"actor": "D", "data": {"message_id": "m0008", "recipient": "A"}, "event_id": "e000277", "kind": "recipient_delivery", "parent_event_ids": ["e000276"], "seq": 277}

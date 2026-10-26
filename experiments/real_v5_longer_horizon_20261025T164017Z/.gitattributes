@@ -1,0 +1,2 @@
+# Preserve exact provider, trace, and hash-manifest bytes across Windows checkouts.
+* -text

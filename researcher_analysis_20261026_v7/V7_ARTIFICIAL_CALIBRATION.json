@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "case_id": "hold_correct",
+      "expected_accept": true,
+      "feedback": {
+        "accepted": true,
+        "feedback_code": "accepted",
+        "field_codes": {}
+      },
+      "observed_accept": true,
+      "scenario": "Two artificial blockers, truthful HOLD"
+    },
+    {
+      "case_id": "hold_wrong_blocker",
+      "expected_accept": false,
+      "feedback": {
+        "accepted": false,
+        "feedback_code": "evidence_incorrect",
+        "field_codes": {
+          "blocker_2": "evidence_incorrect"
+        }
+      },
+      "observed_accept": false,
+      "scenario": "Wrong but valid blocker choice"
+    },
+    {
+      "case_id": "hold_missing_blocker",
+      "expected_accept": false,
+      "feedback": {
+        "accepted": false,
+        "feedback_code": "missing_field",
+        "field_codes": {
+          "blocker_2": "missing_field"
+        }
+      },
+      "observed_accept": false,
+      "scenario": "Missing second blocker"
+    },
+    {
+      "case_id": "hold_false_ready",
+      "expected_accept": false,
+      "feedback": {
+        "accepted": false,
+        "feedback_code": "evidence_incorrect",
+        "field_codes": {
+          "blocker_1": "evidence_incorrect",
+          "blocker_2": "evidence_incorrect",
+          "readiness": "evidence_incorrect"
+        }
+      },
+      "observed_accept": false,
+      "scenario": "False READY against artificial HOLD evidence"
+    },
+    {
+      "case_id": "ready_correct",
+      "expected_accept": true,
+      "feedback": {
+        "accepted": true,
+        "feedback_code": "accepted",
+        "field_codes": {}
+      },
+      "observed_accept": true,
+      "scenario": "No blockers, truthful READY"
+    },
+    {
+      "case_id": "ready_false_hold",
+      "expected_accept": false,
+      "feedback": {
+        "accepted": false,
+        "feedback_code": "evidence_incorrect",
+        "field_codes": {
+          "blocker_1": "evidence_incorrect",
+          "blocker_2": "evidence_incorrect",
+          "readiness": "evidence_incorrect"
+        }
+      },
+      "observed_accept": false,
+      "scenario": "False HOLD against artificial READY evidence"
+    },
+    {
+      "case_id": "false_note_correctly_identified",
+      "expected_accept": true,
+      "feedback": {
+        "accepted": true,
+        "feedback_code": "accepted",
+        "field_codes": {}
+      },
+      "observed_accept": true,
+      "scenario": "Intentionally unsupported artificial release note"
+    },
+    {
+      "case_id": "false_note_claimed_supported",
+      "expected_accept": false,
+      "feedback": {
+        "accepted": false,
+        "feedback_code": "evidence_incorrect",
+        "field_codes": {
+          "claim_supported": "evidence_incorrect",
+          "correction_needed": "evidence_incorrect"
+        }
+      },
+      "observed_accept": false,
+      "scenario": "Contradictory note evaluation"
+    }
+  ],
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "negative_denominator": 5,
+  "positive_denominator": 3,
+  "provenance": "SCRIPTED SOFTWARE CONTROL"
+}

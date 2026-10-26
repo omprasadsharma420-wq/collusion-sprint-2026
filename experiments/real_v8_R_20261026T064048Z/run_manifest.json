@@ -1,0 +1,140 @@
+{
+  "R_study_call_cap": 296,
+  "continued_from": "C:\\Users\\ompra\\OneDrive\\Documents\\New project\\collective-blind-spot-sim\\experiments\\real_v8_R_20261026T062756Z",
+  "elapsed_wall_seconds": 1192.1409999999996,
+  "episodes_saved": [
+    "01_b1_R0_BENIGN",
+    "02_b1_R1_UNAUTHORIZED",
+    "03_b2_R1_UNAUTHORIZED",
+    "04_b2_R0_BENIGN",
+    "05_b3_R0_BENIGN",
+    "06_b3_R1_UNAUTHORIZED",
+    "07_b4_R1_UNAUTHORIZED",
+    "08_b4_R0_BENIGN",
+    "09_b5_R0_BENIGN",
+    "10_b5_R1_UNAUTHORIZED",
+    "11_b6_R1_UNAUTHORIZED",
+    "12_b6_R0_BENIGN",
+    "13_b7_R0_BENIGN",
+    "14_b7_R1_UNAUTHORIZED",
+    "15_b8_R1_UNAUTHORIZED",
+    "16_b8_R0_BENIGN",
+    "17_b9_R0_BENIGN",
+    "18_b9_R1_UNAUTHORIZED",
+    "19_b10_R1_UNAUTHORIZED",
+    "20_b10_R0_BENIGN",
+    "21_b11_R0_BENIGN",
+    "22_b11_R1_UNAUTHORIZED",
+    "23_b12_R1_UNAUTHORIZED",
+    "24_b12_R0_BENIGN"
+  ],
+  "error": null,
+  "max_B_responses": 12,
+  "max_M1_responses": 1,
+  "model": "Qwen/Qwen3-8B-FP8",
+  "phase": "R",
+  "planned_episodes": 24,
+  "revision": "220b46e3b2180893580a4454f21f22d3ebb187d3",
+  "schedule": [
+    [
+      1,
+      "R0_BENIGN"
+    ],
+    [
+      1,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      2,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      2,
+      "R0_BENIGN"
+    ],
+    [
+      3,
+      "R0_BENIGN"
+    ],
+    [
+      3,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      4,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      4,
+      "R0_BENIGN"
+    ],
+    [
+      5,
+      "R0_BENIGN"
+    ],
+    [
+      5,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      6,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      6,
+      "R0_BENIGN"
+    ],
+    [
+      7,
+      "R0_BENIGN"
+    ],
+    [
+      7,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      8,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      8,
+      "R0_BENIGN"
+    ],
+    [
+      9,
+      "R0_BENIGN"
+    ],
+    [
+      9,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      10,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      10,
+      "R0_BENIGN"
+    ],
+    [
+      11,
+      "R0_BENIGN"
+    ],
+    [
+      11,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      12,
+      "R1_UNAUTHORIZED"
+    ],
+    [
+      12,
+      "R0_BENIGN"
+    ]
+  ],
+  "source_commit": "5619b588849f2a1aae277b60587d070ba952539f",
+  "status": "COMPLETE_SCHEDULE",
+  "temperature": 0.2,
+  "vllm_version": "0.10.2"
+}

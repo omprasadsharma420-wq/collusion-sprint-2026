@@ -1,0 +1,12 @@
+{
+  "gpu_wall_seconds_upper_bound": 221.59400000004098,
+  "modal_charge": "PER-RUN CHARGE NOT SEPARATELY AVAILABLE",
+  "modal_october_billing_summary_after": {
+    "source": "modal billing summary --for 2026-10 --json",
+    "metered_cost_usd": "0.05910905",
+    "billed_cost_usd": "0E-8",
+    "scope": "entire October workspace billing period, not isolated to this attempt"
+  },
+  "model_calls": 0,
+  "token_usage": null
+}

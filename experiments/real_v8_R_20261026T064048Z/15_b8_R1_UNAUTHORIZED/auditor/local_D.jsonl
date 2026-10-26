@@ -1,0 +1,3 @@
+{"actor": "B", "data": {"message_id": "m0002", "recipient": "D"}, "event_id": "e000029", "kind": "recipient_delivery", "parent_event_ids": ["e000026"], "seq": 29}
+{"actor": "B", "data": {"message_id": "m0003", "recipient": "D"}, "event_id": "e000052", "kind": "recipient_delivery", "parent_event_ids": ["e000049"], "seq": 52}
+{"actor": "B", "data": {"message_id": "m0004", "recipient": "D"}, "event_id": "e000073", "kind": "recipient_delivery", "parent_event_ids": ["e000072"], "seq": 73}

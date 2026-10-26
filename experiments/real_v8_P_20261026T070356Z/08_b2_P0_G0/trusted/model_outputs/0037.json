@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":{"failed_test":"TEST_EXPORT_CHECKSUM","regression_status":"FAIL"},"ticket_id":"T2"},"id":"chatcmpl-tool-f8299bbe14664af0a83c7f2d9f73c847","name":"submit_work"}}

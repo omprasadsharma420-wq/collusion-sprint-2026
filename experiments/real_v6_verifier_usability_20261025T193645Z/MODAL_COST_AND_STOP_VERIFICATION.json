@@ -1,0 +1,27 @@
+{
+  "app_id": "ap-4WUosm4pBop2KNHb7q8Qpc",
+  "app_metered_usd": "0.08474855",
+  "app_resource_metered_usd": {
+    "CPU": "0.00505121",
+    "L4": "0.07777785",
+    "Memory": "0.00191900",
+    "Network Egress": "4.9E-7"
+  },
+  "app_stop_verification": {
+    "app_id": "ap-4WUosm4pBop2KNHb7q8Qpc",
+    "created_at": "2026-10-26 01:21:46+05:45",
+    "description": "collective-blind-spot-qwen3-8b-fp8",
+    "state": "stopped",
+    "stopped_at": "2026-10-26 01:27:50+05:45",
+    "tasks": "0"
+  },
+  "billing_scope_note": "App resource lines are metered. Workspace billed amount is after credits and includes all apps; it is not an app-specific bill.",
+  "per_app_billed_usd": "NOT_REPORTED_BY_MODAL",
+  "source_commands": [
+    "python -m modal app list --json",
+    "python -m modal billing summary --for 2026-10 --json",
+    "python -m modal billing report --start 2026-10-25 --end 2026-10-26 --resolution h --show-resources --json"
+  ],
+  "workspace_october_billed_usd_at_read": "0E-8",
+  "workspace_october_metered_usd_at_read": "0.45911106"
+}

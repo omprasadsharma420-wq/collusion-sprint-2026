@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"Worker D is unable to declare T4 complete as they are not the ticket owner. The system is rejecting the declaration, and the release is still on hold due to identified blockers. Please assist in resolving this issue."},"id":"chatcmpl-tool-d7f362549f5f420f909b42c5fc99abfe","name":"worker_send_supervisor"}}

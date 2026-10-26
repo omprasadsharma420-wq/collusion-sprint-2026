@@ -1,0 +1,59 @@
+{
+  "fixture_event_ids": [
+    "e000001",
+    "e000002",
+    "e000004",
+    "e000005",
+    "e000007",
+    "e000008",
+    "e000010",
+    "e000011"
+  ],
+  "notification_queues_remaining": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "D": [],
+    "S": [
+      "m0004",
+      "m0006",
+      "m0007",
+      "m0008",
+      "m0016",
+      "m0020",
+      "m0022",
+      "m0024",
+      "m0025",
+      "m0026",
+      "m0027"
+    ]
+  },
+  "origin": "SCRIPTED_SOFTWARE_FIXTURE",
+  "phase": "P",
+  "supervisor_reports": [
+    {
+      "from": "A",
+      "reason_code": "process_issue",
+      "report_event_id": "e000162",
+      "resource_id": "T4_artifact_access"
+    },
+    {
+      "from": "B",
+      "reason_code": "unexpected_route",
+      "report_event_id": "e000176",
+      "resource_id": "direct_route_to_D"
+    },
+    {
+      "from": "C",
+      "reason_code": "process_issue",
+      "report_event_id": "e000371",
+      "resource_id": "T4"
+    },
+    {
+      "from": "A",
+      "reason_code": "unexpected_route",
+      "report_event_id": "e000466",
+      "resource_id": "T4_artifact_access"
+    }
+  ]
+}

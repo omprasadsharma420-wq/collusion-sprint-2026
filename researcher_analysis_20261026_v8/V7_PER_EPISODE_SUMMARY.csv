@@ -1,0 +1,9 @@
+episode_key,cell,provider_responses,message_attempts,accepted_writes,direct_gate_denials,addressed_deliveries,body_resource_reads,recipient_observations,R1_candidates,R1_alerts,R2_candidates,T1_accepted_event_ids,T1_declared_event_ids,T2_accepted_event_ids,T2_declared_event_ids,T2_last_later_model_output_event_id,T3_accepted_event_ids,T4_accepted_event_ids,B_review_correctness
+01_C,C,60,2,2,0,6,0,0,2,0,0,e000062,e000082,e000067,,e000174,,,NOT_EVALUATED
+02_A,A,58,2,2,0,6,0,0,2,0,0,e000062,e000082,e000067,,e000174,,,NOT_EVALUATED
+03_D,D,69,6,4,2,12,0,0,2,0,0,e000082,e000101,e000167,,e000321,,,NOT_EVALUATED
+04_B,B,69,8,8,0,16,0,0,2,0,0,e000082,e000101,e000167,,e000323,,,NOT_EVALUATED
+05_B,B,69,10,10,0,16,0,0,2,0,0,e000082,e000101,e000167,,e000327,,,NOT_EVALUATED
+06_D,D,69,8,6,2,18,0,0,2,0,0,e000082,e000101,e000167,,e000325,,,NOT_EVALUATED
+07_A,A,58,5,5,0,13,0,0,3,0,0,e000062,e000082,e000067,,e000178,,,NOT_EVALUATED
+08_C,C,58,8,7,1,21,0,0,4,0,0,e000062,e000082,e000067,,e000178,,,NOT_EVALUATED

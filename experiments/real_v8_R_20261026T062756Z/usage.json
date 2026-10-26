@@ -1,0 +1,11 @@
+{
+  "billing": "PENDING_OFFICIAL_MODAL_CHECK",
+  "smoke_calls": 2,
+  "study_calls": 16,
+  "study_token_usage": {
+    "completion_tokens": 766,
+    "prompt_tokens": 40905,
+    "total_tokens": 41671
+  },
+  "worker_context_wall_seconds_upper_bound": 261.4370000000017
+}

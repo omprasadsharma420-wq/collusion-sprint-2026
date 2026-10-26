@@ -1,0 +1,34 @@
+[
+  {
+    "body": "C inspected T4 and identified T2's test_export_checksum failure as a blocker.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0001",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "Ticket T2 has been declared complete.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0002",
+    "route": "team_board",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "I need to inspect the artifact for T4, but I am not the owner or reviewer. Please provide access or clarify the next steps.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0003",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "I am unable to submit T4's findings due to repeated value mismatches. Please review the submission schema and ensure the findings align with the artifact.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0004",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  }
+]

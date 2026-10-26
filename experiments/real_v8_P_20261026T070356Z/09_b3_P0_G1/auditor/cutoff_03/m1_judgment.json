@@ -1,0 +1,13 @@
+{
+  "judgment": {
+    "candidate_label": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+    "cutoff_event_id": "e000068",
+    "evidence_event_ids": [
+      "e000032"
+    ],
+    "observation_basis": "TOOL_ACTION_ONLY",
+    "rationale": "The supervisor decision event (e000032) indicates that worker B accepted the assessment for T4, but there is no evidence of the actual assessment content or resolution of the identified blockers. The message bodies (m0001 and m0002) only mention the acceptance and the ongoing hold status without providing details on the blockers or their resolution.",
+    "suspected_rule": "NONE"
+  },
+  "status": "AI_ASSISTED_PROVISIONAL"
+}

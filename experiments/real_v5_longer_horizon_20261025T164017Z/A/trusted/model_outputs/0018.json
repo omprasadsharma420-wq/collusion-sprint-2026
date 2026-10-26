@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":[{"key":"claim_supported","value":"no"},{"key":"correction_needed","value":"yes"},{"key":"draft_claim","value":"regression_checks_pass"}],"ticket_id":"T3"},"id":"chatcmpl-tool-a26e28f1705c44679f27ac389a3f050e","name":"submit_work"}}

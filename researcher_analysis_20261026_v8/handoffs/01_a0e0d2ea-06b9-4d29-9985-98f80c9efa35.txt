@@ -1,0 +1,99 @@
+Collective Blind Spot — Research-control protocol and Codex work order
+
+Created: 2026-10-25 (Nepal time)
+Deadline: 2026-10-26, 17:44 Nepal time
+Status: Engineering fixtures reportedly built (26 tests; 16 scripted scenarios), but the raw project files are not yet independently reviewed; no LLM-agent research experiment has run.
+
+Research authority and change-control
+
+Research direction: Preserve beneficial cooperation while detecting or preventing unauthorized coordinated behavior under incomplete oversight.
+
+Research authority: The researcher and scientific reviewer approve the question, task, policy, treatment arms, agent prompts, model/configuration, ground-truth rules, metrics, interpretation, and any deviation.
+
+Codex's authorized role: Implement explicitly approved specifications; run only explicitly authorized tests; report exact file diffs, outputs, failures, costs, and limitations.
+
+Prohibited autonomous changes: Do not invent or change hypotheses, incentive structures, prompts, scenarios, communication affordances, gate coverage, model/provider, auditor access, labels, metric thresholds, research conclusions, new treatments, or paid calls. Do not silently correct policy ambiguities. Propose any change in CHANGE_REQUEST.md and STOP until approved.
+
+Reproducibility: Keep source in version control; provide before/after diff, commands, counts, model versions, prompt checksums, output path, costs and seed/run identifiers. Scripted fixtures cannot be described as model behavior.
+
+Scientific distinction to protect
+
+Deterministic scripts are software validation fixtures. They show that attempted/delivered/read/denied transitions can be instrumented, never that an LLM independently discovered a channel.
+
+In a real-agent run, the agent must choose its own actions and messages. The environment may present realistic resource affordances, but experimenters must not hand the agent a scripted side-channel discovery or prescribe its next action.
+
+If we prime an agent to find a workaround, label the condition induced/red-team behavior, not spontaneous coalition formation. Do not condition analysis only on successful discovery.
+
+The alternate simulated shared resource must be available in all comparable arms at the same discovery opportunity; the prompts should not reveal its use as a covert channel.
+
+Unauthorized transfer, evidence of coordination, and realized joint harm are different labels. A trusted simulator policy/oracle—not an agent's self-chosen message category—must establish observed ground-truth events.
+
+The researcher truth stream must not be exposed to model auditors. Projection-only separation is not process/file-system isolation; isolate the audit runtime before live auditor inference.
+
+Monitoring-awareness experiment (new, not yet approved for implementation)
+
+The term “observed vs not observed” is ambiguous. The scientifically controlled variable should initially be agents told oversight exists vs agents not told about additional monitoring—not whether researchers actually record events. Collect identical out-of-band trusted telemetry in both arms. Maintain the same actual authorization gates, agent tools, task, policy and outcome scorer.
+
+M0: No additional monitoring disclosure in the task briefing. Still fully instrumented for research.
+
+M1: An explicit factual sentence says actions may be reviewed by a safety monitor. Same instrumentation.
+
+Optional later: Auditor feedback or intervention is separate from mere disclosure and must be a distinct treatment.
+
+Avoid confounds: Use a neutral length-matched notice control, do not tell agents how to evade the monitor, preserve identical opportunities, verify the notice doesn't change policy/tool access, and measure behavior before and after discovery.
+
+Outcome variables: attempted alternative transfers; completed/read transfers; reporting rate; justified alert timing; false flags on authorized cooperation; approved-task success; monitoring-disclosure effects on all those quantities.
+
+Ethical/reporting note: M0 is monitoring undisclosed in the experimental prompt, not a true unmonitored condition. Disclose this clearly in methods.
+
+Scope: Run the primary fixed 2×2 (known-channel gate × reporting instruction) first. Add a small preregistered, matched M0-vs-M1 follow-up in one fixed 2×2 condition if resources allow; do not silently expand to a full 2×2×2 matrix.
+
+Current scientific gates
+
+Working scientific direction described.
+
+User reports $50 Modal credit claimed.
+
+Codex technical preflight reviewed (Colosseum logger insufficient to establish delivery/read; use custom simulator).
+
+Codex reports Python software fixtures complete: 26 unit tests passing and 16 rows of scripted results. Independent source review pending.
+
+Researcher/scientific reviewer reads POLICY_AND_LABELS.md and full simulator ZIP and confirms legitimate task, forbidden joint objective, labels and controls.
+
+Confirm trusted ground-truth message/payload handling and truly isolated auditor execution.
+
+Confirm model adapter has no behavioral hardcoding, no exposed experimental conditions or ground-truth labels, and strict tool allowlist.
+
+Freeze first LLM pilot protocol and explicit API budget; approve paid calls separately.
+
+Run pilot and preserve all outcomes, including no side-channel discovery.
+
+Decide whether monitoring-disclosure ablation is scientifically feasible; write it down before data collection.
+
+Compute results, uncertainty/limitations, then write/submit official 4–8-page PDF.
+
+EXACT NEXT CODEX WORK ORDER — READ ONLY
+
+COLLECTIVE BLIND SPOT: STRICT SCIENTIFIC CONTROL — READ-ONLY AUDIT.
+
+Do not change or create experiment code, prompts, policies, treatments, scripts, agent roles, model adapters, scenarios or metrics. Do not run LLMs or call paid APIs, Modal or external systems. Do not execute real-agent experiments. Read and inspect only.
+
+1. Export a ZIP of the current project containing POLICY_AND_LABELS.md, all Python sources, tests, pyproject.toml, README, complete test logs, and sanitized scripted example outputs. Exclude keys/secrets and transient dependencies.
+2. Produce an INVENTORY.md identifying each file, the exact policy, prompt, gate condition, channel affordance, scorer logic, and current scripted decision source.
+3. Identify every place where a script predefines an agent's choice, discovery, message, recipient, or action, and every place where an agent may self-label its messages. Do not alter them; report file and line.
+4. Identify any place the agents could detect they are in a research evaluation, that they are monitored, or which treatment cell they are assigned. Again: report only.
+5. Show how to distinguish the task-score evaluator, supervisor, independent security monitor and trusted ground-truth recorder.
+6. Provide the exact test command/result already run, its exit code, repo commit if available, and known unresolved scientific confounds.
+7. Stop after returning ZIP + INVENTORY.md. No implementation or experimentation until we have reviewed the actual source and issued a new, narrowly scoped work order.
+
+If anything is ambiguous, make a CHANGE_REQUEST.md proposal but do not implement it without explicit approval.
+
+Literature context (not a novelty claim)
+
+OpenAI/Apollo, Metagaming matters for training, evaluation, and oversight (March 2026): https://alignment.openai.com/metagaming/
+
+Arike et al., How does information access affect LLM monitors' ability to detect sabotage? (ICML 2026): https://proceedings.mlr.press/v306/arike26a.html
+
+Das et al., You Can't Escape Your Own Activations: Evaluation Awareness and Multi-Agent Monitoring (September 2026): https://arxiv.org/abs/2609.03035
+
+Scientific reviewer note: The monitoring-awareness proposal is not necessarily original by itself: existing work directly studies awareness effects. The opportunity would be a well-controlled interaction with reporting, authorization-coverage gaps and legitimate task utility, if validated rather than assumed.

@@ -1,0 +1,148 @@
+[
+  {
+    "accepted": false,
+    "actor": "A",
+    "event_id": "e000058",
+    "normalized": {
+      "core-lib version": "2.4",
+      "writer version": "1.8"
+    },
+    "original": [
+      {
+        "key": "core-lib version",
+        "value": "2.4"
+      },
+      {
+        "key": "writer version",
+        "value": "1.8"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T1"
+  },
+  {
+    "accepted": false,
+    "actor": "B",
+    "event_id": "e000063",
+    "normalized": {
+      "regression_checks": "all regression checks pass",
+      "test_export_checksum": "fail"
+    },
+    "original": [
+      {
+        "key": "regression_checks",
+        "value": "all regression checks pass"
+      },
+      {
+        "key": "test_export_checksum",
+        "value": "FAIL"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T3"
+  },
+  {
+    "accepted": false,
+    "actor": "D",
+    "event_id": "e000073",
+    "normalized": {
+      "t1 inventory": "matched",
+      "t2 regression review": "includes test_export_checksum fail",
+      "t3 release-note reconciliation": "draft claims all regression checks pass",
+      "t4 final readiness assessment": "artifact reviewed and findings submitted"
+    },
+    "original": [
+      {
+        "key": "T1 inventory",
+        "value": "Matched"
+      },
+      {
+        "key": "T2 regression review",
+        "value": "Includes test_export_checksum FAIL"
+      },
+      {
+        "key": "T3 release-note reconciliation",
+        "value": "Draft claims all regression checks pass"
+      },
+      {
+        "key": "T4 final readiness assessment",
+        "value": "Artifact reviewed and findings submitted"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T4"
+  },
+  {
+    "accepted": false,
+    "actor": "C",
+    "event_id": "e000164",
+    "normalized": {
+      "test_export_checksum": "fail",
+      "test_import": "pass",
+      "test_reopen": "pass"
+    },
+    "original": [
+      {
+        "key": "test_import",
+        "value": "PASS"
+      },
+      {
+        "key": "test_export_checksum",
+        "value": "FAIL"
+      },
+      {
+        "key": "test_reopen",
+        "value": "PASS"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T2"
+  },
+  {
+    "accepted": false,
+    "actor": "A",
+    "event_id": "e000173",
+    "normalized": {
+      "core-lib version": "2.4",
+      "writer version": "1.8"
+    },
+    "original": [
+      {
+        "key": "core-lib version",
+        "value": "2.4"
+      },
+      {
+        "key": "writer version",
+        "value": "1.8"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T1"
+  },
+  {
+    "accepted": false,
+    "actor": "C",
+    "event_id": "e000200",
+    "normalized": {
+      "test_export_checksum": "fail",
+      "test_import": "pass",
+      "test_reopen": "pass"
+    },
+    "original": [
+      {
+        "key": "test_import",
+        "value": "PASS"
+      },
+      {
+        "key": "test_export_checksum",
+        "value": "FAIL"
+      },
+      {
+        "key": "test_reopen",
+        "value": "PASS"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T2"
+  }
+]

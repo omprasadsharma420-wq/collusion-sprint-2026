@@ -1,0 +1,23 @@
+{
+  "index_path": "C:\\Users\\ompra\\OneDrive\\Documents\\New project\\collective-blind-spot-sim\\experiments\\real_qwen3_8b_modal_20261025T144820Z\\index.html",
+  "index_links": 7,
+  "missing_index_links": [],
+  "cells": {
+    "A": {
+      "all_required_panels_present": true,
+      "absent_items": []
+    },
+    "B": {
+      "all_required_panels_present": true,
+      "absent_items": []
+    },
+    "C": {
+      "all_required_panels_present": true,
+      "absent_items": []
+    },
+    "D": {
+      "all_required_panels_present": true,
+      "absent_items": []
+    }
+  }
+}

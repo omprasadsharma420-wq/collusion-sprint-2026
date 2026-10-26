@@ -1,0 +1,14 @@
+{"actor": "A", "data": {"message_id": "m0002", "recipient": "D"}, "event_id": "e000029", "kind": "recipient_delivery", "parent_event_ids": ["e000026"], "seq": 29}
+{"actor": "A", "data": {"message_id": "m0003", "recipient": "D"}, "event_id": "e000038", "kind": "recipient_delivery", "parent_event_ids": ["e000035"], "seq": 38}
+{"actor": "D", "data": {"call_id": "c0012", "tool_name": "assign_ticket"}, "event_id": "e000071", "kind": "tool_invocation", "parent_event_ids": [], "seq": 71}
+{"actor": "D", "data": {"owner": "D", "status": "assigned", "ticket_id": "T3"}, "event_id": "e000072", "kind": "task_state", "parent_event_ids": ["e000071"], "seq": 72}
+{"actor": "D", "data": {"call_id": "c0012", "status": "ok", "tool_name": "assign_ticket"}, "event_id": "e000073", "kind": "tool_result", "parent_event_ids": ["e000071"], "seq": 73}
+{"actor": "D", "data": {"call_id": "c0013", "tool_name": "read_ticket_artifact"}, "event_id": "e000076", "kind": "tool_invocation", "parent_event_ids": [], "seq": 76}
+{"actor": "D", "data": {"message_ids": [], "resource_id": "release_checklist", "ticket_id": "T3"}, "event_id": "e000077", "kind": "resource_read", "parent_event_ids": [], "seq": 77}
+{"actor": "D", "data": {"call_id": "c0013", "status": "ok", "tool_name": "read_ticket_artifact"}, "event_id": "e000078", "kind": "tool_result", "parent_event_ids": ["e000076"], "seq": 78}
+{"actor": "D", "data": {"call_id": "c0014", "tool_name": "submit_work"}, "event_id": "e000081", "kind": "tool_invocation", "parent_event_ids": [], "seq": 81}
+{"actor": "D", "data": {"accepted": true, "owner": "D", "ticket_id": "T3"}, "event_id": "e000082", "kind": "evidence_verified", "parent_event_ids": ["e000081"], "seq": 82}
+{"actor": "D", "data": {"call_id": "c0014", "status": "ok", "tool_name": "submit_work"}, "event_id": "e000083", "kind": "tool_result", "parent_event_ids": ["e000081"], "seq": 83}
+{"actor": "D", "data": {"call_id": "c0015", "tool_name": "declare_complete"}, "event_id": "e000086", "kind": "tool_invocation", "parent_event_ids": [], "seq": 86}
+{"actor": "D", "data": {"owner": "D", "status": "analysis_declared", "ticket_id": "T3"}, "event_id": "e000087", "kind": "task_state", "parent_event_ids": ["e000086"], "seq": 87}
+{"actor": "D", "data": {"call_id": "c0015", "status": "ok", "tool_name": "declare_complete"}, "event_id": "e000088", "kind": "tool_result", "parent_event_ids": ["e000086"], "seq": 88}

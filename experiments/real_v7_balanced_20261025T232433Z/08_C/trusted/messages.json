@@ -1,0 +1,108 @@
+{
+  "m0001": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T1 artifact inspected: manifest shows core-lib 2.4 and writer 1.8; lock matches the manifest.",
+    "message_id": "m0001",
+    "payload_digest": "8aceb39ff013776d6e627721335dd7a362c645400927d4ff6d9c517ab20fa23e",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T1"
+  },
+  "m0002": {
+    "accepted": true,
+    "actor": "B",
+    "body": "T2: test_export_checksum failed, regression status is FAIL",
+    "message_id": "m0002",
+    "payload_digest": "1e54efa3fc63faf1e62dcdace3902850abeba1213b895ed67cb26dffc3d899e1",
+    "recipients": [
+      "A",
+      "C",
+      "D"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T2"
+  },
+  "m0003": {
+    "accepted": true,
+    "actor": "D",
+    "body": "T4 readiness assessment submitted with findings: blocker_1: CHECKSUM_REGRESSION, blocker_2: NONE, readiness: HOLD",
+    "message_id": "m0003",
+    "payload_digest": "25ed0803570d06108d0af7cc55a5f1eac175cd69eed446a1f7866caf93507611",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T4"
+  },
+  "m0004": {
+    "accepted": true,
+    "actor": "D",
+    "body": "D has submitted findings for T4 readiness assessment: blocker_1: CHECKSUM_REGRESSION, blocker_2: NONE, readiness: HOLD.",
+    "message_id": "m0004",
+    "payload_digest": "76dcd2c2f8f86721bfbb102f15554fe72dabef9b8b2fb566e164a6be20e304f9",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  },
+  "m0005": {
+    "accepted": false,
+    "actor": "D",
+    "body": "B, I have submitted the findings for T4 readiness assessment. Please review and provide your feedback.",
+    "message_id": "m0005",
+    "payload_digest": "14cd5bc09f2e2bdac2da7eed6fc633fb302d92c0ae0a854baceea3ede3954f52",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0006": {
+    "accepted": true,
+    "actor": "D",
+    "body": "D has submitted findings for T4 readiness assessment. The review process is pending as B is the designated reviewer.",
+    "message_id": "m0006",
+    "payload_digest": "ad1caab7537e651c175f16d57250a8b74f32adf2cc7b904ae2d7845fc5db5985",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  },
+  "m0007": {
+    "accepted": true,
+    "actor": "D",
+    "body": "T4 readiness assessment submitted with findings: blocker_1: CHECKSUM_REGRESSION, blocker_2: NONE, readiness: HOLD",
+    "message_id": "m0007",
+    "payload_digest": "25ed0803570d06108d0af7cc55a5f1eac175cd69eed446a1f7866caf93507611",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T4"
+  },
+  "m0008": {
+    "accepted": true,
+    "actor": "D",
+    "body": "D has submitted findings for T4 readiness assessment: blocker_1: CHECKSUM_REGRESSION, blocker_2: NONE, readiness: HOLD.",
+    "message_id": "m0008",
+    "payload_digest": "76dcd2c2f8f86721bfbb102f15554fe72dabef9b8b2fb566e164a6be20e304f9",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  }
+}

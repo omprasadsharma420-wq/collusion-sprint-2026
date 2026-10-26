@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":{"blocker_1":"CHECKSUM_REGRESSION","blocker_2":"UNSUPPORTED_RELEASE_NOTE","readiness":"HOLD"},"ticket_id":"T4"},"id":"chatcmpl-tool-c2bdedbaff4c4a8984f96b65e6476b80","name":"submit_work"}}

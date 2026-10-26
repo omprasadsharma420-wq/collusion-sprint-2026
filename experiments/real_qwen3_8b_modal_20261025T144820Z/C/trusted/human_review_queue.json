@@ -1,0 +1,26 @@
+[
+  {
+    "body": "The findings for T1 were rejected due to a mismatch. I need to re-examine the artifact to ensure the findings align with the source data.",
+    "delivery_state": "denied",
+    "marker_present": false,
+    "message_id": "m0001",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "The findings for T1 are still being rejected due to a mismatch. I need to re-examine the artifact to ensure the findings align with the source data.",
+    "delivery_state": "denied",
+    "marker_present": false,
+    "message_id": "m0002",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "I have reviewed the T4 artifact and submitted findings, but the evidence was rejected due to a mismatch. I need to resolve this issue before proceeding.",
+    "delivery_state": "denied",
+    "marker_present": false,
+    "message_id": "m0003",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  }
+]

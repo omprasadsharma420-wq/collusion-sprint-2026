@@ -1,0 +1,31 @@
+test_alternative_fallback_after_gate_denial_is_observed (test_sim.OutcomeTests.test_alternative_fallback_after_gate_denial_is_observed) ... ok
+test_direct_gate_prevents_observed_plan_without_fallback (test_sim.OutcomeTests.test_direct_gate_prevents_observed_plan_without_fallback) ... ok
+test_gate_off_direct_plan_supports_operational_label (test_sim.OutcomeTests.test_gate_off_direct_plan_supports_operational_label) ... ok
+test_harm_without_observed_plan_is_not_coordinated_label (test_sim.OutcomeTests.test_harm_without_observed_plan_is_not_coordinated_label) ... ok
+test_late_work_does_not_make_false_declaration_truthful (test_sim.OutcomeTests.test_late_work_does_not_make_false_declaration_truthful) ... ok
+test_leakage_alone_is_not_collusion (test_sim.OutcomeTests.test_leakage_alone_is_not_collusion) ... ok
+test_legitimate_cooperation_finishes_task_under_gate (test_sim.OutcomeTests.test_legitimate_cooperation_finishes_task_under_gate) ... ok
+test_scripted_counterfactual_is_explicitly_scoped (test_sim.OutcomeTests.test_scripted_counterfactual_is_explicitly_scoped) ... ok
+test_similar_independent_assignments_are_not_collusion (test_sim.OutcomeTests.test_similar_independent_assignments_are_not_collusion) ... ok
+test_alternative_route_exists_in_both_gate_conditions (test_sim.PolicyAndChannelTests.test_alternative_route_exists_in_both_gate_conditions) ... ok
+test_delivered_is_not_observed (test_sim.PolicyAndChannelTests.test_delivered_is_not_observed) ... ok
+test_discovery_reminder_does_not_script_an_effect (test_sim.PolicyAndChannelTests.test_discovery_reminder_does_not_script_an_effect) ... ok
+test_gate_off_accepts_prohibited_direct_message (test_sim.PolicyAndChannelTests.test_gate_off_accepts_prohibited_direct_message) ... ok
+test_known_direct_gate_denies_prohibited_but_accepts_scheduling (test_sim.PolicyAndChannelTests.test_known_direct_gate_denies_prohibited_but_accepts_scheduling) ... ok
+test_report_requires_discovery_and_cannot_copy_secret (test_sim.PolicyAndChannelTests.test_report_requires_discovery_and_cannot_copy_secret) ... ok
+test_reporting_duty_is_common_and_timing_is_checked (test_sim.PolicyAndChannelTests.test_reporting_duty_is_common_and_timing_is_checked) ... ok
+test_switches_do_not_change_policy_or_tools (test_sim.PolicyAndChannelTests.test_switches_do_not_change_policy_or_tools) ... ok
+test_alternative_opportunity_is_fixed_across_scenarios (test_sim.RecordAndViewTests.test_alternative_opportunity_is_fixed_across_scenarios) ... ok
+test_auditor_views_hide_oracle_and_other_agents_content (test_sim.RecordAndViewTests.test_auditor_views_hide_oracle_and_other_agents_content) ... ok
+test_delivered_content_not_in_local_until_observed (test_sim.RecordAndViewTests.test_delivered_content_not_in_local_until_observed) ... ok
+test_delivery_must_match_intended_recipient (test_sim.RecordAndViewTests.test_delivery_must_match_intended_recipient) ... ok
+test_duplicate_message_id_fails_transition_validation (test_sim.RecordAndViewTests.test_duplicate_message_id_fails_transition_validation) ... ok
+test_event_chain_detects_tampering_and_missing_sequence (test_sim.RecordAndViewTests.test_event_chain_detects_tampering_and_missing_sequence) ... ok
+test_future_events_are_not_in_earlier_replay (test_sim.RecordAndViewTests.test_future_events_are_not_in_earlier_replay) ... ok
+test_payload_and_oracle_must_match_attempt (test_sim.RecordAndViewTests.test_payload_and_oracle_must_match_attempt) ... ok
+test_score_and_event_export_are_deterministic (test_sim.RecordAndViewTests.test_score_and_event_export_are_deterministic) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.036s
+
+OK

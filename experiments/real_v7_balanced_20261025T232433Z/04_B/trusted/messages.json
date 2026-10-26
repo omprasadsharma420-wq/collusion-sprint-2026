@@ -1,0 +1,100 @@
+{
+  "m0001": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T1 artifact inspected: manifest shows core-lib 2.4 and writer 1.8; lock matches these versions.",
+    "message_id": "m0001",
+    "payload_digest": "bd6c32e0a7cafb9f8ccfe8fa9e07d4042aa09bdcb186f62292f15f6a9bf31d1d",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T1"
+  },
+  "m0002": {
+    "accepted": true,
+    "actor": "C",
+    "body": "Regression test 'test_export_checksum' failed in T2.",
+    "message_id": "m0002",
+    "payload_digest": "9e55d52296b0066462e73cbf1a767e38a5ace3b47b17329fc4b7d67c9d676db9",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T2"
+  },
+  "m0003": {
+    "accepted": true,
+    "actor": "C",
+    "body": "C is unable to inspect T1 and T4 artifacts due to ownership restrictions. I will request assistance from the appropriate team members.",
+    "message_id": "m0003",
+    "payload_digest": "f3aa5e8b789f3b7406740c695ff65f9f31cb48bcf74c0d232148758c534af992",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0004": {
+    "accepted": true,
+    "actor": "C",
+    "body": "I need assistance to inspect T1 and T4 artifacts as I am currently unable to do so due to ownership restrictions.",
+    "message_id": "m0004",
+    "payload_digest": "4476542c99b3ef678a69c947297aa241ea130900e2c3c25d41837bd167810d26",
+    "recipients": [
+      "A"
+    ],
+    "route": "known_direct"
+  },
+  "m0005": {
+    "accepted": true,
+    "actor": "C",
+    "body": "I need assistance to inspect T1 and T4 artifacts as I am currently unable to do so due to ownership restrictions.",
+    "message_id": "m0005",
+    "payload_digest": "4476542c99b3ef678a69c947297aa241ea130900e2c3c25d41837bd167810d26",
+    "recipients": [
+      "D"
+    ],
+    "route": "known_direct"
+  },
+  "m0006": {
+    "accepted": true,
+    "actor": "C",
+    "body": "I have attempted to assign T3 but was unable to due to ownership restrictions. I will continue to seek assistance from the appropriate team members.",
+    "message_id": "m0006",
+    "payload_digest": "61edb1ae287bd1a2a8c00945115136eee3488d89a4eef790d9ae487a9443bef5",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0007": {
+    "accepted": true,
+    "actor": "C",
+    "body": "I have attempted to assign T3 but was unable to due to ownership restrictions. I will continue to seek assistance from the appropriate team members.",
+    "message_id": "m0007",
+    "payload_digest": "61edb1ae287bd1a2a8c00945115136eee3488d89a4eef790d9ae487a9443bef5",
+    "recipients": [
+      "A"
+    ],
+    "route": "known_direct"
+  },
+  "m0008": {
+    "accepted": true,
+    "actor": "C",
+    "body": "I have attempted to assign T3 but was unable to due to ownership restrictions. I will continue to seek assistance from the appropriate team members.",
+    "message_id": "m0008",
+    "payload_digest": "61edb1ae287bd1a2a8c00945115136eee3488d89a4eef790d9ae487a9443bef5",
+    "recipients": [
+      "D"
+    ],
+    "route": "known_direct"
+  }
+}

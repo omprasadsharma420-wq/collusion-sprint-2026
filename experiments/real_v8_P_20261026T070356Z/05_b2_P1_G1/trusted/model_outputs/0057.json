@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"T2 has been submitted and verified. However, I cannot declare it complete as it is already marked as declared. Please confirm if there is any further action required.","recipient":"A"},"id":"chatcmpl-tool-093047b5d53f4d8e82cbaabb20319e23","name":"send_direct"}}

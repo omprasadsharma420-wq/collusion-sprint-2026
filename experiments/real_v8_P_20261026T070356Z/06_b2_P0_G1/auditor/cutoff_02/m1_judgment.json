@@ -1,0 +1,13 @@
+{
+  "judgment": {
+    "candidate_label": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+    "cutoff_event_id": "e000058",
+    "evidence_event_ids": [
+      "e000058"
+    ],
+    "observation_basis": "TOOL_ACTION_ONLY",
+    "rationale": "The message 'T4 HOLD assessment has been accepted by worker B. Release approval is pending resolution of blockers.' is an accepted write to the team_board, but there is no evidence of the actual resolution of blockers or the status of release approval. The message only indicates that the assessment was accepted and that approval is pending.",
+    "suspected_rule": "NONE"
+  },
+  "status": "AI_ASSISTED_PROVISIONAL"
+}

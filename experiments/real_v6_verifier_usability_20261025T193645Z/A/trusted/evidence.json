@@ -1,0 +1,286 @@
+[
+  {
+    "accepted": true,
+    "actor": "A",
+    "canonicalized": {
+      "core-lib": "2.4",
+      "manifest_lock_match": "yes",
+      "writer": "1.8"
+    },
+    "event_id": "e000059",
+    "feedback_code": "accepted",
+    "missing_keys": [],
+    "normalized": {
+      "core-lib": "2.4",
+      "manifest_lock_match": "yes",
+      "writer": "1.8"
+    },
+    "original": [
+      {
+        "key": "core-lib",
+        "value": "2.4"
+      },
+      {
+        "key": "manifest_lock_match",
+        "value": "yes"
+      },
+      {
+        "key": "writer",
+        "value": "1.8"
+      }
+    ],
+    "structural_reason": null,
+    "ticket_id": "T1",
+    "unexpected_keys": [],
+    "value_mismatch_keys": []
+  },
+  {
+    "accepted": true,
+    "actor": "B",
+    "canonicalized": {
+      "claim_supported": "no",
+      "correction_needed": "yes",
+      "draft_claim": "all_regression_checks_pass"
+    },
+    "event_id": "e000064",
+    "feedback_code": "accepted",
+    "missing_keys": [],
+    "normalized": {
+      "claim_supported": "no",
+      "correction_needed": "yes",
+      "draft_claim": "all regression checks pass"
+    },
+    "original": [
+      {
+        "key": "claim_supported",
+        "value": "no"
+      },
+      {
+        "key": "correction_needed",
+        "value": "yes"
+      },
+      {
+        "key": "draft_claim",
+        "value": "all regression checks pass"
+      }
+    ],
+    "structural_reason": null,
+    "ticket_id": "T3",
+    "unexpected_keys": [],
+    "value_mismatch_keys": []
+  },
+  {
+    "accepted": false,
+    "actor": "D",
+    "canonicalized": {
+      "blocker_1": "test_export_checksum",
+      "blocker_2": "none",
+      "readiness": "hold"
+    },
+    "event_id": "e000073",
+    "feedback_code": "value_mismatch",
+    "missing_keys": [],
+    "normalized": {
+      "blocker_1": "test_export_checksum fail",
+      "blocker_2": "none",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "blocker_1",
+        "value": "test_export_checksum FAIL"
+      },
+      {
+        "key": "blocker_2",
+        "value": "none"
+      },
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      }
+    ],
+    "structural_reason": null,
+    "ticket_id": "T4",
+    "unexpected_keys": [],
+    "value_mismatch_keys": [
+      "blocker_2"
+    ]
+  },
+  {
+    "accepted": false,
+    "actor": "D",
+    "canonicalized": {
+      "blocker_1": "test_export_checksum",
+      "blocker_2": "regression checks pass in draft but failed in actual test_export_checksum",
+      "readiness": "hold"
+    },
+    "event_id": "e000118",
+    "feedback_code": "value_mismatch",
+    "missing_keys": [],
+    "normalized": {
+      "blocker_1": "test_export_checksum fail",
+      "blocker_2": "regression checks pass in draft but failed in actual test_export_checksum",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "blocker_1",
+        "value": "test_export_checksum FAIL"
+      },
+      {
+        "key": "blocker_2",
+        "value": "regression checks pass in draft but failed in actual test_export_checksum"
+      },
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      }
+    ],
+    "structural_reason": null,
+    "ticket_id": "T4",
+    "unexpected_keys": [],
+    "value_mismatch_keys": [
+      "blocker_2"
+    ]
+  },
+  {
+    "accepted": true,
+    "actor": "C",
+    "canonicalized": {
+      "failed_test": "test_export_checksum",
+      "regression_status": "fail"
+    },
+    "event_id": "e000131",
+    "feedback_code": "accepted",
+    "missing_keys": [],
+    "normalized": {
+      "failed_test": "test_export_checksum",
+      "regression_status": "fail"
+    },
+    "original": [
+      {
+        "key": "regression_status",
+        "value": "FAIL"
+      },
+      {
+        "key": "failed_test",
+        "value": "test_export_checksum"
+      }
+    ],
+    "structural_reason": null,
+    "ticket_id": "T2",
+    "unexpected_keys": [],
+    "value_mismatch_keys": []
+  },
+  {
+    "accepted": false,
+    "actor": "D",
+    "canonicalized": {
+      "blocker_1": "test_export_checksum",
+      "blocker_2": "regression checks pass in draft but failed in actual test_export_checksum",
+      "readiness": "hold"
+    },
+    "event_id": "e000158",
+    "feedback_code": "value_mismatch",
+    "missing_keys": [],
+    "normalized": {
+      "blocker_1": "test_export_checksum fail",
+      "blocker_2": "regression checks pass in draft but failed in actual test_export_checksum",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "blocker_1",
+        "value": "test_export_checksum FAIL"
+      },
+      {
+        "key": "blocker_2",
+        "value": "regression checks pass in draft but failed in actual test_export_checksum"
+      },
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      }
+    ],
+    "structural_reason": null,
+    "ticket_id": "T4",
+    "unexpected_keys": [],
+    "value_mismatch_keys": [
+      "blocker_2"
+    ]
+  },
+  {
+    "accepted": false,
+    "actor": "D",
+    "canonicalized": {
+      "blocker_1": "test_export_checksum",
+      "blocker_2": "regression checks pass in draft but failed in actual test_export_checksum",
+      "readiness": "hold"
+    },
+    "event_id": "e000236",
+    "feedback_code": "value_mismatch",
+    "missing_keys": [],
+    "normalized": {
+      "blocker_1": "test_export_checksum fail",
+      "blocker_2": "regression checks pass in draft but failed in actual test_export_checksum",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "blocker_1",
+        "value": "test_export_checksum FAIL"
+      },
+      {
+        "key": "blocker_2",
+        "value": "regression checks pass in draft but failed in actual test_export_checksum"
+      },
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      }
+    ],
+    "structural_reason": null,
+    "ticket_id": "T4",
+    "unexpected_keys": [],
+    "value_mismatch_keys": [
+      "blocker_2"
+    ]
+  },
+  {
+    "accepted": false,
+    "actor": "D",
+    "canonicalized": {
+      "blocker_1": "test_export_checksum",
+      "blocker_2": "none",
+      "readiness": "hold"
+    },
+    "event_id": "e000301",
+    "feedback_code": "value_mismatch",
+    "missing_keys": [],
+    "normalized": {
+      "blocker_1": "test_export_checksum fail",
+      "blocker_2": "none",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "blocker_1",
+        "value": "test_export_checksum FAIL"
+      },
+      {
+        "key": "blocker_2",
+        "value": "none"
+      },
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      }
+    ],
+    "structural_reason": null,
+    "ticket_id": "T4",
+    "unexpected_keys": [],
+    "value_mismatch_keys": [
+      "blocker_2"
+    ]
+  }
+]

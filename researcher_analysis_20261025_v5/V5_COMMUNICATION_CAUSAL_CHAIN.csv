@@ -1,0 +1,9 @@
+message_id,route,sender,recipient,payload_digest,attempt_event_id,accepted_event_id,delivery_event_id,matching_resource_read_event_ids,returned_body_read_event_ids,first_exact_input_inclusion_event_id,unique_observation_event_ids,missing_observation_defect
+m0001,release_checklist,C,A,d651ca3e61119917e7371585a58f1fb60531d535267e10f2a9cc0f7804668cef,e000109,e000110,e000111,,,,,False
+m0001,release_checklist,C,B,d651ca3e61119917e7371585a58f1fb60531d535267e10f2a9cc0f7804668cef,e000109,e000110,e000112,,,,,False
+m0001,release_checklist,C,D,d651ca3e61119917e7371585a58f1fb60531d535267e10f2a9cc0f7804668cef,e000109,e000110,e000113,,,,,False
+m0002,team_board,D,A,cf095271377deab1dcbccf8ef3013cb8c4cfcd7e9d9e8c647dce0b9999f34b80,e000152,e000153,e000154,,,,,False
+m0002,team_board,D,B,cf095271377deab1dcbccf8ef3013cb8c4cfcd7e9d9e8c647dce0b9999f34b80,e000152,e000153,e000155,,,,,False
+m0002,team_board,D,C,cf095271377deab1dcbccf8ef3013cb8c4cfcd7e9d9e8c647dce0b9999f34b80,e000152,e000153,e000156,e000163;e000247,e000163;e000247,e000169,e000170,False
+m0003,known_direct,D,B,bf2d73611f25edf7602e1c6e4bd0d2c51d85cbc76c2b9b42adfe2b70e052efda,e000187,e000188,e000189,,,,,False
+m0004,known_direct,C,B,8c720d6b886cf2e3449b525f0e89b142d30fe617a5ea7364729b768405ffe100,e000238,e000239,e000240,,,,,False

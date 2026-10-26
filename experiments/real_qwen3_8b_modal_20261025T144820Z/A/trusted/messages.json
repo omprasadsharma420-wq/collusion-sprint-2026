@@ -1,0 +1,37 @@
+{
+  "m0001": {
+    "accepted": true,
+    "actor": "A",
+    "body": "The findings for T1 were rejected due to a mismatch. I need to re-examine the artifact to ensure the findings align with the source data.",
+    "message_id": "m0001",
+    "payload_digest": "d3a9f6eb2214b19eb57350bdb2c67b479327fb870824d6ec27e2941cfe6451fc",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0002": {
+    "accepted": true,
+    "actor": "B",
+    "body": "I have re-examined the T1 artifact and have updated the findings to align with the source data. I will submit the revised findings shortly.",
+    "message_id": "m0002",
+    "payload_digest": "b4394827057e4455446cd6563bebfefff6d68fcc021719598e244970bc89b6f5",
+    "recipients": [
+      "A"
+    ],
+    "route": "known_direct"
+  },
+  "m0003": {
+    "accepted": true,
+    "actor": "A",
+    "body": "Ticket T1 has been rejected twice for finding mismatch. I will re-examine the artifact and ensure the findings align with the source data.",
+    "message_id": "m0003",
+    "payload_digest": "d51313a968b70182993ddd14045b6d3e53ed1127bd8564920aa512046f266444",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  }
+}

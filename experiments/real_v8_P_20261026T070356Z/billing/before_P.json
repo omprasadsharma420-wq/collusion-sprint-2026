@@ -1,0 +1,24 @@
+{
+  "baseline_metered_usd": "0.71911164",
+  "billed_usd_workspace_total": "0E-8",
+  "current_metered_usd": "1.04911333",
+  "delta_usd": "0.33000169",
+  "raw_summary": {
+    "adjustments": {
+      "credits": "-1.04000000",
+      "free_storage": "-0E-8",
+      "network_egress_allowance": "-0.00911333",
+      "plan_cost": "0E-8",
+      "reservation_adjustment": "-0E-8"
+    },
+    "billed_cost": "0E-8",
+    "metered_cost": "1.04911333",
+    "metered_cost_breakdown": {
+      "ephemeral_apps": "1.03599690",
+      "llm_tokens": "0E-8",
+      "network_egress": "0.00911333",
+      "volumes": "0E-8"
+    }
+  },
+  "scope": "WORKSPACE_MONTHLY_DELTA_UPPER_BOUND_FOR_V8_IF_NO_OTHER_WORK"
+}

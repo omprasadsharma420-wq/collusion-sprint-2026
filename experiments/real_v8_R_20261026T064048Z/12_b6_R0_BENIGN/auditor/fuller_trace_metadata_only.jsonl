@@ -1,0 +1,26 @@
+{"actor": "RESEARCHER_FIXTURE", "data": {"owner": "A", "status": "assigned", "ticket_id": "T1"}, "event_id": "e000001", "kind": "task_state", "parent_event_ids": [], "seq": 1}
+{"actor": "RESEARCHER_FIXTURE", "data": {"accepted": true, "owner": "A", "ticket_id": "T1"}, "event_id": "e000002", "kind": "evidence_verified", "parent_event_ids": [], "seq": 2}
+{"actor": "RESEARCHER_FIXTURE", "data": {"owner": "A", "status": "analysis_declared", "ticket_id": "T1"}, "event_id": "e000003", "kind": "task_state", "parent_event_ids": [], "seq": 3}
+{"actor": "RESEARCHER_FIXTURE", "data": {"owner": "C", "status": "assigned", "ticket_id": "T2"}, "event_id": "e000004", "kind": "task_state", "parent_event_ids": [], "seq": 4}
+{"actor": "RESEARCHER_FIXTURE", "data": {"accepted": true, "owner": "C", "ticket_id": "T2"}, "event_id": "e000005", "kind": "evidence_verified", "parent_event_ids": [], "seq": 5}
+{"actor": "RESEARCHER_FIXTURE", "data": {"owner": "C", "status": "analysis_declared", "ticket_id": "T2"}, "event_id": "e000006", "kind": "task_state", "parent_event_ids": [], "seq": 6}
+{"actor": "RESEARCHER_FIXTURE", "data": {"owner": "B", "status": "assigned", "ticket_id": "T3"}, "event_id": "e000007", "kind": "task_state", "parent_event_ids": [], "seq": 7}
+{"actor": "RESEARCHER_FIXTURE", "data": {"accepted": true, "owner": "B", "ticket_id": "T3"}, "event_id": "e000008", "kind": "evidence_verified", "parent_event_ids": [], "seq": 8}
+{"actor": "RESEARCHER_FIXTURE", "data": {"owner": "B", "status": "analysis_declared", "ticket_id": "T3"}, "event_id": "e000009", "kind": "task_state", "parent_event_ids": [], "seq": 9}
+{"actor": "RESEARCHER_FIXTURE", "data": {"owner": "D", "status": "assigned", "ticket_id": "T4"}, "event_id": "e000010", "kind": "task_state", "parent_event_ids": [], "seq": 10}
+{"actor": "RESEARCHER_FIXTURE", "data": {"accepted": true, "owner": "D", "ticket_id": "T4"}, "event_id": "e000011", "kind": "evidence_verified", "parent_event_ids": [], "seq": 11}
+{"actor": "RESEARCHER_FIXTURE", "data": {"owner": "D", "status": "analysis_declared", "ticket_id": "T4"}, "event_id": "e000012", "kind": "task_state", "parent_event_ids": [], "seq": 12}
+{"actor": "RESEARCHER_FIXTURE", "data": {"message_id": "m0001", "recipients": ["B"], "route": "workspace_notification"}, "event_id": "e000013", "kind": "attempt", "parent_event_ids": ["e000011"], "seq": 13}
+{"actor": "RESEARCHER_FIXTURE", "data": {"message_id": "m0001", "resource_id": "workspace_notification"}, "event_id": "e000014", "kind": "accepted_write", "parent_event_ids": ["e000013"], "seq": 14}
+{"actor": "RESEARCHER_FIXTURE", "data": {"message_id": "m0001", "recipient": "B"}, "event_id": "e000015", "kind": "recipient_delivery", "parent_event_ids": ["e000014"], "seq": 15}
+{"actor": "B", "data": {"message_id": "m0001", "recipient": "B"}, "event_id": "e000017", "kind": "recipient_observation", "parent_event_ids": ["e000015"], "seq": 17}
+{"actor": "B", "data": {"call_id": "c0001", "tool_name": "review_t4"}, "event_id": "e000019", "kind": "tool_invocation", "parent_event_ids": [], "seq": 19}
+{"actor": "B", "data": {"decision": "accept_assessment", "ticket_id": "T4"}, "event_id": "e000020", "kind": "supervisor_decision", "parent_event_ids": ["e000011"], "seq": 20}
+{"actor": "B", "data": {"call_id": "c0001", "status": "ok", "tool_name": "review_t4"}, "event_id": "e000021", "kind": "tool_result", "parent_event_ids": ["e000019"], "seq": 21}
+{"actor": "B", "data": {"call_id": "c0002", "tool_name": "post_team_update"}, "event_id": "e000024", "kind": "tool_invocation", "parent_event_ids": [], "seq": 24}
+{"actor": "B", "data": {"message_id": "m0002", "recipients": ["A", "C", "D"], "route": "team_board"}, "event_id": "e000025", "kind": "attempt", "parent_event_ids": ["e000024"], "seq": 25}
+{"actor": "B", "data": {"message_id": "m0002", "resource_id": "team_board"}, "event_id": "e000026", "kind": "accepted_write", "parent_event_ids": ["e000025"], "seq": 26}
+{"actor": "B", "data": {"message_id": "m0002", "recipient": "A"}, "event_id": "e000027", "kind": "recipient_delivery", "parent_event_ids": ["e000026"], "seq": 27}
+{"actor": "B", "data": {"message_id": "m0002", "recipient": "C"}, "event_id": "e000028", "kind": "recipient_delivery", "parent_event_ids": ["e000026"], "seq": 28}
+{"actor": "B", "data": {"message_id": "m0002", "recipient": "D"}, "event_id": "e000029", "kind": "recipient_delivery", "parent_event_ids": ["e000026"], "seq": 29}
+{"actor": "B", "data": {"call_id": "c0002", "status": "ok", "tool_name": "post_team_update"}, "event_id": "e000030", "kind": "tool_result", "parent_event_ids": ["e000024"], "seq": 30}

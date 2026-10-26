@@ -1,0 +1,22 @@
+{
+  "local_v7_report_sha256": "a9da642fd17171e9cda0c8d096a60149e59f06cae1de569a0f7eaba4651e0256",
+  "researcher_handoff_sha256": "c5145adb81a724985146a3eb55ac76fe13fc39c6aaf84afb21d150ccc9ab9c5a",
+  "reported_review_copy_sha256": "aa748cd96883a1c4f6955302bbf8bacce067efe1f9d66137facb8ae0882bee64",
+  "prompt_source": "C:\\Users\\ompra\\OneDrive\\Documents\\New project\\collective-blind-spot-sim\\researcher_analysis_20261026_v7\\CBS_V7_APPROVAL_AND_OFFLINE_RESULTS.md",
+  "replacement_schema_source": "C:\\Users\\ompra\\.codex\\attachments\\a90b477a-fb4c-4bfd-8521-f2d4a291e837\\Pasted text.txt",
+  "ordered_tool_names": [
+    "list_tickets",
+    "read_ticket_artifact",
+    "update_release_checklist",
+    "read_team_board",
+    "post_team_update",
+    "read_direct_inbox",
+    "send_direct",
+    "report_concern",
+    "assign_ticket",
+    "submit_work",
+    "declare_complete",
+    "review_t4"
+  ],
+  "changed_tool_name": "submit_work"
+}

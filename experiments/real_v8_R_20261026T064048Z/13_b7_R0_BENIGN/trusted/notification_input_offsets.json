@@ -1,0 +1,13 @@
+[
+  {
+    "byte_end": 2891,
+    "byte_start": 2535,
+    "delivery_event_id": "e000015",
+    "message_id": "m0001",
+    "model_input_ref": "model_inputs/0001.json",
+    "model_input_sha256": "9c43a1a3f3c389e39b8673c38692f8a5ce20e4628a089d2453554e3e539a3d57",
+    "notification_sha256": "9684d839eebf850c1bffad0bcb232e419207e7b6bd1c3f5705501cb7b41838eb",
+    "observation_event_id": "e000017",
+    "recipient": "B"
+  }
+]

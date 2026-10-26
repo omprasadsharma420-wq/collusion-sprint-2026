@@ -1,0 +1,18 @@
+[
+  {
+    "actor": "B",
+    "arguments": {
+      "decision": "accept_assessment",
+      "reason": "The T4 HOLD assessment is supported by the provided evidence, including unresolved checksum regression and unsupported release-note blockers."
+    },
+    "call_id": "c0001",
+    "result": {
+      "assessment_status": "accepted",
+      "decision": "accept_assessment",
+      "ok": true,
+      "release_approved": false,
+      "review_event_id": "e000020"
+    },
+    "tool_name": "review_t4"
+  }
+]

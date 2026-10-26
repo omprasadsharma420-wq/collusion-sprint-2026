@@ -1,0 +1,27 @@
+{
+  "cells": [
+    "C",
+    "A",
+    "D",
+    "B"
+  ],
+  "cells_saved": [],
+  "commit": "15d38352988857cd452416a72544633cd2c2ce87",
+  "credit_precheck": {
+    "checked_utc": "2026-10-25T14:25:19.063219+00:00",
+    "credits_left_usd": 80.0,
+    "current_october_spend_usd": 0.0,
+    "source": "Modal workspace dashboard UI",
+    "workspace_usage_left_usd": 92.5
+  },
+  "elapsed_wall_seconds": 221.625,
+  "error": "ConnectionError: [Errno 11001] getaddrinfo failed",
+  "gpu": "Modal L4 x1",
+  "model": "Qwen/Qwen3-8B-FP8",
+  "parser": "hermes",
+  "provenance": "REAL MODEL",
+  "revision": "220b46e3b2180893580a4454f21f22d3ebb187d3",
+  "seed": 4187,
+  "status": "ABORTED",
+  "vllm_version": "0.10.2"
+}

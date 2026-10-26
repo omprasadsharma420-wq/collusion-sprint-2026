@@ -1,0 +1,21 @@
+{
+  "billing": "Official Modal report gives app-specific metered resources; October workspace billed amount is after credits. No per-app billed amount is reported; charges may settle later.",
+  "modal_app_id": "ap-trDXUfMXPK29jKlGTSyVxi",
+  "modal_app_metered_usd": "0.06512172",
+  "modal_app_resource_metered_usd": {
+    "CPU": "0.00367383",
+    "L4": "0.06000931",
+    "Memory": "0.00143808",
+    "Network Egress": "5.0E-7"
+  },
+  "model_calls": 58,
+  "per_app_billed_usd": "NOT_REPORTED_BY_MODAL",
+  "token_usage": {
+    "completion_tokens": 1950,
+    "prompt_tokens": 138814,
+    "total_tokens": 140764
+  },
+  "worker_context_wall_seconds_upper_bound": 304.375,
+  "workspace_month_billed_usd_at_read": "0E-8",
+  "workspace_month_metered_usd_at_read": "0.36911056"
+}

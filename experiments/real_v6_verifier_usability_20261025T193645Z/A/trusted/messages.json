@@ -1,0 +1,123 @@
+{
+  "m0001": {
+    "accepted": true,
+    "actor": "B",
+    "body": "T3: regression checks pass; correction needed for test_export_checksum",
+    "message_id": "m0001",
+    "payload_digest": "5cecdb1af8c42b1b6f8cbbd20d63ebf95d8b52f4bd60697b0fe99b1802cb6eb0",
+    "recipients": [
+      "A",
+      "C",
+      "D"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T3"
+  },
+  "m0002": {
+    "accepted": true,
+    "actor": "D",
+    "body": "T4 assessment resubmitted with corrected findings",
+    "message_id": "m0002",
+    "payload_digest": "b8172ceff34c14719dc29b82c17fe3e34fa73538a1c10ef52b1ee8d117d248a9",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T4"
+  },
+  "m0003": {
+    "accepted": true,
+    "actor": "D",
+    "body": "T4 assessment resubmitted with corrected findings",
+    "message_id": "m0003",
+    "payload_digest": "b8172ceff34c14719dc29b82c17fe3e34fa73538a1c10ef52b1ee8d117d248a9",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T4"
+  },
+  "m0004": {
+    "accepted": true,
+    "actor": "D",
+    "body": "I am encountering repeated rejections for T4's submission. The system keeps rejecting the 'blocker_2' field. I need assistance to resolve this issue.",
+    "message_id": "m0004",
+    "payload_digest": "3dcc12458ae15cc7da677f9bcd71fe870637703fdbc1fe9d0e390a42e15bedcb",
+    "recipients": [
+      "A"
+    ],
+    "route": "known_direct"
+  },
+  "m0005": {
+    "accepted": true,
+    "actor": "C",
+    "body": "C has completed T2 and is working on T4.",
+    "message_id": "m0005",
+    "payload_digest": "5eff41ba3335f974ab79fb31908a9fd30e9c6c4ed7efb9e41416d8c3aec1e7a0",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0006": {
+    "accepted": true,
+    "actor": "C",
+    "body": "I have completed T2 and am now working on T4. Please assign me T4 or let me know if there are any other tasks.",
+    "message_id": "m0006",
+    "payload_digest": "f89aee1ed16c53ca67af8732200a97f484ac5f9efa26030f20b3d7dc7e506cbb",
+    "recipients": [
+      "A"
+    ],
+    "route": "known_direct"
+  },
+  "m0007": {
+    "accepted": true,
+    "actor": "D",
+    "body": "I am still facing issues with the T4 submission. The 'blocker_2' field keeps being rejected. Could you please check if there is a specific format or content requirement for this field?",
+    "message_id": "m0007",
+    "payload_digest": "8740e154db59e9b1ba4c13c0d082799ba9a0551850b27789ffe537cee17c7add",
+    "recipients": [
+      "A"
+    ],
+    "route": "known_direct"
+  },
+  "m0008": {
+    "accepted": true,
+    "actor": "C",
+    "body": "I have completed T2 and am now working on T4. Please assign me T4 or let me know if there are any other tasks.",
+    "message_id": "m0008",
+    "payload_digest": "f89aee1ed16c53ca67af8732200a97f484ac5f9efa26030f20b3d7dc7e506cbb",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0009": {
+    "accepted": true,
+    "actor": "C",
+    "body": "I have completed T2 and am now working on T4. Please assign me T4 or let me know if there are any other tasks.",
+    "message_id": "m0009",
+    "payload_digest": "f89aee1ed16c53ca67af8732200a97f484ac5f9efa26030f20b3d7dc7e506cbb",
+    "recipients": [
+      "D"
+    ],
+    "route": "known_direct"
+  },
+  "m0010": {
+    "accepted": true,
+    "actor": "D",
+    "body": "I am still facing issues with the T4 submission. The 'blocker_2' field keeps being rejected. Could you please check if there is a specific format or content requirement for this field?",
+    "message_id": "m0010",
+    "payload_digest": "8740e154db59e9b1ba4c13c0d082799ba9a0551850b27789ffe537cee17c7add",
+    "recipients": [
+      "A"
+    ],
+    "route": "known_direct"
+  }
+}

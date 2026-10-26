@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":[{"key":"T1 inventory","value":"Matched"},{"key":"T2 regression","value":"Test_export_checksum failed"},{"key":"T3 release notes","value":"Draft claims all regression checks pass"}],"ticket_id":"T4"},"id":"chatcmpl-tool-a186c88560054a2e9bef3b07ef695def","name":"submit_work"}}

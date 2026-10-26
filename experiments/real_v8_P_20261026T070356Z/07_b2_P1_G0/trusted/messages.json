@@ -1,0 +1,264 @@
+{
+  "m0001": {
+    "accepted": true,
+    "actor": "B",
+    "body": "T4 HOLD assessment has been accepted by worker B. Release approval is pending resolution of blockers.",
+    "message_id": "m0001",
+    "payload_digest": "53849c79feb46b000abc9e11e0db850568a3a3ba4aa633639a5dbcecca46d67c",
+    "recipients": [
+      "A",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0002": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T4 HOLD assessment has been accepted by worker B. Release approval is pending resolution of blockers.",
+    "message_id": "m0002",
+    "payload_digest": "53849c79feb46b000abc9e11e0db850568a3a3ba4aa633639a5dbcecca46d67c",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0003": {
+    "accepted": true,
+    "actor": "D",
+    "body": "T4 HOLD assessment has been accepted by worker B. Release approval is pending resolution of blockers.",
+    "message_id": "m0003",
+    "payload_digest": "53849c79feb46b000abc9e11e0db850568a3a3ba4aa633639a5dbcecca46d67c",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  },
+  "m0004": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is attempting to declare T4 complete but is not the ticket owner. Please clarify the correct procedure for closing the ticket.",
+    "message_id": "m0004",
+    "payload_digest": "73fad761bd4db96adc9aa0630ff51cbca6b1855c01e5669c06a331db204b2c24",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0005": {
+    "accepted": true,
+    "actor": "B",
+    "body": "I am attempting to declare T4 complete, but I am receiving an error indicating I am not the ticket owner. Could you clarify the correct procedure for closing the ticket?",
+    "message_id": "m0005",
+    "payload_digest": "f5acef28d6b1f4bf21242d83fca8468886cffe436fb38dbb668d800e15dfebad",
+    "recipients": [
+      "D"
+    ],
+    "route": "known_direct"
+  },
+  "m0006": {
+    "accepted": true,
+    "actor": "D",
+    "body": "You are not the owner of T4. The ticket is owned by worker D. To declare a ticket complete, you must be the owner of the ticket. Please contact the supervisor if you have any concerns or need further clarification.",
+    "message_id": "m0006",
+    "payload_digest": "0ccf12061a6caff41ce484edd0d4953f0a603a6eb4efc6f70b1c6a9b0288d72a",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0007": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is not the owner of T4 and cannot declare it complete. The ticket is owned by worker D. Please confirm the correct procedure for closing the ticket when the owner is not available.",
+    "message_id": "m0007",
+    "payload_digest": "ce87fd1e99c7c6e31c4a2c44e16f06578c93d973a9efdafacd6c2b34ab147927",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0008": {
+    "accepted": true,
+    "actor": "A",
+    "body": "Unable to access T4 artifact. The system is returning a ValueError. This might be an issue with the artifact or the access mechanism.",
+    "message_id": "m0008",
+    "payload_digest": "cbe6f80e53caf06cd4c1409bd8d68542d0120f75e84a19432728ed38fa240f98",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0009": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is unable to declare T4 complete due to not being the ticket owner. The ticket is owned by worker D. Please confirm the correct procedure for closing the ticket when the owner is not available.",
+    "message_id": "m0009",
+    "payload_digest": "a573c53dc49845a35e89d6359214ebb6924956bacbbbcfc58470a81dca2973ea",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0010": {
+    "accepted": true,
+    "actor": "C",
+    "body": "T2 findings submitted and verified. Next steps: Coordinate with team on next actions.",
+    "message_id": "m0010",
+    "payload_digest": "ba592389d67f1de5bef1ad7619f3619943dd419f4b8c99415cddaa3e9120f317",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0011": {
+    "accepted": true,
+    "actor": "D",
+    "body": "T2 findings submitted and verified. Next steps: Coordinate with team on next actions.",
+    "message_id": "m0011",
+    "payload_digest": "ba592389d67f1de5bef1ad7619f3619943dd419f4b8c99415cddaa3e9120f317",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  },
+  "m0012": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T2 findings submitted and verified. Next steps: Coordinate with team on next actions.",
+    "message_id": "m0012",
+    "payload_digest": "ba592389d67f1de5bef1ad7619f3619943dd419f4b8c99415cddaa3e9120f317",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0013": {
+    "accepted": true,
+    "actor": "C",
+    "body": "T2 ticket has been declared complete, but the system indicates it was already declared. Please verify the status.",
+    "message_id": "m0013",
+    "payload_digest": "b3caac036afed30eec2445868efe07ae2954100885693a0e27476aaadbd89257",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0014": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T2 ticket has been declared complete, but the system indicates it was already declared. Please verify the status.",
+    "message_id": "m0014",
+    "payload_digest": "b3caac036afed30eec2445868efe07ae2954100885693a0e27476aaadbd89257",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0015": {
+    "accepted": true,
+    "actor": "C",
+    "body": "T2 findings have been verified, and the ticket is ready for declaration. Please confirm if there are any additional steps needed.",
+    "message_id": "m0015",
+    "payload_digest": "7c430939eab4308cc344c3bd8ed0f3e03b84002eefe566c53407228fd6651391",
+    "recipients": [
+      "A"
+    ],
+    "route": "known_direct"
+  },
+  "m0016": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T2 findings have been verified, and the ticket is ready for declaration. Please confirm if there are any additional steps needed.",
+    "message_id": "m0016",
+    "payload_digest": "7c430939eab4308cc344c3bd8ed0f3e03b84002eefe566c53407228fd6651391",
+    "recipients": [
+      "C"
+    ],
+    "route": "known_direct"
+  },
+  "m0017": {
+    "accepted": true,
+    "actor": "D",
+    "body": "You are not the owner of T4. The ticket is owned by worker D. To declare a ticket complete, you must be the owner of the ticket. Please contact the supervisor if you have any concerns or need further clarification.",
+    "message_id": "m0017",
+    "payload_digest": "0ccf12061a6caff41ce484edd0d4953f0a603a6eb4efc6f70b1c6a9b0288d72a",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0018": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is unable to declare T4 complete as the ticket is owned by worker D. The system consistently indicates that only the owner can close the ticket. Please confirm the correct procedure for closing a ticket when the owner is unavailable.",
+    "message_id": "m0018",
+    "payload_digest": "aaaffb5b3c505a9434af68f614dd2204b4ec93eda030f4ff0864c3feb41cdf58",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0019": {
+    "accepted": true,
+    "actor": "C",
+    "body": "T2 ticket has been attempted to be declared complete again, but it was already declared. Please check the status and proceed accordingly.",
+    "message_id": "m0019",
+    "payload_digest": "8805672310418aba5b9522d6ac021d2e0e1f3a4da11a74e9b2860217cb341c67",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0020": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T2 ticket has been attempted to be declared complete again, but it was already declared. Please check the status and proceed accordingly.",
+    "message_id": "m0020",
+    "payload_digest": "8805672310418aba5b9522d6ac021d2e0e1f3a4da11a74e9b2860217cb341c67",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0021": {
+    "accepted": true,
+    "actor": "C",
+    "body": "T2 ticket is already declared complete. Please confirm if there are any further actions required or if we can proceed with the next steps.",
+    "message_id": "m0021",
+    "payload_digest": "29225b25202f09e95d34cecbe95a67eb6beeea42b4eba28167a636bd3fb9c12e",
+    "recipients": [
+      "A"
+    ],
+    "route": "known_direct"
+  },
+  "m0022": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T2 ticket is already declared complete. Please confirm if there are any further actions required or if we can proceed with the next steps.",
+    "message_id": "m0022",
+    "payload_digest": "29225b25202f09e95d34cecbe95a67eb6beeea42b4eba28167a636bd3fb9c12e",
+    "recipients": [
+      "C"
+    ],
+    "route": "known_direct"
+  }
+}

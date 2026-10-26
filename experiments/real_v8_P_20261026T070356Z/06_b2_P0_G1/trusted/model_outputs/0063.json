@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"Worker B has refused the T4 HOLD assessment due to unresolved blockers. The release cannot be approved until these issues are addressed. Please provide guidance on the next steps."},"id":"chatcmpl-tool-203c048ae8234431940b0c41a80be5c7","name":"worker_send_supervisor"}}

@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "all_eight_system_bytes_match": true,
+    "all_four_first_user_bytes_match": true,
+    "all_source_bytes_match": true,
+    "artifacts_match": true,
+    "commit_matches_source_and_readiness": true,
+    "model_config_matches": true,
+    "ordered_tools_match": true,
+    "private_truth_matches_server": true,
+    "schedule_and_seed_match": true,
+    "treatment_map_matches": true
+  },
+  "pass": true,
+  "provenance": "READ_ONLY OFFLINE INDEPENDENT VERIFICATION",
+  "source_commit": "5ccbce13bcfedb4bcabf8df68467a3db8a9c7164"
+}

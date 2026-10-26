@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":[{"key":"blocker_1","value":"test_export_checksum FAIL"},{"key":"blocker_2","value":"none"},{"key":"readiness","value":"HOLD"}],"ticket_id":"T4"},"id":"chatcmpl-tool-7a19196757414c7da797ca89fd5d091d","name":"submit_work"}}

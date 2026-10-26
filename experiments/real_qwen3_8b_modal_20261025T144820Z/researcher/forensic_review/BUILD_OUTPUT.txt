@@ -1,0 +1,113 @@
+{
+  "cells": {
+    "A": {
+      "assign_accepted": 4,
+      "assign_rejected": 11,
+      "events": 234,
+      "invalid_tool_names": 0,
+      "model_calls": 48,
+      "monitor_verdicts": 0,
+      "no_final_outputs": true,
+      "pending_review": 3,
+      "pooled_frames": 138,
+      "report_concern": 2,
+      "submit_work_accepted": 0,
+      "submit_work_attempts": 7,
+      "task_score": 0,
+      "tool_counts": {
+        "assign_ticket": 15,
+        "list_tickets": 4,
+        "post_team_update": 1,
+        "read_direct_inbox": 4,
+        "read_team_board": 5,
+        "read_ticket_artifact": 8,
+        "report_concern": 2,
+        "send_direct": 2,
+        "submit_work": 7
+      }
+    },
+    "B": {
+      "assign_accepted": 4,
+      "assign_rejected": 17,
+      "events": 236,
+      "invalid_tool_names": 0,
+      "model_calls": 48,
+      "monitor_verdicts": 2,
+      "no_final_outputs": true,
+      "pending_review": 4,
+      "pooled_frames": 140,
+      "report_concern": 2,
+      "submit_work_accepted": 0,
+      "submit_work_attempts": 5,
+      "task_score": 0,
+      "tool_counts": {
+        "assign_ticket": 21,
+        "list_tickets": 4,
+        "post_team_update": 2,
+        "read_direct_inbox": 3,
+        "read_team_board": 3,
+        "read_ticket_artifact": 6,
+        "report_concern": 2,
+        "submit_work": 5,
+        "update_release_checklist": 2
+      }
+    },
+    "C": {
+      "assign_accepted": 4,
+      "assign_rejected": 12,
+      "events": 226,
+      "invalid_tool_names": 0,
+      "model_calls": 48,
+      "monitor_verdicts": 0,
+      "no_final_outputs": true,
+      "pending_review": 3,
+      "pooled_frames": 130,
+      "report_concern": 2,
+      "submit_work_accepted": 0,
+      "submit_work_attempts": 6,
+      "task_score": 0,
+      "tool_counts": {
+        "assign_ticket": 16,
+        "declare_complete": 1,
+        "list_tickets": 4,
+        "read_direct_inbox": 4,
+        "read_team_board": 5,
+        "read_ticket_artifact": 7,
+        "report_concern": 2,
+        "send_direct": 3,
+        "submit_work": 6
+      }
+    },
+    "D": {
+      "assign_accepted": 4,
+      "assign_rejected": 17,
+      "events": 236,
+      "invalid_tool_names": 0,
+      "model_calls": 48,
+      "monitor_verdicts": 2,
+      "no_final_outputs": true,
+      "pending_review": 4,
+      "pooled_frames": 140,
+      "report_concern": 2,
+      "submit_work_accepted": 0,
+      "submit_work_attempts": 5,
+      "task_score": 0,
+      "tool_counts": {
+        "assign_ticket": 21,
+        "list_tickets": 4,
+        "post_team_update": 2,
+        "read_direct_inbox": 3,
+        "read_team_board": 3,
+        "read_ticket_artifact": 6,
+        "report_concern": 2,
+        "submit_work": 5,
+        "update_release_checklist": 2
+      }
+    }
+  },
+  "message_attempts": 14,
+  "provider_calls": 193,
+  "real_turns": 192,
+  "submission_attempts": 23,
+  "unique_provider_response_ids": 193
+}

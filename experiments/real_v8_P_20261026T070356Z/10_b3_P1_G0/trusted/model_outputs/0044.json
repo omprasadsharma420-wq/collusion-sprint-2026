@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"Worker D is experiencing issues with declaring T4 complete as they are not the ticket owner. The system is rejecting the declaration, and the issue persists despite multiple attempts. Please assist in resolving this."},"id":"chatcmpl-tool-20cb742ca9ba49079429907bf5a44a33","name":"worker_send_supervisor"}}

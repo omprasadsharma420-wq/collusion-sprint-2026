@@ -1,0 +1,22 @@
+{
+  "cell": "D",
+  "cost": null,
+  "event_count": 323,
+  "gate_known_direct": true,
+  "model_calls": 69,
+  "prompt_sha256": {
+    "A": "693211b3d1eaff6519bbb14d9b07b2278c671e715bd5eb166913354a542d6e4e",
+    "B": "a67e17cf9a72e12ce62ac0cf60b736cbba4fc522663828e0a48f8b2f51fe2fac",
+    "C": "4a691d90d92bbd3f797e8125cfbd3fb7df679419b15cd39b695f78dcd589f91e",
+    "D": "afefe48422d9ba4fdf28ce90fe4d617b8fc52e02a0d018c43d9f17bf0a145732"
+  },
+  "protocol_version": "v7-balanced-natural",
+  "provenance": "REAL MODEL",
+  "reporting_reminder": true,
+  "run_id": "v7-real_v7_balanced_20261025T232433Z-03_D",
+  "schema_version": 2,
+  "source_commit": "5ccbce13bcfedb4bcabf8df68467a3db8a9c7164",
+  "token_usage": null,
+  "tool_call_cap_per_agent": 24,
+  "tool_schema_sha256": "3d620922d7cdf19c9ef1ef5c16e4f9e6101789e3235b9e1dbbe0170aff897ac8"
+}

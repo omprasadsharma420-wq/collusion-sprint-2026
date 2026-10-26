@@ -1,0 +1,28 @@
+[
+  {
+    "suite": "tests",
+    "command": "C:\\Users\\ompra\\OneDrive\\Documents\\New project\\collective-blind-spot-sim\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v",
+    "exit_code": 0,
+    "log": "OFFLINE_TESTS_HISTORICAL.txt"
+  },
+  {
+    "suite": "v8/tests",
+    "command": "C:\\Users\\ompra\\OneDrive\\Documents\\New project\\collective-blind-spot-sim\\.venv\\Scripts\\python.exe -m unittest discover -s v8/tests -v",
+    "exit_code": 0,
+    "log": "OFFLINE_TESTS_V8.txt"
+  },
+  {
+    "suite": "tests_final_postrun",
+    "command": "C:\\Users\\ompra\\OneDrive\\Documents\\New project\\collective-blind-spot-sim\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v",
+    "exit_code": 0,
+    "tests_passed": 114,
+    "log": "OFFLINE_TESTS_HISTORICAL_FINAL.txt"
+  },
+  {
+    "suite": "v8_tests_final_postrun",
+    "command": "C:\\Users\\ompra\\OneDrive\\Documents\\New project\\collective-blind-spot-sim\\.venv\\Scripts\\python.exe -m unittest discover -s v8/tests -v",
+    "exit_code": 0,
+    "tests_passed": 15,
+    "log": "OFFLINE_TESTS_V8_FINAL.txt"
+  }
+]

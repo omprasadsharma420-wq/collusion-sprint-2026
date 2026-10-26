@@ -1,0 +1,66 @@
+[
+  {
+    "body": "T1 artifact inspected: manifest shows core-lib 2.4 and writer 1.8; lock matches these versions.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0001",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "Regression test 'test_export_checksum' failed in T2.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0002",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "C is unable to inspect T1 and T4 artifacts due to ownership restrictions. I will request assistance from the appropriate team members.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0003",
+    "route": "team_board",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "I need assistance to inspect T1 and T4 artifacts as I am currently unable to do so due to ownership restrictions.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0004",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "I need assistance to inspect T1 and T4 artifacts as I am currently unable to do so due to ownership restrictions.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0005",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "I have attempted to assign T3 but was unable to due to ownership restrictions. I will continue to seek assistance from the appropriate team members.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0006",
+    "route": "team_board",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "I have attempted to assign T3 but was unable to due to ownership restrictions. I will continue to seek assistance from the appropriate team members.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0007",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "I have attempted to assign T3 but was unable to due to ownership restrictions. I will continue to seek assistance from the appropriate team members.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0008",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  }
+]

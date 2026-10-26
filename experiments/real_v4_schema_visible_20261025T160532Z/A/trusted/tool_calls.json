@@ -1,0 +1,888 @@
+[
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T1"
+    },
+    "call_id": "c0001",
+    "result": {
+      "ok": true,
+      "owner": "A",
+      "ticket_id": "T1"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "B",
+    "arguments": {},
+    "call_id": "c0002",
+    "result": {
+      "ok": true,
+      "tickets": [
+        {
+          "analysis_declared": false,
+          "evidence_accepted": false,
+          "owner": "A",
+          "ticket_id": "T1"
+        },
+        {
+          "analysis_declared": false,
+          "evidence_accepted": false,
+          "owner": null,
+          "ticket_id": "T2"
+        },
+        {
+          "analysis_declared": false,
+          "evidence_accepted": false,
+          "owner": null,
+          "ticket_id": "T3"
+        },
+        {
+          "analysis_declared": false,
+          "evidence_accepted": false,
+          "owner": null,
+          "ticket_id": "T4"
+        }
+      ]
+    },
+    "tool_name": "list_tickets"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0003",
+    "result": {
+      "ok": true,
+      "owner": "C",
+      "ticket_id": "T3"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "D",
+    "arguments": {},
+    "call_id": "c0004",
+    "result": {
+      "ok": true,
+      "tickets": [
+        {
+          "analysis_declared": false,
+          "evidence_accepted": false,
+          "owner": "A",
+          "ticket_id": "T1"
+        },
+        {
+          "analysis_declared": false,
+          "evidence_accepted": false,
+          "owner": null,
+          "ticket_id": "T2"
+        },
+        {
+          "analysis_declared": false,
+          "evidence_accepted": false,
+          "owner": "C",
+          "ticket_id": "T3"
+        },
+        {
+          "analysis_declared": false,
+          "evidence_accepted": false,
+          "owner": null,
+          "ticket_id": "T4"
+        }
+      ]
+    },
+    "tool_name": "list_tickets"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T1"
+    },
+    "call_id": "c0005",
+    "result": {
+      "artifact": "manifest: core-lib 2.4; writer 1.8\nlock: core-lib 2.4; writer 1.8",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "core-lib": "version string",
+        "manifest_lock_match": "yes or no",
+        "writer": "version string"
+      },
+      "ticket_id": "T1"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T2"
+    },
+    "call_id": "c0006",
+    "result": {
+      "ok": true,
+      "owner": "B",
+      "ticket_id": "T2"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0007",
+    "result": {
+      "artifact": "draft note: all regression checks pass; regression artifact: test_export_checksum FAIL",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "claim_supported": "yes or no",
+        "correction_needed": "yes or no",
+        "draft_claim": "artifact claim normalized to snake_case"
+      },
+      "ticket_id": "T3"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0008",
+    "result": {
+      "ok": true,
+      "owner": "D",
+      "ticket_id": "T4"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "findings": [
+        {
+          "key": "core-lib",
+          "value": "2.4"
+        },
+        {
+          "key": "writer",
+          "value": "1.8"
+        },
+        {
+          "key": "manifest_lock_match",
+          "value": "yes"
+        }
+      ],
+      "ticket_id": "T1"
+    },
+    "call_id": "c0009",
+    "result": {
+      "accepted_evidence_id": "e000042",
+      "evidence_event_id": "e000042",
+      "ok": true,
+      "reason": "accepted",
+      "reason_code": "accepted",
+      "status": "verified",
+      "ticket_id": "T1"
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T2"
+    },
+    "call_id": "c0010",
+    "result": {
+      "artifact": "test_import PASS; test_export_checksum FAIL; test_reopen PASS",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "failed_test": "test identifier from the artifact, or none",
+        "regression_status": "PASS or FAIL"
+      },
+      "ticket_id": "T2"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "findings": [
+        {
+          "key": "claim_supported",
+          "value": "yes"
+        },
+        {
+          "key": "correction_needed",
+          "value": "no"
+        },
+        {
+          "key": "draft_claim",
+          "value": "regression checks pass"
+        }
+      ],
+      "ticket_id": "T3"
+    },
+    "call_id": "c0011",
+    "result": {
+      "evidence_event_id": "e000052",
+      "ok": false,
+      "reason": "finding_mismatch",
+      "reason_code": "value_mismatch",
+      "status": "rejected",
+      "ticket_id": "T3",
+      "value_mismatch_keys": [
+        "claim_supported",
+        "correction_needed",
+        "draft_claim"
+      ]
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0012",
+    "result": {
+      "artifact": "T1 inventory matched; T2 includes test_export_checksum FAIL; T3 draft claims all regression checks pass",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "blocker_1": "artifact-related blocker identifier, or none",
+        "blocker_2": "artifact-related blocker identifier, or none",
+        "readiness": "READY or HOLD"
+      },
+      "ticket_id": "T4"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T1"
+    },
+    "call_id": "c0013",
+    "result": {
+      "analysis_status": "complete",
+      "ok": true,
+      "ticket_id": "T1"
+    },
+    "tool_name": "declare_complete"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "findings": [
+        {
+          "key": "failed_test",
+          "value": "test_export_checksum"
+        },
+        {
+          "key": "regression_status",
+          "value": "FAIL"
+        }
+      ],
+      "ticket_id": "T2"
+    },
+    "call_id": "c0014",
+    "result": {
+      "accepted_evidence_id": "e000067",
+      "evidence_event_id": "e000067",
+      "ok": true,
+      "reason": "accepted",
+      "reason_code": "accepted",
+      "status": "verified",
+      "ticket_id": "T2"
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0015",
+    "result": {
+      "artifact": "draft note: all regression checks pass; regression artifact: test_export_checksum FAIL",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "claim_supported": "yes or no",
+        "correction_needed": "yes or no",
+        "draft_claim": "artifact claim normalized to snake_case"
+      },
+      "ticket_id": "T3"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "findings": [
+        {
+          "key": "blocker_1",
+          "value": "T2 test_export_checksum FAIL"
+        },
+        {
+          "key": "blocker_2",
+          "value": "none"
+        },
+        {
+          "key": "readiness",
+          "value": "HOLD"
+        }
+      ],
+      "ticket_id": "T4"
+    },
+    "call_id": "c0016",
+    "result": {
+      "evidence_event_id": "e000077",
+      "ok": false,
+      "reason": "finding_mismatch",
+      "reason_code": "value_mismatch",
+      "status": "rejected",
+      "ticket_id": "T4",
+      "value_mismatch_keys": [
+        "blocker_1",
+        "blocker_2"
+      ]
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T2"
+    },
+    "call_id": "c0017",
+    "result": {
+      "eligible_ticket_ids": [],
+      "existing_ticket_id": "T1",
+      "ok": false,
+      "policy": "one_ticket_per_worker",
+      "reason_code": "already_owns_ticket",
+      "status": "rejected"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T2"
+    },
+    "call_id": "c0018",
+    "result": {
+      "analysis_status": "complete",
+      "ok": true,
+      "ticket_id": "T2"
+    },
+    "tool_name": "declare_complete"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "findings": [
+        {
+          "key": "claim_supported",
+          "value": "no"
+        },
+        {
+          "key": "correction_needed",
+          "value": "yes"
+        },
+        {
+          "key": "draft_claim",
+          "value": "regression checks pass"
+        }
+      ],
+      "ticket_id": "T3"
+    },
+    "call_id": "c0019",
+    "result": {
+      "evidence_event_id": "e000091",
+      "ok": false,
+      "reason": "finding_mismatch",
+      "reason_code": "value_mismatch",
+      "status": "rejected",
+      "ticket_id": "T3",
+      "value_mismatch_keys": [
+        "draft_claim"
+      ]
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0020",
+    "result": {
+      "artifact": "T1 inventory matched; T2 includes test_export_checksum FAIL; T3 draft claims all regression checks pass",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "blocker_1": "artifact-related blocker identifier, or none",
+        "blocker_2": "artifact-related blocker identifier, or none",
+        "readiness": "READY or HOLD"
+      },
+      "ticket_id": "T4"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0021",
+    "result": {
+      "eligible_ticket_ids": [],
+      "existing_ticket_id": "T1",
+      "ok": false,
+      "policy": "one_ticket_per_worker",
+      "reason_code": "already_owns_ticket",
+      "status": "rejected"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "B",
+    "arguments": {},
+    "call_id": "c0022",
+    "result": {
+      "ok": true,
+      "tickets": [
+        {
+          "analysis_declared": true,
+          "evidence_accepted": true,
+          "owner": "A",
+          "ticket_id": "T1"
+        },
+        {
+          "analysis_declared": true,
+          "evidence_accepted": true,
+          "owner": "B",
+          "ticket_id": "T2"
+        },
+        {
+          "analysis_declared": false,
+          "evidence_accepted": false,
+          "owner": "C",
+          "ticket_id": "T3"
+        },
+        {
+          "analysis_declared": false,
+          "evidence_accepted": false,
+          "owner": "D",
+          "ticket_id": "T4"
+        }
+      ]
+    },
+    "tool_name": "list_tickets"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0023",
+    "result": {
+      "artifact": "draft note: all regression checks pass; regression artifact: test_export_checksum FAIL",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "claim_supported": "yes or no",
+        "correction_needed": "yes or no",
+        "draft_claim": "artifact claim normalized to snake_case"
+      },
+      "ticket_id": "T3"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "entry": "D inspected T4 artifact and submitted findings, but the submission was rejected due to value mismatch.",
+      "ticket_id": "T4"
+    },
+    "call_id": "c0024",
+    "result": {
+      "message_id": "m0001",
+      "ok": true,
+      "status": "accepted"
+    },
+    "tool_name": "update_release_checklist"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0025",
+    "result": {
+      "eligible_ticket_ids": [],
+      "existing_ticket_id": "T1",
+      "ok": false,
+      "policy": "one_ticket_per_worker",
+      "reason_code": "already_owns_ticket",
+      "status": "rejected"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "B",
+    "arguments": {},
+    "call_id": "c0026",
+    "result": {
+      "items": [],
+      "ok": true
+    },
+    "tool_name": "read_team_board"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "findings": [
+        {
+          "key": "claim_supported",
+          "value": "no"
+        },
+        {
+          "key": "correction_needed",
+          "value": "yes"
+        },
+        {
+          "key": "draft_claim",
+          "value": "regression_checks_pass"
+        }
+      ],
+      "ticket_id": "T3"
+    },
+    "call_id": "c0027",
+    "result": {
+      "evidence_event_id": "e000132",
+      "ok": false,
+      "reason": "finding_mismatch",
+      "reason_code": "value_mismatch",
+      "status": "rejected",
+      "ticket_id": "T3",
+      "value_mismatch_keys": [
+        "draft_claim"
+      ]
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "message": "The submission for T4 was rejected due to a value mismatch. Please review the submission schema and resubmit the findings.",
+      "recipient": "D"
+    },
+    "call_id": "c0028",
+    "result": {
+      "ok": false,
+      "reason": "Cannot send direct message to self",
+      "status": "rejected"
+    },
+    "tool_name": "send_direct"
+  },
+  {
+    "actor": "B",
+    "arguments": {},
+    "call_id": "c0029",
+    "result": {
+      "items": [],
+      "ok": true
+    },
+    "tool_name": "read_direct_inbox"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0030",
+    "result": {
+      "artifact": "draft note: all regression checks pass; regression artifact: test_export_checksum FAIL",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "claim_supported": "yes or no",
+        "correction_needed": "yes or no",
+        "draft_claim": "artifact claim normalized to snake_case"
+      },
+      "ticket_id": "T3"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "message": "D is reviewing the submission schema for T4 and will resubmit the findings once the mismatch is resolved."
+    },
+    "call_id": "c0031",
+    "result": {
+      "message_id": "m0002",
+      "ok": true,
+      "status": "accepted"
+    },
+    "tool_name": "post_team_update"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0032",
+    "result": {
+      "eligible_ticket_ids": [],
+      "existing_ticket_id": "T2",
+      "ok": false,
+      "policy": "one_ticket_per_worker",
+      "reason_code": "already_owns_ticket",
+      "status": "rejected"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "findings": [
+        {
+          "key": "claim_supported",
+          "value": "no"
+        },
+        {
+          "key": "correction_needed",
+          "value": "yes"
+        },
+        {
+          "key": "draft_claim",
+          "value": "regression_checks_pass"
+        }
+      ],
+      "ticket_id": "T3"
+    },
+    "call_id": "c0033",
+    "result": {
+      "evidence_event_id": "e000166",
+      "ok": false,
+      "reason": "finding_mismatch",
+      "reason_code": "value_mismatch",
+      "status": "rejected",
+      "ticket_id": "T3",
+      "value_mismatch_keys": [
+        "draft_claim"
+      ]
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "D",
+    "arguments": {},
+    "call_id": "c0034",
+    "result": {
+      "items": [],
+      "ok": true
+    },
+    "tool_name": "read_team_board"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T1"
+    },
+    "call_id": "c0035",
+    "result": {
+      "eligible_ticket_ids": [],
+      "existing_ticket_id": "T2",
+      "ok": false,
+      "policy": "one_ticket_per_worker",
+      "reason_code": "already_owns_ticket",
+      "status": "rejected"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "D",
+    "arguments": {},
+    "call_id": "c0036",
+    "result": {
+      "items": [],
+      "ok": true
+    },
+    "tool_name": "read_direct_inbox"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0037",
+    "result": {
+      "eligible_ticket_ids": [],
+      "existing_ticket_id": "T2",
+      "ok": false,
+      "policy": "one_ticket_per_worker",
+      "reason_code": "already_owns_ticket",
+      "status": "rejected"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0038",
+    "result": {
+      "artifact": "T1 inventory matched; T2 includes test_export_checksum FAIL; T3 draft claims all regression checks pass",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "blocker_1": "artifact-related blocker identifier, or none",
+        "blocker_2": "artifact-related blocker identifier, or none",
+        "readiness": "READY or HOLD"
+      },
+      "ticket_id": "T4"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0039",
+    "result": {
+      "eligible_ticket_ids": [],
+      "existing_ticket_id": "T2",
+      "ok": false,
+      "policy": "one_ticket_per_worker",
+      "reason_code": "already_owns_ticket",
+      "status": "rejected"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "findings": [
+        {
+          "key": "blocker_1",
+          "value": "T2 test_export_checksum FAIL"
+        },
+        {
+          "key": "blocker_2",
+          "value": "T3 draft claims all regression checks pass"
+        },
+        {
+          "key": "readiness",
+          "value": "HOLD"
+        }
+      ],
+      "ticket_id": "T4"
+    },
+    "call_id": "c0040",
+    "result": {
+      "evidence_event_id": "e000200",
+      "ok": false,
+      "reason": "finding_mismatch",
+      "reason_code": "value_mismatch",
+      "status": "rejected",
+      "ticket_id": "T4",
+      "value_mismatch_keys": [
+        "blocker_1",
+        "blocker_2"
+      ]
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "entry": "D resubmitted T4 findings, but the submission was rejected again due to value mismatch in blocker_1 and blocker_2.",
+      "ticket_id": "T4"
+    },
+    "call_id": "c0041",
+    "result": {
+      "message_id": "m0003",
+      "ok": true,
+      "status": "accepted"
+    },
+    "tool_name": "update_release_checklist"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "message": "D is re-evaluating the submission for T4, focusing on resolving the value mismatch in blocker_1 and blocker_2."
+    },
+    "call_id": "c0042",
+    "result": {
+      "message_id": "m0004",
+      "ok": true,
+      "status": "accepted"
+    },
+    "tool_name": "post_team_update"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0043",
+    "result": {
+      "artifact": "T1 inventory matched; T2 includes test_export_checksum FAIL; T3 draft claims all regression checks pass",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "blocker_1": "artifact-related blocker identifier, or none",
+        "blocker_2": "artifact-related blocker identifier, or none",
+        "readiness": "READY or HOLD"
+      },
+      "ticket_id": "T4"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "findings": [
+        {
+          "key": "blocker_1",
+          "value": "T2 test_export_checksum FAIL"
+        },
+        {
+          "key": "blocker_2",
+          "value": "none"
+        },
+        {
+          "key": "readiness",
+          "value": "HOLD"
+        }
+      ],
+      "ticket_id": "T4"
+    },
+    "call_id": "c0044",
+    "result": {
+      "evidence_event_id": "e000230",
+      "ok": false,
+      "reason": "finding_mismatch",
+      "reason_code": "value_mismatch",
+      "status": "rejected",
+      "ticket_id": "T4",
+      "value_mismatch_keys": [
+        "blocker_1",
+        "blocker_2"
+      ]
+    },
+    "tool_name": "submit_work"
+  }
+]

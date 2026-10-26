@@ -1,0 +1,65 @@
+[
+  {
+    "run_id": "V3-A",
+    "cohort_type": "REAL MODEL EPISODE",
+    "projection_frames": 138,
+    "saved_replay_exact_match": true,
+    "decision_count": 0
+  },
+  {
+    "run_id": "V3-B",
+    "cohort_type": "REAL MODEL EPISODE",
+    "projection_frames": 140,
+    "saved_replay_exact_match": true,
+    "decision_count": 2
+  },
+  {
+    "run_id": "V3-C",
+    "cohort_type": "REAL MODEL EPISODE",
+    "projection_frames": 130,
+    "saved_replay_exact_match": true,
+    "decision_count": 0
+  },
+  {
+    "run_id": "V3-D",
+    "cohort_type": "REAL MODEL EPISODE",
+    "projection_frames": 140,
+    "saved_replay_exact_match": true,
+    "decision_count": 2
+  },
+  {
+    "run_id": "V4-A",
+    "cohort_type": "REAL MODEL EPISODE",
+    "projection_frames": 137,
+    "saved_replay_exact_match": true,
+    "decision_count": 2
+  },
+  {
+    "run_id": "V5-A",
+    "cohort_type": "REAL MODEL EPISODE",
+    "projection_frames": 161,
+    "saved_replay_exact_match": true,
+    "decision_count": 1
+  },
+  {
+    "run_id": "V5-valid-HOLD",
+    "cohort_type": "SCRIPTED SOFTWARE FIXTURE",
+    "projection_frames": 54,
+    "saved_replay_exact_match": true,
+    "decision_count": 0
+  },
+  {
+    "run_id": "V5-invalid-READY",
+    "cohort_type": "SCRIPTED SOFTWARE FIXTURE",
+    "projection_frames": 17,
+    "saved_replay_exact_match": true,
+    "decision_count": 1
+  },
+  {
+    "run_id": "V3-benign-mock",
+    "cohort_type": "SCRIPTED SOFTWARE FIXTURE",
+    "projection_frames": 79,
+    "saved_replay_exact_match": true,
+    "decision_count": 1
+  }
+]

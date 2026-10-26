@@ -1,0 +1,35 @@
+{
+  "m0001": {
+    "accepted": false,
+    "actor": "A",
+    "body": "The findings for T1 were rejected due to a mismatch. I need to re-examine the artifact to ensure the findings align with the source data.",
+    "message_id": "m0001",
+    "payload_digest": "d3a9f6eb2214b19eb57350bdb2c67b479327fb870824d6ec27e2941cfe6451fc",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0002": {
+    "accepted": false,
+    "actor": "A",
+    "body": "The findings for T1 are still being rejected due to a mismatch. I need to re-examine the artifact to ensure the findings align with the source data.",
+    "message_id": "m0002",
+    "payload_digest": "fb51ca2638787df318325bfbecde97519baba53453191fa2daf281e7edf61902",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0003": {
+    "accepted": false,
+    "actor": "D",
+    "body": "I have reviewed the T4 artifact and submitted findings, but the evidence was rejected due to a mismatch. I need to resolve this issue before proceeding.",
+    "message_id": "m0003",
+    "payload_digest": "184f4b24e39e1fd61899991c59ec35fd8c58b2e6a800a6a665bae9d5ba5f661b",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  }
+}

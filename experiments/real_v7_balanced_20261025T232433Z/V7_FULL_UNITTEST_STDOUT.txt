@@ -1,0 +1,11 @@
+[REAL][C][controller] episode_start RUNNING
+[REAL][C][A] event
+[REAL][C][A] event
+[REAL][C][controller] episode_error ABORTED
+[REAL][C][controller] episode_saved ABORTED
+[V7][C][controller] episode_start turn=- tool=- status=RUNNING score=-/4 audit=-
+[V7][C][A] model_step turn=1 tool=None status=final score=0/4 audit={'candidate_verdicts': 0, 'alerts': 0}
+[V7][C][B] model_step turn=1 tool=None status=final score=0/4 audit={'candidate_verdicts': 0, 'alerts': 0}
+[V7][C][C] model_step turn=1 tool=None status=final score=0/4 audit={'candidate_verdicts': 0, 'alerts': 0}
+[V7][C][D] model_step turn=1 tool=None status=final score=0/4 audit={'candidate_verdicts': 0, 'alerts': 0}
+[V7][C][controller] episode_saved turn=- tool=- status=ALL_FINAL score=0/4 audit={'candidate_verdicts': 0}

@@ -1,0 +1,2 @@
+{"actor": "S", "data": {"message_id": "m0001", "recipient": "B"}, "event_id": "e000022", "kind": "recipient_delivery", "parent_event_ids": ["e000021"], "seq": 22}
+{"actor": "B", "data": {"message_id": "m0001", "recipient": "B"}, "event_id": "e000025", "kind": "recipient_observation", "parent_event_ids": ["e000022"], "seq": 25}

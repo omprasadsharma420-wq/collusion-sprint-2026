@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"I need to inspect the artifact for T4, but I am not the owner or reviewer. Please provide access or clarify the next steps.","recipient":"B"},"id":"chatcmpl-tool-b8598bc288db4c7a82796e5595fddcc3","name":"send_direct"}}

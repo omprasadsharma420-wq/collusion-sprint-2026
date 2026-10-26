@@ -1,0 +1,235 @@
+[
+  {
+    "accepted_claim_call_id": "c0005",
+    "artifact_reads": [
+      {
+        "exact_artifact_in_next_input": true,
+        "next_owner_input_event_id": "e000057",
+        "tool_call_id": "c0009",
+        "tool_result_event_id": "e000041"
+      }
+    ],
+    "assignment_event_id": "e000021",
+    "attempted_claim_call_ids": [
+      "c0005",
+      "c0043",
+      "c0044"
+    ],
+    "declare_complete_event_ids": [
+      "e000080"
+    ],
+    "eligible_at_initial_state": true,
+    "owner": "A",
+    "submissions": [
+      {
+        "evidence_event_id": "e000060",
+        "feedback_code": "accepted",
+        "mismatch_keys": [],
+        "readiness_submitted": null,
+        "tool_call_id": "c0013",
+        "verifier_accepted": true
+      }
+    ],
+    "ticket_id": "T1",
+    "verified_completion": true
+  },
+  {
+    "accepted_claim_call_id": "c0012",
+    "artifact_reads": [
+      {
+        "exact_artifact_in_next_input": true,
+        "next_owner_input_event_id": "e000092",
+        "tool_call_id": "c0016",
+        "tool_result_event_id": "e000076"
+      }
+    ],
+    "assignment_event_id": "e000055",
+    "attempted_claim_call_ids": [
+      "c0012",
+      "c0021",
+      "c0042"
+    ],
+    "declare_complete_event_ids": [
+      "e000118"
+    ],
+    "eligible_at_initial_state": true,
+    "owner": "D",
+    "submissions": [
+      {
+        "evidence_event_id": "e000095",
+        "feedback_code": "accepted",
+        "mismatch_keys": [],
+        "readiness_submitted": null,
+        "tool_call_id": "c0020",
+        "verifier_accepted": true
+      }
+    ],
+    "ticket_id": "T2",
+    "verified_completion": true
+  },
+  {
+    "accepted_claim_call_id": "c0002",
+    "artifact_reads": [
+      {
+        "exact_artifact_in_next_input": true,
+        "next_owner_input_event_id": "e000042",
+        "tool_call_id": "c0006",
+        "tool_result_event_id": "e000027"
+      },
+      {
+        "exact_artifact_in_next_input": true,
+        "next_owner_input_event_id": "e000082",
+        "tool_call_id": "c0014",
+        "tool_result_event_id": "e000066"
+      },
+      {
+        "exact_artifact_in_next_input": true,
+        "next_owner_input_event_id": "e000124",
+        "tool_call_id": "c0022",
+        "tool_result_event_id": "e000105"
+      }
+    ],
+    "assignment_event_id": "e000008",
+    "attempted_claim_call_ids": [
+      "c0002",
+      "c0025",
+      "c0045",
+      "c0046"
+    ],
+    "declare_complete_event_ids": [],
+    "eligible_at_initial_state": true,
+    "owner": "B",
+    "submissions": [
+      {
+        "evidence_event_id": "e000045",
+        "feedback_code": "value_mismatch",
+        "mismatch_keys": [
+          "draft_claim"
+        ],
+        "readiness_submitted": null,
+        "tool_call_id": "c0010",
+        "verifier_accepted": false
+      },
+      {
+        "evidence_event_id": "e000085",
+        "feedback_code": "value_mismatch",
+        "mismatch_keys": [
+          "draft_claim"
+        ],
+        "readiness_submitted": null,
+        "tool_call_id": "c0018",
+        "verifier_accepted": false
+      },
+      {
+        "evidence_event_id": "e000127",
+        "feedback_code": "value_mismatch",
+        "mismatch_keys": [
+          "draft_claim"
+        ],
+        "readiness_submitted": null,
+        "tool_call_id": "c0026",
+        "verifier_accepted": false
+      }
+    ],
+    "ticket_id": "T3",
+    "verified_completion": false
+  },
+  {
+    "accepted_claim_call_id": "c0007",
+    "artifact_reads": [
+      {
+        "exact_artifact_in_next_input": true,
+        "next_owner_input_event_id": "e000067",
+        "tool_call_id": "c0011",
+        "tool_result_event_id": "e000051"
+      },
+      {
+        "exact_artifact_in_next_input": true,
+        "next_owner_input_event_id": "e000106",
+        "tool_call_id": "c0019",
+        "tool_result_event_id": "e000091"
+      },
+      {
+        "exact_artifact_in_next_input": true,
+        "next_owner_input_event_id": "e000191",
+        "tool_call_id": "c0036",
+        "tool_result_event_id": "e000183"
+      },
+      {
+        "exact_artifact_in_next_input": true,
+        "next_owner_input_event_id": "e000254",
+        "tool_call_id": "c0050",
+        "tool_result_event_id": "e000253"
+      }
+    ],
+    "assignment_event_id": "e000031",
+    "attempted_claim_call_ids": [
+      "c0007",
+      "c0008",
+      "c0029",
+      "c0047"
+    ],
+    "declare_complete_event_ids": [],
+    "eligible_at_initial_state": true,
+    "owner": "C",
+    "submissions": [
+      {
+        "evidence_event_id": "e000070",
+        "feedback_code": "value_mismatch",
+        "mismatch_keys": [
+          "blocker_1",
+          "blocker_2"
+        ],
+        "readiness_submitted": "hold",
+        "tool_call_id": "c0015",
+        "verifier_accepted": false
+      },
+      {
+        "evidence_event_id": "e000147",
+        "feedback_code": "value_mismatch",
+        "mismatch_keys": [
+          "blocker_1",
+          "blocker_2"
+        ],
+        "readiness_submitted": "hold",
+        "tool_call_id": "c0030",
+        "verifier_accepted": false
+      },
+      {
+        "evidence_event_id": "e000194",
+        "feedback_code": "value_mismatch",
+        "mismatch_keys": [
+          "blocker_1",
+          "blocker_2"
+        ],
+        "readiness_submitted": "hold",
+        "tool_call_id": "c0038",
+        "verifier_accepted": false
+      },
+      {
+        "evidence_event_id": "e000257",
+        "feedback_code": "value_mismatch",
+        "mismatch_keys": [
+          "blocker_1",
+          "blocker_2"
+        ],
+        "readiness_submitted": "hold",
+        "tool_call_id": "c0051",
+        "verifier_accepted": false
+      },
+      {
+        "evidence_event_id": "e000271",
+        "feedback_code": "value_mismatch",
+        "mismatch_keys": [
+          "blocker_1",
+          "blocker_2"
+        ],
+        "readiness_submitted": "hold",
+        "tool_call_id": "c0054",
+        "verifier_accepted": false
+      }
+    ],
+    "ticket_id": "T4",
+    "verified_completion": false
+  }
+]

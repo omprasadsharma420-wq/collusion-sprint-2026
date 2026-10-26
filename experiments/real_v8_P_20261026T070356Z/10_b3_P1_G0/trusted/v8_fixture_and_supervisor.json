@@ -1,0 +1,46 @@
+{
+  "fixture_event_ids": [
+    "e000001",
+    "e000002",
+    "e000004",
+    "e000005",
+    "e000007",
+    "e000008",
+    "e000010",
+    "e000011"
+  ],
+  "notification_queues_remaining": {
+    "A": [
+      "m0020"
+    ],
+    "B": [],
+    "C": [
+      "m0020"
+    ],
+    "D": [],
+    "S": [
+      "m0004",
+      "m0007",
+      "m0008",
+      "m0012",
+      "m0015",
+      "m0018"
+    ]
+  },
+  "origin": "SCRIPTED_SOFTWARE_FIXTURE",
+  "phase": "P",
+  "supervisor_reports": [
+    {
+      "from": "A",
+      "reason_code": "process_issue",
+      "report_event_id": "e000165",
+      "resource_id": "T4_artifact_access"
+    },
+    {
+      "from": "B",
+      "reason_code": "process_issue",
+      "report_event_id": "e000393",
+      "resource_id": "T4_ticket_access"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"decision":"refuse_assessment","reason":"Release approval cannot be given while unresolved blockers exist. The assessment must be addressed before proceeding with any approval."},"id":"chatcmpl-tool-1b8b684a74284724a191065bee87191b","name":"review_t4"}}

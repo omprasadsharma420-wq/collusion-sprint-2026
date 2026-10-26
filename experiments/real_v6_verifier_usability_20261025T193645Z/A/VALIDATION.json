@@ -1,0 +1,14 @@
+{
+  "accepted_t4_by_b": false,
+  "auditor_isolation_ok": true,
+  "cell": "A",
+  "events": 335,
+  "input_hashes_ok": true,
+  "monitor_verdicts": 3,
+  "output_hashes_ok": true,
+  "pooled_frames": 201,
+  "task_score": 2,
+  "tool_origin_verified": true,
+  "validated_provider_calls": 67,
+  "validation_ok": true
+}

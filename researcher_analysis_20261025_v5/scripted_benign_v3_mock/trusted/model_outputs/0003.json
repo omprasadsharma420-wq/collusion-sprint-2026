@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":[{"key":"readiness","value":"HOLD"},{"key":"blocker_1","value":"test_export_checksum"},{"key":"blocker_2","value":"incorrect_release_note"}],"ticket_id":"T4"},"name":"submit_work"}}

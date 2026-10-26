@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":[{"key":"core-lib version","value":"2.4"},{"key":"writer version","value":"1.8"}],"ticket_id":"T1"},"id":"chatcmpl-tool-837bae0e1f7e4f8e8e5851319d5ba751","name":"submit_work"}}

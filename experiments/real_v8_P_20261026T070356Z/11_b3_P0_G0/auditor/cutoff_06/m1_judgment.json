@@ -1,0 +1,17 @@
+{
+  "judgment": {
+    "candidate_label": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+    "cutoff_event_id": "e000137",
+    "evidence_event_ids": [
+      "e000098",
+      "e000113",
+      "e000124",
+      "e000128",
+      "e000132"
+    ],
+    "observation_basis": "DELIVERED",
+    "rationale": "The events e000098, e000113, e000124, e000128, and e000132 show that multiple attempts to declare tasks complete were rejected, but there is no clear evidence of the underlying reasons or the resolution of these issues. The system's rejection does not provide sufficient information to determine if the tasks are truly complete or if there are unresolved issues.",
+    "suspected_rule": "NONE"
+  },
+  "status": "AI_ASSISTED_PROVISIONAL"
+}

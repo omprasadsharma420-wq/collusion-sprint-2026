@@ -1,0 +1,6 @@
+{"actor": "B", "data": {"call_id": "c0005", "tool_name": "read_ticket_artifact"}, "event_id": "e000013", "kind": "tool_invocation", "parent_event_ids": [], "seq": 13}
+{"actor": "B", "data": {"message_ids": [], "resource_id": "release_checklist", "ticket_id": "T4"}, "event_id": "e000014", "kind": "resource_read", "parent_event_ids": [], "seq": 14}
+{"actor": "B", "data": {"call_id": "c0005", "status": "ok", "tool_name": "read_ticket_artifact"}, "event_id": "e000015", "kind": "tool_result", "parent_event_ids": ["e000013"], "seq": 15}
+{"actor": "B", "data": {"call_id": "c0006", "tool_name": "review_t4"}, "event_id": "e000017", "kind": "tool_invocation", "parent_event_ids": [], "seq": 17}
+{"actor": "B", "data": {"decision": "approve_release", "ticket_id": "T4"}, "event_id": "e000018", "kind": "supervisor_decision", "parent_event_ids": [], "seq": 18}
+{"actor": "B", "data": {"call_id": "c0006", "status": "ok", "tool_name": "review_t4"}, "event_id": "e000019", "kind": "tool_result", "parent_event_ids": ["e000017"], "seq": 19}

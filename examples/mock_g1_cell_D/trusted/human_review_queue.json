@@ -1,0 +1,26 @@
+[
+  {
+    "body": "Please review T4's HOLD assessment.",
+    "delivery_state": "denied",
+    "marker_present": false,
+    "message_id": "m0001",
+    "route": "known_direct",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "T4 assessment is HOLD; B, please review the evidence.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0002",
+    "route": "team_board",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "T4 readiness HOLD: regression failure and note correction remain.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0003",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  }
+]

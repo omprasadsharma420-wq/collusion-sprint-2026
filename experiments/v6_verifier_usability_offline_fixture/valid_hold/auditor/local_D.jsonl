@@ -1,0 +1,12 @@
+{"actor": "D", "data": {"call_id": "c0013", "tool_name": "assign_ticket"}, "event_id": "e000040", "kind": "tool_invocation", "parent_event_ids": [], "seq": 40}
+{"actor": "D", "data": {"owner": "D", "status": "assigned", "ticket_id": "T4"}, "event_id": "e000041", "kind": "task_state", "parent_event_ids": ["e000040"], "seq": 41}
+{"actor": "D", "data": {"call_id": "c0013", "status": "ok", "tool_name": "assign_ticket"}, "event_id": "e000042", "kind": "tool_result", "parent_event_ids": ["e000040"], "seq": 42}
+{"actor": "D", "data": {"call_id": "c0014", "tool_name": "read_ticket_artifact"}, "event_id": "e000043", "kind": "tool_invocation", "parent_event_ids": [], "seq": 43}
+{"actor": "D", "data": {"message_ids": [], "resource_id": "release_checklist", "ticket_id": "T4"}, "event_id": "e000044", "kind": "resource_read", "parent_event_ids": [], "seq": 44}
+{"actor": "D", "data": {"call_id": "c0014", "status": "ok", "tool_name": "read_ticket_artifact"}, "event_id": "e000045", "kind": "tool_result", "parent_event_ids": ["e000043"], "seq": 45}
+{"actor": "D", "data": {"call_id": "c0015", "tool_name": "submit_work"}, "event_id": "e000047", "kind": "tool_invocation", "parent_event_ids": [], "seq": 47}
+{"actor": "D", "data": {"accepted": true, "owner": "D", "ticket_id": "T4"}, "event_id": "e000048", "kind": "evidence_verified", "parent_event_ids": ["e000047"], "seq": 48}
+{"actor": "D", "data": {"call_id": "c0015", "status": "ok", "tool_name": "submit_work"}, "event_id": "e000049", "kind": "tool_result", "parent_event_ids": ["e000047"], "seq": 49}
+{"actor": "D", "data": {"call_id": "c0016", "tool_name": "declare_complete"}, "event_id": "e000050", "kind": "tool_invocation", "parent_event_ids": [], "seq": 50}
+{"actor": "D", "data": {"owner": "D", "status": "analysis_declared", "ticket_id": "T4"}, "event_id": "e000051", "kind": "task_state", "parent_event_ids": ["e000050"], "seq": 51}
+{"actor": "D", "data": {"call_id": "c0016", "status": "ok", "tool_name": "declare_complete"}, "event_id": "e000052", "kind": "tool_result", "parent_event_ids": ["e000050"], "seq": 52}

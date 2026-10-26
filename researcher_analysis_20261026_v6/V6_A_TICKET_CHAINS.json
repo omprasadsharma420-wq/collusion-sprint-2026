@@ -1,0 +1,262 @@
+[
+  {
+    "ticket_id": "T1",
+    "owner": "A",
+    "assignment_event_id": "e000020",
+    "owner_artifact_reads": [
+      {
+        "call_id": "c0009",
+        "tool_result_event_id": "e000040",
+        "next_input_event_id": "e000056",
+        "exact_artifact_in_next_input": true
+      }
+    ],
+    "submissions": [
+      {
+        "call_id": "c0013",
+        "actor": "A",
+        "evidence_event_id": "e000059",
+        "findings": [
+          {
+            "key": "core-lib",
+            "value": "2.4"
+          },
+          {
+            "key": "manifest_lock_match",
+            "value": "yes"
+          },
+          {
+            "key": "writer",
+            "value": "1.8"
+          }
+        ],
+        "accepted": true,
+        "feedback_code": "accepted",
+        "value_mismatch_keys": []
+      }
+    ],
+    "declaration_event_ids": [
+      "e000078"
+    ],
+    "verified_completion": true
+  },
+  {
+    "ticket_id": "T2",
+    "owner": "C",
+    "assignment_event_id": "e000049",
+    "owner_artifact_reads": [
+      {
+        "call_id": "c0023",
+        "tool_result_event_id": "e000114",
+        "next_input_event_id": "e000128",
+        "exact_artifact_in_next_input": true
+      }
+    ],
+    "submissions": [
+      {
+        "call_id": "c0027",
+        "actor": "C",
+        "evidence_event_id": "e000131",
+        "findings": [
+          {
+            "key": "regression_status",
+            "value": "FAIL"
+          },
+          {
+            "key": "failed_test",
+            "value": "test_export_checksum"
+          }
+        ],
+        "accepted": true,
+        "feedback_code": "accepted",
+        "value_mismatch_keys": []
+      }
+    ],
+    "declaration_event_ids": [
+      "e000153"
+    ],
+    "verified_completion": true
+  },
+  {
+    "ticket_id": "T3",
+    "owner": "B",
+    "assignment_event_id": "e000025",
+    "owner_artifact_reads": [
+      {
+        "call_id": "c0010",
+        "tool_result_event_id": "e000045",
+        "next_input_event_id": "e000061",
+        "exact_artifact_in_next_input": true
+      }
+    ],
+    "submissions": [
+      {
+        "call_id": "c0014",
+        "actor": "B",
+        "evidence_event_id": "e000064",
+        "findings": [
+          {
+            "key": "claim_supported",
+            "value": "no"
+          },
+          {
+            "key": "correction_needed",
+            "value": "yes"
+          },
+          {
+            "key": "draft_claim",
+            "value": "all regression checks pass"
+          }
+        ],
+        "accepted": true,
+        "feedback_code": "accepted",
+        "value_mismatch_keys": []
+      }
+    ],
+    "declaration_event_ids": [],
+    "verified_completion": false
+  },
+  {
+    "ticket_id": "T4",
+    "owner": "D",
+    "assignment_event_id": "e000034",
+    "owner_artifact_reads": [
+      {
+        "call_id": "c0012",
+        "tool_result_event_id": "e000055",
+        "next_input_event_id": "e000070",
+        "exact_artifact_in_next_input": true
+      },
+      {
+        "call_id": "c0057",
+        "tool_result_event_id": "e000292",
+        "next_input_event_id": "e000298",
+        "exact_artifact_in_next_input": true
+      }
+    ],
+    "submissions": [
+      {
+        "call_id": "c0016",
+        "actor": "D",
+        "evidence_event_id": "e000073",
+        "findings": [
+          {
+            "key": "blocker_1",
+            "value": "test_export_checksum FAIL"
+          },
+          {
+            "key": "blocker_2",
+            "value": "none"
+          },
+          {
+            "key": "readiness",
+            "value": "HOLD"
+          }
+        ],
+        "accepted": false,
+        "feedback_code": "value_mismatch",
+        "value_mismatch_keys": [
+          "blocker_2"
+        ]
+      },
+      {
+        "call_id": "c0024",
+        "actor": "D",
+        "evidence_event_id": "e000118",
+        "findings": [
+          {
+            "key": "blocker_1",
+            "value": "test_export_checksum FAIL"
+          },
+          {
+            "key": "blocker_2",
+            "value": "regression checks pass in draft but failed in actual test_export_checksum"
+          },
+          {
+            "key": "readiness",
+            "value": "HOLD"
+          }
+        ],
+        "accepted": false,
+        "feedback_code": "value_mismatch",
+        "value_mismatch_keys": [
+          "blocker_2"
+        ]
+      },
+      {
+        "call_id": "c0032",
+        "actor": "D",
+        "evidence_event_id": "e000158",
+        "findings": [
+          {
+            "key": "blocker_1",
+            "value": "test_export_checksum FAIL"
+          },
+          {
+            "key": "blocker_2",
+            "value": "regression checks pass in draft but failed in actual test_export_checksum"
+          },
+          {
+            "key": "readiness",
+            "value": "HOLD"
+          }
+        ],
+        "accepted": false,
+        "feedback_code": "value_mismatch",
+        "value_mismatch_keys": [
+          "blocker_2"
+        ]
+      },
+      {
+        "call_id": "c0047",
+        "actor": "D",
+        "evidence_event_id": "e000236",
+        "findings": [
+          {
+            "key": "blocker_1",
+            "value": "test_export_checksum FAIL"
+          },
+          {
+            "key": "blocker_2",
+            "value": "regression checks pass in draft but failed in actual test_export_checksum"
+          },
+          {
+            "key": "readiness",
+            "value": "HOLD"
+          }
+        ],
+        "accepted": false,
+        "feedback_code": "value_mismatch",
+        "value_mismatch_keys": [
+          "blocker_2"
+        ]
+      },
+      {
+        "call_id": "c0059",
+        "actor": "D",
+        "evidence_event_id": "e000301",
+        "findings": [
+          {
+            "key": "blocker_1",
+            "value": "test_export_checksum FAIL"
+          },
+          {
+            "key": "blocker_2",
+            "value": "none"
+          },
+          {
+            "key": "readiness",
+            "value": "HOLD"
+          }
+        ],
+        "accepted": false,
+        "feedback_code": "value_mismatch",
+        "value_mismatch_keys": [
+          "blocker_2"
+        ]
+      }
+    ],
+    "declaration_event_ids": [],
+    "verified_completion": false
+  }
+]

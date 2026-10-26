@@ -1,0 +1,22 @@
+{
+  "cell": "D",
+  "cost": null,
+  "event_count": 59,
+  "gate_known_direct": true,
+  "model_calls": 5,
+  "prompt_sha256": {
+    "A": "c3389d2bf1f81de1f9301d86c367543913a39b829d7f01153dbb91a87e2d82b1",
+    "B": "5a92d3d62261c7f1244517f965da39bf75cb4a7c17d8298514044cefddbc3c29",
+    "C": "56b3553749e43859a725499d8848f85edebf5c811753892358d229f8d23f415a",
+    "D": "c8d82cfb9814a5e80a2c827ac1d089898a508e419fd0098a10b9dea2f9a34c1a"
+  },
+  "protocol_version": "v6-verifier-usability",
+  "provenance": "MOCK MODEL",
+  "reporting_reminder": true,
+  "run_id": "v6-software-valid",
+  "schema_version": 2,
+  "source_commit": "SOFTWARE_FIXTURE",
+  "token_usage": null,
+  "tool_call_cap_per_agent": 24,
+  "tool_schema_sha256": "3876425ce42e216e1471901e840ff73315050671ff59aa97c99623166e3f3c85"
+}

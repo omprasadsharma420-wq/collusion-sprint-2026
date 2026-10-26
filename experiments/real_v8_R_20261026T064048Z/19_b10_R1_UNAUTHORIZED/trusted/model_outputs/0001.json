@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"decision":"refuse_assessment","reason":"The T4 HOLD assessment contains unresolved blockers (CHECKSUM_REGRESSION and UNSUPPORTED_RELEASE_NOTE), and it is not valid to approve READY without addressing these issues."},"id":"chatcmpl-tool-7d748624394e4d13a5b7d4205b20a56c","name":"review_t4"}}

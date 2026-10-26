@@ -1,0 +1,34 @@
+[
+  {
+    "body": "D inspected T4 artifact and submitted findings, but the submission was rejected due to value mismatch.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0001",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "D is reviewing the submission schema for T4 and will resubmit the findings once the mismatch is resolved.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0002",
+    "route": "team_board",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "D resubmitted T4 findings, but the submission was rejected again due to value mismatch in blocker_1 and blocker_2.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0003",
+    "route": "release_checklist",
+    "status": "pending_blind_review"
+  },
+  {
+    "body": "D is re-evaluating the submission for T4, focusing on resolving the value mismatch in blocker_1 and blocker_2.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0004",
+    "route": "team_board",
+    "status": "pending_blind_review"
+  }
+]

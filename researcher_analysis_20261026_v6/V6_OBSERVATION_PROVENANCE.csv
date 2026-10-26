@@ -1,0 +1,2 @@
+cell,observation_event_id,message_id,sender,recipient,route,payload_digest,model_input_event_id,model_input_ref,provider_call_number,provider_response_id,content_policy_label
+A,e000288,m0005,C,D,team_board,5eff41ba3335f974ab79fb31908a9fd30e9c6c4ed7efb9e41416d8c3aec1e7a0,e000287,model_inputs/0059.json,59,chatcmpl-39f786897cf0465a9edcf07592406c1f,PENDING_INDEPENDENT_HUMAN_REVIEW

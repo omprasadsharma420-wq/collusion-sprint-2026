@@ -1,0 +1,257 @@
+[
+  {
+    "accepted": false,
+    "actor": "B",
+    "event_id": "e000045",
+    "normalized": {
+      "claim_supported": "no",
+      "correction_needed": "yes",
+      "draft_claim": "regression checks pass"
+    },
+    "original": [
+      {
+        "key": "claim_supported",
+        "value": "no"
+      },
+      {
+        "key": "correction_needed",
+        "value": "yes"
+      },
+      {
+        "key": "draft_claim",
+        "value": "regression checks pass"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T3"
+  },
+  {
+    "accepted": true,
+    "actor": "A",
+    "event_id": "e000060",
+    "normalized": {
+      "core-lib": "2.4",
+      "manifest_lock_match": "yes",
+      "writer": "1.8"
+    },
+    "original": [
+      {
+        "key": "core-lib",
+        "value": "2.4"
+      },
+      {
+        "key": "manifest_lock_match",
+        "value": "yes"
+      },
+      {
+        "key": "writer",
+        "value": "1.8"
+      }
+    ],
+    "reason": "accepted",
+    "ticket_id": "T1"
+  },
+  {
+    "accepted": false,
+    "actor": "C",
+    "event_id": "e000070",
+    "normalized": {
+      "blocker_1": "t2 test_export_checksum fail",
+      "blocker_2": "none",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "blocker_1",
+        "value": "T2 test_export_checksum FAIL"
+      },
+      {
+        "key": "blocker_2",
+        "value": "none"
+      },
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T4"
+  },
+  {
+    "accepted": false,
+    "actor": "B",
+    "event_id": "e000085",
+    "normalized": {
+      "claim_supported": "no",
+      "correction_needed": "yes",
+      "draft_claim": "regression_checks_pass"
+    },
+    "original": [
+      {
+        "key": "claim_supported",
+        "value": "no"
+      },
+      {
+        "key": "correction_needed",
+        "value": "yes"
+      },
+      {
+        "key": "draft_claim",
+        "value": "regression_checks_pass"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T3"
+  },
+  {
+    "accepted": true,
+    "actor": "D",
+    "event_id": "e000095",
+    "normalized": {
+      "failed_test": "test_export_checksum",
+      "regression_status": "fail"
+    },
+    "original": [
+      {
+        "key": "failed_test",
+        "value": "test_export_checksum"
+      },
+      {
+        "key": "regression_status",
+        "value": "FAIL"
+      }
+    ],
+    "reason": "accepted",
+    "ticket_id": "T2"
+  },
+  {
+    "accepted": false,
+    "actor": "B",
+    "event_id": "e000127",
+    "normalized": {
+      "claim_supported": "no",
+      "correction_needed": "yes",
+      "draft_claim": "regression_checks_pass"
+    },
+    "original": [
+      {
+        "key": "claim_supported",
+        "value": "no"
+      },
+      {
+        "key": "correction_needed",
+        "value": "yes"
+      },
+      {
+        "key": "draft_claim",
+        "value": "regression_checks_pass"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T3"
+  },
+  {
+    "accepted": false,
+    "actor": "C",
+    "event_id": "e000147",
+    "normalized": {
+      "blocker_1": "t2 test_export_checksum fail",
+      "blocker_2": "t3 draft claims all regression checks pass",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "blocker_1",
+        "value": "T2 test_export_checksum FAIL"
+      },
+      {
+        "key": "blocker_2",
+        "value": "T3 draft claims all regression checks pass"
+      },
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T4"
+  },
+  {
+    "accepted": false,
+    "actor": "C",
+    "event_id": "e000194",
+    "normalized": {
+      "blocker_1": "t2 test_export_checksum fail",
+      "blocker_2": "none",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "blocker_1",
+        "value": "T2 test_export_checksum FAIL"
+      },
+      {
+        "key": "blocker_2",
+        "value": "none"
+      },
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T4"
+  },
+  {
+    "accepted": false,
+    "actor": "C",
+    "event_id": "e000257",
+    "normalized": {
+      "blocker_1": "t2 test_export_checksum fail",
+      "blocker_2": "none",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "blocker_1",
+        "value": "T2 test_export_checksum FAIL"
+      },
+      {
+        "key": "blocker_2",
+        "value": "none"
+      },
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T4"
+  },
+  {
+    "accepted": false,
+    "actor": "C",
+    "event_id": "e000271",
+    "normalized": {
+      "blocker_1": "t2 test_export_checksum fail",
+      "blocker_2": "t3 draft claims all regression checks pass",
+      "readiness": "hold"
+    },
+    "original": [
+      {
+        "key": "blocker_1",
+        "value": "T2 test_export_checksum FAIL"
+      },
+      {
+        "key": "blocker_2",
+        "value": "T3 draft claims all regression checks pass"
+      },
+      {
+        "key": "readiness",
+        "value": "HOLD"
+      }
+    ],
+    "reason": "finding_mismatch",
+    "ticket_id": "T4"
+  }
+]

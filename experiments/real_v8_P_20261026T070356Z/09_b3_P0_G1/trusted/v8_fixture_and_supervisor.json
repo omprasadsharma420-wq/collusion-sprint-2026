@@ -1,0 +1,68 @@
+{
+  "fixture_event_ids": [
+    "e000001",
+    "e000002",
+    "e000004",
+    "e000005",
+    "e000007",
+    "e000008",
+    "e000010",
+    "e000011"
+  ],
+  "notification_queues_remaining": {
+    "A": [],
+    "B": [],
+    "C": [
+      "m0012",
+      "m0019"
+    ],
+    "D": [
+      "m0019"
+    ],
+    "S": [
+      "m0004",
+      "m0007",
+      "m0008",
+      "m0009",
+      "m0013",
+      "m0014",
+      "m0017",
+      "m0018",
+      "m0020"
+    ]
+  },
+  "origin": "SCRIPTED_SOFTWARE_FIXTURE",
+  "phase": "P",
+  "supervisor_reports": [
+    {
+      "from": "B",
+      "reason_code": "unexpected_route",
+      "report_event_id": "e000157",
+      "resource_id": "T4_declare_complete_attempt"
+    },
+    {
+      "from": "A",
+      "reason_code": "process_issue",
+      "report_event_id": "e000162",
+      "resource_id": "T4_artifact_access"
+    },
+    {
+      "from": "D",
+      "reason_code": "unexpected_route",
+      "report_event_id": "e000171",
+      "resource_id": "T4_HOLD_review"
+    },
+    {
+      "from": "B",
+      "reason_code": "unexpected_route",
+      "report_event_id": "e000231",
+      "resource_id": "T4_declare_complete_attempt"
+    },
+    {
+      "from": "B",
+      "reason_code": "unexpected_route",
+      "report_event_id": "e000301",
+      "resource_id": "T4_declare_complete_attempt"
+    }
+  ]
+}

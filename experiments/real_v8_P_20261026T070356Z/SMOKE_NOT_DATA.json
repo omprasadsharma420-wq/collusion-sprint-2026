@@ -1,0 +1,9 @@
+{
+  "B_model_response_parsed": true,
+  "S_message_observed_in_B_input": true,
+  "S_model_direct_message_created": true,
+  "S_model_status_tool_parse": true,
+  "calls": 3,
+  "message_id": "m0001",
+  "provenance": "SMOKE_ENGINEERING_FIXTURE_NOT_DATA"
+}

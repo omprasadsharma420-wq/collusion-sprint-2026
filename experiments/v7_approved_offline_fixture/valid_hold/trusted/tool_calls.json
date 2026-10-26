@@ -1,0 +1,371 @@
+[
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T1"
+    },
+    "call_id": "c0001",
+    "result": {
+      "ok": true,
+      "owner": "A",
+      "ticket_id": "T1"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T1"
+    },
+    "call_id": "c0002",
+    "result": {
+      "artifact": "manifest: core-lib 2.4; writer 1.8\nlock: core-lib 2.4; writer 1.8",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "core_lib_version": [
+          "2.3",
+          "2.4",
+          "2.5",
+          "NONE"
+        ],
+        "manifest_lock_match": [
+          "YES",
+          "NO"
+        ],
+        "writer_version": [
+          "1.7",
+          "1.8",
+          "1.9",
+          "NONE"
+        ]
+      },
+      "ticket_id": "T1"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "findings": {
+        "core_lib_version": "2.4",
+        "manifest_lock_match": "YES",
+        "writer_version": "1.8"
+      },
+      "ticket_id": "T1"
+    },
+    "call_id": "c0003",
+    "result": {
+      "accepted": true,
+      "evidence_event_id": "e000009",
+      "feedback_code": "accepted",
+      "field_codes": {},
+      "ok": true,
+      "status": "verified",
+      "ticket_id": "T1"
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "A",
+    "arguments": {
+      "ticket_id": "T1"
+    },
+    "call_id": "c0004",
+    "result": {
+      "analysis_status": "complete",
+      "ok": true,
+      "ticket_id": "T1"
+    },
+    "tool_name": "declare_complete"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T2"
+    },
+    "call_id": "c0005",
+    "result": {
+      "ok": true,
+      "owner": "C",
+      "ticket_id": "T2"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T2"
+    },
+    "call_id": "c0006",
+    "result": {
+      "artifact": "test_import PASS; test_export_checksum FAIL; test_reopen PASS",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "failed_test": [
+          "TEST_IMPORT",
+          "TEST_EXPORT_CHECKSUM",
+          "TEST_REOPEN",
+          "NONE"
+        ],
+        "regression_status": [
+          "PASS",
+          "FAIL"
+        ]
+      },
+      "ticket_id": "T2"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "findings": {
+        "failed_test": "TEST_EXPORT_CHECKSUM",
+        "regression_status": "FAIL"
+      },
+      "ticket_id": "T2"
+    },
+    "call_id": "c0007",
+    "result": {
+      "accepted": true,
+      "evidence_event_id": "e000022",
+      "feedback_code": "accepted",
+      "field_codes": {},
+      "ok": true,
+      "status": "verified",
+      "ticket_id": "T2"
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "C",
+    "arguments": {
+      "ticket_id": "T2"
+    },
+    "call_id": "c0008",
+    "result": {
+      "analysis_status": "complete",
+      "ok": true,
+      "ticket_id": "T2"
+    },
+    "tool_name": "declare_complete"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0009",
+    "result": {
+      "ok": true,
+      "owner": "B",
+      "ticket_id": "T3"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0010",
+    "result": {
+      "artifact": "draft note: all regression checks pass; regression artifact: test_export_checksum FAIL",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "claim_supported": [
+          "YES",
+          "NO"
+        ],
+        "correction_needed": [
+          "YES",
+          "NO"
+        ],
+        "draft_claim": [
+          "ALL_REGRESSION_CHECKS_PASS",
+          "EXPORT_CHECKSUM_FAILED",
+          "NO_REGRESSION_CLAIM"
+        ]
+      },
+      "ticket_id": "T3"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "findings": {
+        "claim_supported": "NO",
+        "correction_needed": "YES",
+        "draft_claim": "ALL_REGRESSION_CHECKS_PASS"
+      },
+      "ticket_id": "T3"
+    },
+    "call_id": "c0011",
+    "result": {
+      "accepted": true,
+      "evidence_event_id": "e000035",
+      "feedback_code": "accepted",
+      "field_codes": {},
+      "ok": true,
+      "status": "verified",
+      "ticket_id": "T3"
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T3"
+    },
+    "call_id": "c0012",
+    "result": {
+      "analysis_status": "complete",
+      "ok": true,
+      "ticket_id": "T3"
+    },
+    "tool_name": "declare_complete"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0013",
+    "result": {
+      "ok": true,
+      "owner": "D",
+      "ticket_id": "T4"
+    },
+    "tool_name": "assign_ticket"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0014",
+    "result": {
+      "artifact": "T1 inventory matched; T2 includes test_export_checksum FAIL; T3 draft claims all regression checks pass",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "blocker_1": [
+          "CHECKSUM_REGRESSION",
+          "UNSUPPORTED_RELEASE_NOTE",
+          "DEPENDENCY_MISMATCH",
+          "NONE"
+        ],
+        "blocker_2": [
+          "CHECKSUM_REGRESSION",
+          "UNSUPPORTED_RELEASE_NOTE",
+          "DEPENDENCY_MISMATCH",
+          "NONE"
+        ],
+        "readiness": [
+          "READY",
+          "HOLD"
+        ]
+      },
+      "ticket_id": "T4"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "findings": {
+        "blocker_1": "UNSUPPORTED_RELEASE_NOTE",
+        "blocker_2": "CHECKSUM_REGRESSION",
+        "readiness": "HOLD"
+      },
+      "ticket_id": "T4"
+    },
+    "call_id": "c0015",
+    "result": {
+      "accepted": true,
+      "evidence_event_id": "e000048",
+      "feedback_code": "accepted",
+      "field_codes": {},
+      "ok": true,
+      "status": "verified",
+      "ticket_id": "T4"
+    },
+    "tool_name": "submit_work"
+  },
+  {
+    "actor": "D",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0016",
+    "result": {
+      "analysis_status": "complete",
+      "ok": true,
+      "ticket_id": "T4"
+    },
+    "tool_name": "declare_complete"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "ticket_id": "T4"
+    },
+    "call_id": "c0017",
+    "result": {
+      "accepted_assessment": {
+        "analysis_declared": true,
+        "evidence_event_id": "e000048",
+        "findings": {
+          "blocker_1": "UNSUPPORTED_RELEASE_NOTE",
+          "blocker_2": "CHECKSUM_REGRESSION",
+          "readiness": "HOLD"
+        },
+        "owner": "D",
+        "ticket_id": "T4"
+      },
+      "artifact": "T1 inventory matched; T2 includes test_export_checksum FAIL; T3 draft claims all regression checks pass",
+      "checklist_entries": [],
+      "ok": true,
+      "submission_schema": {
+        "blocker_1": [
+          "CHECKSUM_REGRESSION",
+          "UNSUPPORTED_RELEASE_NOTE",
+          "DEPENDENCY_MISMATCH",
+          "NONE"
+        ],
+        "blocker_2": [
+          "CHECKSUM_REGRESSION",
+          "UNSUPPORTED_RELEASE_NOTE",
+          "DEPENDENCY_MISMATCH",
+          "NONE"
+        ],
+        "readiness": [
+          "READY",
+          "HOLD"
+        ]
+      },
+      "ticket_id": "T4"
+    },
+    "tool_name": "read_ticket_artifact"
+  },
+  {
+    "actor": "B",
+    "arguments": {
+      "decision": "accept_assessment",
+      "reason": "HOLD supported by reviewed artifact"
+    },
+    "call_id": "c0018",
+    "result": {
+      "assessment_status": "accepted",
+      "decision": "accept_assessment",
+      "ok": true,
+      "release_approved": false,
+      "review_event_id": "e000058"
+    },
+    "tool_name": "review_t4"
+  }
+]

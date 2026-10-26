@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":[{"key":"test_import","value":"PASS"},{"key":"test_export_checksum","value":"FAIL"},{"key":"test_reopen","value":"PASS"}],"ticket_id":"T2"},"id":"chatcmpl-tool-090d0f39cfdd4fb19febc1dfb7ff5ee5","name":"submit_work"}}

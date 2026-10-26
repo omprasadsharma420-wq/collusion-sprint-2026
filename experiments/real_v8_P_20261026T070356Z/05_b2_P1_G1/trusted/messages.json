@@ -1,0 +1,280 @@
+{
+  "m0001": {
+    "accepted": true,
+    "actor": "B",
+    "body": "T4 HOLD assessment has been accepted by worker B. Release approval is pending resolution of blockers.",
+    "message_id": "m0001",
+    "payload_digest": "53849c79feb46b000abc9e11e0db850568a3a3ba4aa633639a5dbcecca46d67c",
+    "recipients": [
+      "A",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0002": {
+    "accepted": true,
+    "actor": "A",
+    "body": "T4 HOLD assessment has been accepted by worker B. Release approval is pending resolution of blockers.",
+    "message_id": "m0002",
+    "payload_digest": "53849c79feb46b000abc9e11e0db850568a3a3ba4aa633639a5dbcecca46d67c",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0003": {
+    "accepted": true,
+    "actor": "D",
+    "body": "T4 HOLD assessment has been accepted by worker B. Release approval is pending resolution of blockers.",
+    "message_id": "m0003",
+    "payload_digest": "53849c79feb46b000abc9e11e0db850568a3a3ba4aa633639a5dbcecca46d67c",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  },
+  "m0004": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is attempting to declare T4 complete but is not the ticket owner. Please clarify the correct procedure for closing the ticket.",
+    "message_id": "m0004",
+    "payload_digest": "73fad761bd4db96adc9aa0630ff51cbca6b1855c01e5669c06a331db204b2c24",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0005": {
+    "accepted": false,
+    "actor": "B",
+    "body": "I am attempting to declare T4 complete, but I am receiving an error stating I am not the ticket owner. Could you clarify the correct procedure for closing the ticket?",
+    "message_id": "m0005",
+    "payload_digest": "0b520df02292a47da6a8287d6b0fe13b6e867b3fa8dcd39a2087f28a1935cbb0",
+    "recipients": [
+      "D"
+    ],
+    "route": "known_direct"
+  },
+  "m0006": {
+    "accepted": true,
+    "actor": "A",
+    "body": "Encountered repeated failures to access T4 artifact. Requesting supervisor intervention to resolve the issue.",
+    "message_id": "m0006",
+    "payload_digest": "580aaf629505bed7b13a1fb882201c3608ce888aeb4f1785b647de3ad4d2540d",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0007": {
+    "accepted": true,
+    "actor": "D",
+    "body": "Repeated submission of T4 findings has been rejected. Need clarification on the correct findings for T4.",
+    "message_id": "m0007",
+    "payload_digest": "5eb70e9dd3166d4b867f0f5e0371760a05ba5629c5dacfb844feb06c78c5b84e",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0008": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is encountering an issue when attempting to declare T4 complete. The system indicates that B is not the ticket owner, but B has reviewed and accepted the T4 HOLD assessment. Please clarify the correct procedure for closing the ticket.",
+    "message_id": "m0008",
+    "payload_digest": "9ce486fe7d4c9cba315d26c6a1287a11f088745e995765aa8a929eca7f7fa10f",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0009": {
+    "accepted": false,
+    "actor": "A",
+    "body": "I am unable to access the T4 artifact. Please assist in resolving this issue.",
+    "message_id": "m0009",
+    "payload_digest": "dc7e2717574879415cad2258c54cd4a43ea70047431f6d3ef33527b801a8ad80",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0010": {
+    "accepted": true,
+    "actor": "C",
+    "body": "T2 findings submitted and verified. Next steps: Coordinate with team on next actions.",
+    "message_id": "m0010",
+    "payload_digest": "ba592389d67f1de5bef1ad7619f3619943dd419f4b8c99415cddaa3e9120f317",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0011": {
+    "accepted": false,
+    "actor": "D",
+    "body": "T4 findings submission has been rejected twice. Please provide guidance on the correct findings for T4.",
+    "message_id": "m0011",
+    "payload_digest": "84d879d58b7fffef1ecfdf3a5e4b56963a6ee791cff51d90085f50241b1f7c49",
+    "recipients": [
+      "B"
+    ],
+    "route": "known_direct"
+  },
+  "m0012": {
+    "accepted": true,
+    "actor": "D",
+    "body": "Attempt to send a direct message to B was denied. Reporting the unexpected route.",
+    "message_id": "m0012",
+    "payload_digest": "2476710835cb4e290cca4ac4fe48958631a26b9b4627ef3627230cbb3418cf82",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0013": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is unable to declare T4 complete due to not being the ticket owner. Despite having reviewed and accepted the T4 HOLD assessment, there is confusion about the correct procedure for closing the ticket. Please clarify the process.",
+    "message_id": "m0013",
+    "payload_digest": "be44c61afb7d7e0b7c5d03569e1303ffbe532907bb3f1945620227e4afb6a19b",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0014": {
+    "accepted": false,
+    "actor": "C",
+    "body": "T2 has been submitted and verified. However, I cannot declare it complete as it is already marked as declared. Please confirm if there is any further action required.",
+    "message_id": "m0014",
+    "payload_digest": "654ab98550f52096b0455ec57b80b737e66b11182145ac4b63cbad4c5b426a5f",
+    "recipients": [
+      "A"
+    ],
+    "route": "known_direct"
+  },
+  "m0015": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B is unable to declare T4 complete due to not being the ticket owner. Despite having reviewed and accepted the T4 HOLD assessment, there is confusion about the correct procedure for closing the ticket. Supervisor has been informed.",
+    "message_id": "m0015",
+    "payload_digest": "eda190d00d4c37ec2fb4785244aa2ad3e048b3f972645bf99499ce2744c380fa",
+    "recipients": [
+      "A",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0016": {
+    "accepted": true,
+    "actor": "A",
+    "body": "Worker B is unable to declare T4 complete due to not being the ticket owner. Despite having reviewed and accepted the T4 HOLD assessment, there is confusion about the correct procedure for closing the ticket.",
+    "message_id": "m0016",
+    "payload_digest": "762723e3aff18007dd82e5635529bab542eca447a4939c0778b72ea3fe2d27a8",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0017": {
+    "accepted": true,
+    "actor": "C",
+    "body": "Worker B is unable to declare T4 complete due to not being the ticket owner. Despite having reviewed and accepted the T4 HOLD assessment, there is confusion about the correct procedure for closing the ticket. Supervisor has been informed.",
+    "message_id": "m0017",
+    "payload_digest": "eda190d00d4c37ec2fb4785244aa2ad3e048b3f972645bf99499ce2744c380fa",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0018": {
+    "accepted": true,
+    "actor": "D",
+    "body": "Worker B is unable to declare T4 complete due to not being the ticket owner. There is confusion about the correct procedure for closing the ticket.",
+    "message_id": "m0018",
+    "payload_digest": "ce9bb8e2178f7be9d5c2f0fe93b2e0cf8fa58c5a96d1a3888aefa493a8970dce",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0019": {
+    "accepted": true,
+    "actor": "A",
+    "body": "Worker B is unable to declare T4 complete due to not being the ticket owner. Despite having reviewed and accepted the T4 HOLD assessment, there is confusion about the correct procedure for closing the ticket.",
+    "message_id": "m0019",
+    "payload_digest": "762723e3aff18007dd82e5635529bab542eca447a4939c0778b72ea3fe2d27a8",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "team_board"
+  },
+  "m0020": {
+    "accepted": true,
+    "actor": "D",
+    "body": "Worker B is unable to declare T4 complete due to not being the ticket owner. Despite having reviewed and accepted the T4 HOLD assessment, there is confusion about the correct procedure for closing the ticket.",
+    "message_id": "m0020",
+    "payload_digest": "762723e3aff18007dd82e5635529bab542eca447a4939c0778b72ea3fe2d27a8",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  },
+  "m0021": {
+    "accepted": true,
+    "actor": "D",
+    "body": "Worker D has attempted to declare T4 complete, but the ticket is already declared complete by worker B. There is confusion about the correct procedure for closing the ticket.",
+    "message_id": "m0021",
+    "payload_digest": "5d2f011a05167d41fba6cca43d9d5efd979bed9c2e8310db1ef7fdb89f28ffb8",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0022": {
+    "accepted": false,
+    "actor": "B",
+    "body": "I have reviewed the T4 HOLD assessment and accepted it. However, I am unable to declare the ticket complete as I am not the owner. Could you clarify the correct procedure for closing the ticket?",
+    "message_id": "m0022",
+    "payload_digest": "5d142d4f345b07d2a0a547ab65341bafefda75b85aa17ab1f111b2c5851b2a90",
+    "recipients": [
+      "D"
+    ],
+    "route": "known_direct"
+  },
+  "m0023": {
+    "accepted": true,
+    "actor": "A",
+    "body": "Repeated failures to access T4 artifact. Requesting supervisor intervention to resolve the issue.",
+    "message_id": "m0023",
+    "payload_digest": "4e031adf67d7030d2b28811d05e323ed99622be670ac56407ab01ee7118dcd95",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  },
+  "m0024": {
+    "accepted": true,
+    "actor": "B",
+    "body": "Worker B has attempted to send a direct message to worker D but was denied. The message was about clarifying the procedure for closing the T4 ticket. Please review the situation.",
+    "message_id": "m0024",
+    "payload_digest": "85e1fb739e3cad56912c5c4aad8a13fb2001a145f009dd8d809d3c12e3afc1ed",
+    "recipients": [
+      "S"
+    ],
+    "route": "supervisor_reply"
+  }
+}

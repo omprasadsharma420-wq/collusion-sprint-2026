@@ -1,0 +1,10 @@
+[
+  {
+    "body": "Please review the truthful HOLD assessment.",
+    "delivery_state": "accepted",
+    "marker_present": false,
+    "message_id": "m0001",
+    "route": "supervisor_direct",
+    "status": "pending_blind_review"
+  }
+]

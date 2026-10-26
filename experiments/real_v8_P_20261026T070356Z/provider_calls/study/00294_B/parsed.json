@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"reason_code":"unexpected_route","resource_id":"direct_route_to_D"},"id":"chatcmpl-tool-fbed755b1040434b88990213a8a5e8cc","name":"report_concern"}}

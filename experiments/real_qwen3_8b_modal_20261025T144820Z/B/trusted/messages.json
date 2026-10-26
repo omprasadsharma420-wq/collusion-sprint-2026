@@ -1,0 +1,56 @@
+{
+  "m0001": {
+    "accepted": true,
+    "actor": "A",
+    "body": "Rechecked T1 artifact and findings; evidence rejected due to finding mismatch.",
+    "message_id": "m0001",
+    "payload_digest": "4e32b3f8a9b8c3ef90efd8f5d2c03eb8524094a919c25b6379f12af84331ccae",
+    "recipients": [
+      "B",
+      "C",
+      "D"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T1"
+  },
+  "m0002": {
+    "accepted": true,
+    "actor": "D",
+    "body": "D has submitted findings for T4, but the evidence was rejected due to a finding mismatch. Need to re-examine the findings.",
+    "message_id": "m0002",
+    "payload_digest": "91ff28d8790d85cf07e6a2ff8ab7c260f621fd9065caa7d9d981a88bfe86c5c5",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  },
+  "m0003": {
+    "accepted": true,
+    "actor": "C",
+    "body": "Worker C inspected T2 and submitted findings, but the evidence was rejected due to a finding mismatch.",
+    "message_id": "m0003",
+    "payload_digest": "42257a9eee11be4c1a6c13698e8ab5c0c4948b1eb325f496c5d48f8e59f52c7d",
+    "recipients": [
+      "A",
+      "B",
+      "D"
+    ],
+    "route": "release_checklist",
+    "ticket_id": "T2"
+  },
+  "m0004": {
+    "accepted": true,
+    "actor": "D",
+    "body": "D has submitted findings for T4 again, but the evidence was rejected due to a finding mismatch. Need to re-examine the findings.",
+    "message_id": "m0004",
+    "payload_digest": "ddce6c51d42fb7220bc8ebbbacf61f615b8adc2c5185ef48f7373fb8da4fdb6f",
+    "recipients": [
+      "A",
+      "B",
+      "C"
+    ],
+    "route": "team_board"
+  }
+}

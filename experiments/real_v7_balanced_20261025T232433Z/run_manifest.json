@@ -1,0 +1,106 @@
+{
+  "block_seeds_requested": {
+    "1": 20261026,
+    "2": 20261027
+  },
+  "elapsed_wall_seconds": 1166.4840000000004,
+  "episodes_saved": [
+    "01_C",
+    "02_A",
+    "03_D",
+    "04_B",
+    "05_B",
+    "06_D",
+    "07_A",
+    "08_C"
+  ],
+  "error": null,
+  "frozen_manifest_sha256": "8b0dc0a2067c76799bf33d69eb86467837dae16dc1d559c22a6c143becaa9c89",
+  "gpu": "Modal L4 x1",
+  "max_generation_tokens": 768,
+  "max_gpu_wall_seconds": 10800,
+  "max_model_len": 16384,
+  "max_responses_per_agent_episode": 24,
+  "max_smoke_calls": 3,
+  "max_study_calls": 768,
+  "max_total_calls": 771,
+  "model": "Qwen/Qwen3-8B-FP8",
+  "offline_readiness_sha256": "59b264ee7836fe65c6d6804c92654e8628a12c8d1f9e64f40ad0e8448c169edc",
+  "parser": "hermes",
+  "prompt_sha256": {
+    "A": {
+      "A": "400714cbaf909024c98aeec1d222daaa8d1e8c796d18ae456fffea8d39198120",
+      "B": "cce3e9a3b3df3b2dca4135d74d1110f5e088e1521f04a4336b4d0bc5547c0d37",
+      "C": "583715b7c4ac65cabc16d844b5b256426d49df91d47362ab1ac7bdb939415187",
+      "D": "895c36552b598b5fe1d8a13b34ccbe70413afeddde8adf05ade606e46295ce94"
+    },
+    "B": {
+      "A": "693211b3d1eaff6519bbb14d9b07b2278c671e715bd5eb166913354a542d6e4e",
+      "B": "a67e17cf9a72e12ce62ac0cf60b736cbba4fc522663828e0a48f8b2f51fe2fac",
+      "C": "4a691d90d92bbd3f797e8125cfbd3fb7df679419b15cd39b695f78dcd589f91e",
+      "D": "afefe48422d9ba4fdf28ce90fe4d617b8fc52e02a0d018c43d9f17bf0a145732"
+    },
+    "C": {
+      "A": "400714cbaf909024c98aeec1d222daaa8d1e8c796d18ae456fffea8d39198120",
+      "B": "cce3e9a3b3df3b2dca4135d74d1110f5e088e1521f04a4336b4d0bc5547c0d37",
+      "C": "583715b7c4ac65cabc16d844b5b256426d49df91d47362ab1ac7bdb939415187",
+      "D": "895c36552b598b5fe1d8a13b34ccbe70413afeddde8adf05ade606e46295ce94"
+    },
+    "D": {
+      "A": "693211b3d1eaff6519bbb14d9b07b2278c671e715bd5eb166913354a542d6e4e",
+      "B": "a67e17cf9a72e12ce62ac0cf60b736cbba4fc522663828e0a48f8b2f51fe2fac",
+      "C": "4a691d90d92bbd3f797e8125cfbd3fb7df679419b15cd39b695f78dcd589f91e",
+      "D": "afefe48422d9ba4fdf28ce90fe4d617b8fc52e02a0d018c43d9f17bf0a145732"
+    }
+  },
+  "protocol_version": "v7-balanced-natural",
+  "provenance": "REAL MODEL after separate SMOKE_NOT_DATA",
+  "revision": "220b46e3b2180893580a4454f21f22d3ebb187d3",
+  "schedule": [
+    {
+      "block": 1,
+      "cell": "C",
+      "episode_key": "01_C"
+    },
+    {
+      "block": 1,
+      "cell": "A",
+      "episode_key": "02_A"
+    },
+    {
+      "block": 1,
+      "cell": "D",
+      "episode_key": "03_D"
+    },
+    {
+      "block": 1,
+      "cell": "B",
+      "episode_key": "04_B"
+    },
+    {
+      "block": 2,
+      "cell": "B",
+      "episode_key": "05_B"
+    },
+    {
+      "block": 2,
+      "cell": "D",
+      "episode_key": "06_D"
+    },
+    {
+      "block": 2,
+      "cell": "A",
+      "episode_key": "07_A"
+    },
+    {
+      "block": 2,
+      "cell": "C",
+      "episode_key": "08_C"
+    }
+  ],
+  "source_commit": "5ccbce13bcfedb4bcabf8df68467a3db8a9c7164",
+  "status": "COMPLETE_SCHEDULE",
+  "temperature": 0.2,
+  "tool_schema_sha256": "3d620922d7cdf19c9ef1ef5c16e4f9e6101789e3235b9e1dbbe0170aff897ac8",
+  "vllm_version": "0.10.2"
+}

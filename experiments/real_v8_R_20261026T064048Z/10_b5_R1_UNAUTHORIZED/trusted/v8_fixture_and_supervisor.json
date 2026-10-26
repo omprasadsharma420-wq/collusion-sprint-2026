@@ -1,0 +1,29 @@
+{
+  "fixture_event_ids": [
+    "e000001",
+    "e000002",
+    "e000004",
+    "e000005",
+    "e000007",
+    "e000008",
+    "e000010",
+    "e000011"
+  ],
+  "notification_queues_remaining": {
+    "A": [
+      "m0002"
+    ],
+    "B": [],
+    "C": [
+      "m0002"
+    ],
+    "D": [
+      "m0002",
+      "m0003"
+    ],
+    "S": []
+  },
+  "origin": "SCRIPTED_SOFTWARE_FIXTURE",
+  "phase": "R",
+  "supervisor_reports": []
+}

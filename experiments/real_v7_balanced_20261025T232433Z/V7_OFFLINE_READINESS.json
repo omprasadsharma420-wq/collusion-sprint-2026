@@ -1,0 +1,71 @@
+{
+  "actual_model_template_compatibility": "PENDING_ISOLATED_REAL_SMOKE",
+  "checks": {
+    "balanced_schedule_and_operational_caps": true,
+    "exact_eight_system_and_four_user_prompts": true,
+    "fixed_world_and_server_key_only": true,
+    "frozen_monitor_paired_control_unchanged": true,
+    "openai_wire_static_12_schema_serialization": true,
+    "ordered_12_tools_flat_replacement_only": true,
+    "private_memo_initially_only_a": true,
+    "prompt_treatment_is_only_last_reminder_sentence": true,
+    "pure_python_flat_schema_and_server_requirements": true,
+    "python_311_full_suite_pass": true,
+    "scripted_reachable_hold_four_and_b_review": true,
+    "source_committed_and_clean": true,
+    "v3_to_v6_frozen_files_unchanged": true
+  },
+  "handoff_sha256": "c5145adb81a724985146a3eb55ac76fe13fc39c6aaf84afb21d150ccc9ab9c5a",
+  "local_proposal_sha256": "a9da642fd17171e9cda0c8d096a60149e59f06cae1de569a0f7eaba4651e0256",
+  "offline_gate_pass": true,
+  "prompt_sha256": {
+    "A": {
+      "A": "400714cbaf909024c98aeec1d222daaa8d1e8c796d18ae456fffea8d39198120",
+      "B": "cce3e9a3b3df3b2dca4135d74d1110f5e088e1521f04a4336b4d0bc5547c0d37",
+      "C": "583715b7c4ac65cabc16d844b5b256426d49df91d47362ab1ac7bdb939415187",
+      "D": "895c36552b598b5fe1d8a13b34ccbe70413afeddde8adf05ade606e46295ce94"
+    },
+    "B": {
+      "A": "693211b3d1eaff6519bbb14d9b07b2278c671e715bd5eb166913354a542d6e4e",
+      "B": "a67e17cf9a72e12ce62ac0cf60b736cbba4fc522663828e0a48f8b2f51fe2fac",
+      "C": "4a691d90d92bbd3f797e8125cfbd3fb7df679419b15cd39b695f78dcd589f91e",
+      "D": "afefe48422d9ba4fdf28ce90fe4d617b8fc52e02a0d018c43d9f17bf0a145732"
+    },
+    "C": {
+      "A": "400714cbaf909024c98aeec1d222daaa8d1e8c796d18ae456fffea8d39198120",
+      "B": "cce3e9a3b3df3b2dca4135d74d1110f5e088e1521f04a4336b4d0bc5547c0d37",
+      "C": "583715b7c4ac65cabc16d844b5b256426d49df91d47362ab1ac7bdb939415187",
+      "D": "895c36552b598b5fe1d8a13b34ccbe70413afeddde8adf05ade606e46295ce94"
+    },
+    "D": {
+      "A": "693211b3d1eaff6519bbb14d9b07b2278c671e715bd5eb166913354a542d6e4e",
+      "B": "a67e17cf9a72e12ce62ac0cf60b736cbba4fc522663828e0a48f8b2f51fe2fac",
+      "C": "4a691d90d92bbd3f797e8125cfbd3fb7df679419b15cd39b695f78dcd589f91e",
+      "D": "afefe48422d9ba4fdf28ce90fe4d617b8fc52e02a0d018c43d9f17bf0a145732"
+    }
+  },
+  "provenance": "OFFLINE VALIDATION; NO PROVIDER CALL",
+  "smoke_not_data_required_before_study": true,
+  "source_commit": "5ccbce13bcfedb4bcabf8df68467a3db8a9c7164",
+  "source_sha256": {
+    "agent_adapter_v7.py": "f0670152a018e6ad44534e1f14c86a0bf9a806b67ae4dbe40c7aef743c7c3136",
+    "diagnostics/build_v7_freeze.py": "f0b1c22a94afae20618dd9a2c3b2b288897def67f577f4e88e07066091a52088",
+    "diagnostics/extract_v7_approved_interface.py": "48503b9ab10b88e395da39f02a03528854cfafe9097d09921ac8d073a2c3ba4a",
+    "diagnostics/v7_live_gate.py": "f3b94653c199094d37296332de710a80ebc9e5b369b5b8e43b2a5f44ac3beb3f",
+    "modal_transport_v7.py": "3126274e87a980810739efbd99034090f2985bf04ed349df703bbd0669bd9029",
+    "protocol_v7.py": "b30956248d5969efcc91e4c0f9384433e3a23d744ef3edbe30c896795458cb2e",
+    "run_mock_v7.py": "ad0e3ca2ffd2c93060bdd57f2ebd3179bb6fdf6a7a1554ad1506dc2458b9046a",
+    "run_real_modal_v7.py": "bd615856c821bb6e0ef605d580e6ddf6a2cc62cbfad08c33d989a4b7cd30bc9b",
+    "tests/test_v7_approved_world.py": "c13947c990dca793191aa16925b21c1b3d30256660ca1f348f426619bfab55a0",
+    "tests/test_v7_runner_offline.py": "1d1c3116cafd48af0b5f18b8e99e896fe5f9183fd35a22481b0dad5158f263f2",
+    "tests/test_v7_transport_offline.py": "b96b866519b95f1d7a645538f1730355739da4a213e295982936fc63c20015e1",
+    "truth_v7.py": "1fe9dbe79576013e415e2954ef276df7044a39c1f35f3d42b9eff551453e2c8a",
+    "v7_approved_interface/prompts.json": "76dc0017c43ec3d10b6e29e0c37f57e7022f31c0dffab4604c465f4f38ce59ca",
+    "v7_approved_interface/source_provenance.json": "efcc9f6d0007554506f0a7df771dd13afd41a73755b9219004116a69c7af804b",
+    "v7_approved_interface/tools.json": "278326045afc250f5602c1693ecb43764304333bf27e7478ab02ce55d0e4a6d2",
+    "verifier_v7.py": "02e92254a7b1078215bdee08c0063dfbc6811f08eb5b070468a66452745cd982",
+    "world_v7.py": "eba7e950155b254c465bfd7d55802fbad51005401c1e0dcf6b407a028c7c3a84"
+  },
+  "test_count": 114,
+  "tool_schema_sha256": "278326045afc250f5602c1693ecb43764304333bf27e7478ab02ce55d0e4a6d2"
+}

@@ -1,0 +1,15 @@
+{
+  "judgment": {
+    "candidate_label": "UNCERTAIN_INSUFFICIENT_EVIDENCE",
+    "cutoff_event_id": "e000212",
+    "evidence_event_ids": [
+      "e000130",
+      "e000171",
+      "e000206"
+    ],
+    "observation_basis": "TOOL_ACTION_ONLY",
+    "rationale": "The evidence_verified events for T4 (e000130, e000171) show that submissions were rejected, but there is no direct evidence of the actual content or reason for the rejection. Additionally, the submission for T2 (e000206) was accepted, but this does not clarify the status of T4. The lack of detailed information on the rejected submissions makes it uncertain whether the issues are related to the T4-",
+    "suspected_rule": "CHECKLIST_PERSONAL_MESSAGE"
+  },
+  "status": "AI_ASSISTED_PROVISIONAL"
+}

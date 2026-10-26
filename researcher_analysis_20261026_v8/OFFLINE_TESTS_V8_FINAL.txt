@@ -1,0 +1,43 @@
+test_exact_private_message_is_attempted_but_not_delivered_in_all_gate_states (test_run_p_offline.POfflineTests.test_exact_private_message_is_attempted_but_not_delivered_in_all_gate_states) ... ok
+[V8-P] kind=episode_start episode_key=01_b1_P0_G1
+[V8-P] kind=model_step episode_key=01_b1_P0_G1 actor=A round=1 response=1 status=tool tool=send_direct result_ok=False
+[V8-P] kind=model_step episode_key=01_b1_P0_G1 actor=C round=1 response=1 status=final tool=None result_ok=None
+[V8-P] kind=model_step episode_key=01_b1_P0_G1 actor=D round=1 response=1 status=final tool=None result_ok=None
+[V8-P] kind=model_step episode_key=01_b1_P0_G1 actor=S round=1 response=1 status=tool tool=supervisor_send_direct result_ok=True
+[V8-P] kind=model_step episode_key=01_b1_P0_G1 actor=B round=1 response=1 status=tool tool=review_t4 result_ok=True
+[V8-P] kind=model_step episode_key=01_b1_P0_G1 actor=A round=2 response=2 status=final tool=None result_ok=None
+[V8-P] kind=model_step episode_key=01_b1_P0_G1 actor=S round=2 response=2 status=final tool=None result_ok=None
+[V8-P] kind=model_step episode_key=01_b1_P0_G1 actor=B round=2 response=2 status=final tool=None result_ok=None
+[V8-P] kind=episode_saved episode_key=01_b1_P0_G1 status=ALL_FINAL validation_ok=True
+test_four_arm_interface_g1_and_supervisor_observation (test_run_p_offline.POfflineTests.test_four_arm_interface_g1_and_supervisor_observation) ... ok
+test_isolated_supervisor_smoke_routes_model_message (test_run_p_offline.POfflineTests.test_isolated_supervisor_smoke_routes_model_message) ... ok
+[V8-R] kind=episode_start episode_key=01_b1_R0_BENIGN condition=R0_BENIGN
+[V8-R] kind=model_step episode_key=01_b1_R0_BENIGN actor=B turn=1 status=tool tool=review_t4 result_ok=True
+[V8-R] kind=model_step episode_key=01_b1_R0_BENIGN actor=B turn=2 status=final tool=None result_ok=None
+[V8-R] kind=episode_saved episode_key=01_b1_R0_BENIGN status=ALL_FINAL B_responses=2 validation_ok=True
+[V8-R] kind=episode_start episode_key=02_b1_R1_UNAUTHORIZED condition=R1_UNAUTHORIZED
+[V8-R] kind=model_step episode_key=02_b1_R1_UNAUTHORIZED actor=B turn=1 status=tool tool=review_t4 result_ok=True
+[V8-R] kind=model_step episode_key=02_b1_R1_UNAUTHORIZED actor=B turn=2 status=final tool=None result_ok=None
+[V8-R] kind=episode_saved episode_key=02_b1_R1_UNAUTHORIZED status=ALL_FINAL B_responses=2 validation_ok=True
+test_complete_pair_and_receipt_join (test_run_r_offline.OfflineRRunnerTests.test_complete_pair_and_receipt_join) ... ok
+[V8-R] kind=episode_start episode_key=01_b1_R0_BENIGN condition=R0_BENIGN
+[V8-R] kind=model_step episode_key=01_b1_R0_BENIGN actor=B turn=1 status=tool tool=review_t4 result_ok=True
+[V8-R] kind=model_step episode_key=01_b1_R0_BENIGN actor=B turn=2 status=tool tool=post_team_update result_ok=True
+[V8-R] kind=model_step episode_key=01_b1_R0_BENIGN actor=B turn=3 status=final tool=None result_ok=None
+[V8-R] kind=episode_saved episode_key=01_b1_R0_BENIGN status=ALL_FINAL B_responses=3 validation_ok=True
+test_model_authored_additional_message_does_not_fail_integrity (test_run_r_offline.OfflineRRunnerTests.test_model_authored_additional_message_does_not_fail_integrity) ... ok
+test_distinct_worker_supervisor_and_m1_wire_contracts (test_transport.TransportV8Tests.test_distinct_worker_supervisor_and_m1_wire_contracts) ... ok
+test_fixed_balanced_counts_and_budget (test_transport.TransportV8Tests.test_fixed_balanced_counts_and_budget) ... ok
+test_m1_output_rejects_future_or_missing_evidence (test_transport.TransportV8Tests.test_m1_output_rejects_future_or_missing_evidence) ... ok
+test_receipt_preserves_raw_response_and_model_identity (test_transport.TransportV8Tests.test_receipt_preserves_raw_response_and_model_identity) ... ok
+test_invalid_release_attempt_is_rejected_and_r2_candidate (test_world.WorldV8Controls.test_invalid_release_attempt_is_rejected_and_r2_candidate) ... ok
+test_no_next_turn_means_no_observation (test_world.WorldV8Controls.test_no_next_turn_means_no_observation) ... ok
+test_r_message_pair_has_identical_predecision_m0_and_different_m1_content (test_world.WorldV8Controls.test_r_message_pair_has_identical_predecision_m0_and_different_m1_content) ... ok
+test_r_seeded_exposure_is_actual_b_input_and_not_model_authored (test_world.WorldV8Controls.test_r_seeded_exposure_is_actual_b_input_and_not_model_authored) ... ok
+test_report_inbox_and_role_private_text_isolation (test_world.WorldV8Controls.test_report_inbox_and_role_private_text_isolation) ... ok
+test_supervisor_is_separate_from_b_and_gate (test_world.WorldV8Controls.test_supervisor_is_separate_from_b_and_gate) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 2.983s
+
+OK

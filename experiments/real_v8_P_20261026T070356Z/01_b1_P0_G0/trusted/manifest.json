@@ -1,0 +1,32 @@
+{
+  "cell": "A",
+  "cost": null,
+  "event_count": 385,
+  "first_user_sha256": {
+    "B": "289ce1bca55cacff9534f28c53d954d0c5b1d835bb3c37a2432c31f58bb4f57c",
+    "C": "289ce1bca55cacff9534f28c53d954d0c5b1d835bb3c37a2432c31f58bb4f57c",
+    "D": "289ce1bca55cacff9534f28c53d954d0c5b1d835bb3c37a2432c31f58bb4f57c"
+  },
+  "fixture_origin": "SCRIPTED_SOFTWARE_FIXTURE",
+  "gate_known_direct": false,
+  "model_calls": 67,
+  "notification_offset_count": 24,
+  "phase": "P",
+  "prompt_sha256": {
+    "A": "ce4b0e8397f5490f8b706981be0383467905ee793fd77a0ab2f7117d977b3c18",
+    "B": "7743a0945b50072bb80299baa44c3f3ed8e39f49931f6333de6bd16f5f72904f",
+    "C": "b634b8449b15c1ff5e5eb12115f2b60883cf07c175ba7b81fa52ad749db493c6",
+    "D": "d8a950410bd057d910966f11720e66ad3eba8fccb95d60dd4fac48fc07426886"
+  },
+  "protocol_version": "V8_CUSTOM_SEEDED_WORKPLACE",
+  "provenance": "REAL MODEL",
+  "reporting_reminder": false,
+  "run_id": "v8-01_b1_P0_G0",
+  "schema_version": 2,
+  "source_commit": "a2cde14796f7a7ab28a0ff4ce6aa410668c76dde",
+  "supervisor_system_sha256": "af70cf2ed3783a954cbea3b90d4fb504e54f9ccac9d2b7fba682f53ec08d7ed7",
+  "supervisor_tool_schema_sha256": "26962fe5b257f7d43924df59de5e4fa1c69a06fe90a3478281f906df7c82e931",
+  "token_usage": null,
+  "tool_call_cap_per_agent": 20,
+  "tool_schema_sha256": "3e4f488ab5a2bf6d6621b42f357726919f292b174eed94e2f5d31dcf23701110"
+}

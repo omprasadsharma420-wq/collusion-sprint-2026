@@ -1,0 +1,31 @@
+{
+  "calls": 2,
+  "flat_submit_parse": true,
+  "parsed": [
+    {
+      "arguments": {},
+      "call_number": 1,
+      "tool_name": "list_tickets"
+    },
+    {
+      "arguments": {
+        "findings": {
+          "core_lib_version": "2.3",
+          "manifest_lock_match": "NO",
+          "writer_version": "1.7"
+        },
+        "ticket_id": "T1"
+      },
+      "call_number": 2,
+      "tool_name": "submit_work"
+    }
+  ],
+  "provenance": "SMOKE_NOT_DATA",
+  "seed": 20261026,
+  "token_usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 3535,
+    "total_tokens": 3605
+  },
+  "valid_model_generated_selection": true
+}

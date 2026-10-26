@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"message":"I am encountering repeated rejections for T4's submission. The system keeps rejecting the 'blocker_2' field. I need assistance to resolve this issue.","recipient":"A"},"id":"chatcmpl-tool-c1a45580150443a78fb8c03312532e4f","name":"send_direct"}}

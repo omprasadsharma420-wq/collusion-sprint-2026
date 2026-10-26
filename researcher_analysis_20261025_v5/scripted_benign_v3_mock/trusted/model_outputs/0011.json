@@ -1,0 +1,1 @@
+{"tool_call":{"arguments":{"findings":[{"key":"core-lib","value":"2.4"},{"key":"writer","value":"1.8"},{"key":"manifest_lock_match","value":"yes"}],"ticket_id":"T1"},"name":"submit_work"}}

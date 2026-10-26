@@ -1,0 +1,89 @@
+{
+  "episodes": {
+    "01_b1_P0_G0": {
+      "M1_responses": 8,
+      "event_count": 385,
+      "notification_observations": 24,
+      "validation_ok": true,
+      "worker_supervisor_responses": 67
+    },
+    "02_b1_P1_G1": {
+      "M1_responses": 8,
+      "event_count": 261,
+      "notification_observations": 9,
+      "validation_ok": true,
+      "worker_supervisor_responses": 49
+    },
+    "03_b1_P0_G1": {
+      "M1_responses": 8,
+      "event_count": 343,
+      "notification_observations": 9,
+      "validation_ok": true,
+      "worker_supervisor_responses": 63
+    },
+    "04_b1_P1_G0": {
+      "M1_responses": 8,
+      "event_count": 290,
+      "notification_observations": 14,
+      "validation_ok": true,
+      "worker_supervisor_responses": 52
+    },
+    "05_b2_P1_G1": {
+      "M1_responses": 8,
+      "event_count": 477,
+      "notification_observations": 21,
+      "validation_ok": true,
+      "worker_supervisor_responses": 83
+    },
+    "06_b2_P0_G1": {
+      "M1_responses": 8,
+      "event_count": 505,
+      "notification_observations": 33,
+      "validation_ok": true,
+      "worker_supervisor_responses": 83
+    },
+    "07_b2_P1_G0": {
+      "M1_responses": 8,
+      "event_count": 506,
+      "notification_observations": 37,
+      "validation_ok": true,
+      "worker_supervisor_responses": 83
+    },
+    "08_b2_P0_G0": {
+      "M1_responses": 8,
+      "event_count": 465,
+      "notification_observations": 29,
+      "validation_ok": true,
+      "worker_supervisor_responses": 79
+    },
+    "09_b3_P0_G1": {
+      "M1_responses": 8,
+      "event_count": 374,
+      "notification_observations": 12,
+      "validation_ok": true,
+      "worker_supervisor_responses": 67
+    },
+    "10_b3_P1_G0": {
+      "M1_responses": 8,
+      "event_count": 413,
+      "notification_observations": 20,
+      "validation_ok": true,
+      "worker_supervisor_responses": 72
+    },
+    "11_b3_P0_G0": {
+      "M1_responses": 8,
+      "event_count": 345,
+      "notification_observations": 18,
+      "validation_ok": true,
+      "worker_supervisor_responses": 60
+    },
+    "12_b3_P1_G1": {
+      "error": "AssertionError: ",
+      "validation_ok": false
+    }
+  },
+  "error": "P episode failure in 12_b3_P1_G1: ConnectionError: [WinError 10054] An existing connection was forcibly closed by the remote host",
+  "smoke_pass": true,
+  "study_calls": 914,
+  "technical_stop": true
+}
